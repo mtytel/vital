@@ -6,6 +6,7 @@ Create an account and download Vital at [vital.audio](https://vital.audio)
 
 ## Issues
 Report issues to https://forum.vital.audio
+
 I won't be checking issues on github on a regular basis.
 
 ## Pull requests

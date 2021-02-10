@@ -10,7 +10,7 @@ Report issues to https://forum.vital.audio
 I won't be checking issues on github on a regular basis.
 
 ## Pull requests
-I will not take any pull requests
+I will not take any pull requests.
 
 ## What can you do with the source
 The source code is licensed under the GPLv3. If you download the source or create builds you must comply with that license.

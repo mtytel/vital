@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Vital
+Comment=A free wavetable synth with a lot of modulation
+Comment[fr]=Un synthétiseur polyphonique libre avec un tas de module
+GenericName=Synth
+GenericName[fr]=Synthétiseur
+Exec=vital
+Icon=vital
+Terminal=false
+Type=Application
+Categories=Audio;AudioVideo;
+MimeType=text/vital;

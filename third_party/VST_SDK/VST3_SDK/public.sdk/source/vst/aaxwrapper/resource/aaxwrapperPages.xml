@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='US-ASCII' standalone='yes'?>
+<PageTables vers='6.4.0.89'>
+	<PageTableLayouts>
+		<Plugin manID='AVID' prodID='DmGn' plugID='DGDR'>
+			<Desc>DemoGain 1 -&gt; 1 by Avid Inc.</Desc>
+			<Layout>PageTable 1</Layout>
+		</Plugin><!--manID='AVID' prodID='DmGn' plugID='DGDR'-->
+		<PTLayout name='PageTable 1'>
+			<PageTable type='PgTL' pgsz='1'>
+				<Page num='1'>
+					<ID>MasterBypass</ID>
+				</Page><!--num='1'-->
+				<Page num='2'>
+					<ID>Gain</ID>
+				</Page><!--num='2'-->
+			</PageTable><!--type='PgTL' pgsz='1'-->
+			<PageTable type='MkTL' pgsz='8'>
+				<Page num='1'>
+					<ID></ID>
+					<ID>Gain</ID>
+					<ID>MasterBypass</ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='MkTL' pgsz='8'-->
+			<PageTable type='PcTL' pgsz='16'>
+				<Page num='1'>
+					<ID>MasterBypass</ID>
+					<ID>Gain </ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='PcTL' pgsz='16'-->
+			<PageTable type='FrTL' pgsz='24'>
+				<Page num='1'>
+					<ID>MasterBypass</ID>
+					<ID>Gain</ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='FrTL' pgsz='24'-->
+			<PageTable type='HgTL' pgsz='8'>
+				<Page num='1'>
+					<ID></ID>
+					<ID>Gain</ID>
+					<ID>MasterBypass</ID>
+				</Page><!--num='1'-->
+				<FirstPg cat='0'>1</FirstPg>
+				<FirstPg cat='1'>1</FirstPg>
+				<FirstPg cat='2'>1</FirstPg>
+				<FirstPg cat='4'>1</FirstPg>
+				<FirstPg cat='8'>1</FirstPg>
+				<FirstPg cat='16'>1</FirstPg>
+				<FirstPg cat='32'>1</FirstPg>
+				<FirstPg cat='64'>1</FirstPg>
+				<FirstPg cat='128'>1</FirstPg>
+				<FirstPg cat='256'>1</FirstPg>
+				<FirstPg cat='512'>1</FirstPg>
+				<FirstPg cat='1024'>1</FirstPg>
+				<FirstPg cat='2048'>1</FirstPg>
+			</PageTable><!--type='HgTL' pgsz='8'-->
+			<PageTable type='BkCS' pgsz='12'>
+				<Page num='1'>
+					<ID>MasterBypass</ID>
+					<ID>Gain</ID>
+				</Page><!--num='1'-->
+			</PageTable><!--type='BkCS' pgsz='12'-->
+			<PageTable type='BkSF' pgsz='16'>
+				<Page num='1'>
+					<ID>MasterBypass</ID>
+					<ID>Gain</ID>
+				</Page><!--num='1'-->
+			</PageTable><!--type='BkSF' pgsz='16'-->
+		</PTLayout><!--name='PageTable 1'-->
+	</PageTableLayouts>
+	<ControlNamesVariations>
+		<Ctrl ID='Gain'>
+			<name typ='PgTL' sz='1'>Ga</name>
+			<name typ='PgTL' sz='3'>Gn </name>
+		</Ctrl><!--ID='Gain'-->
+		<Ctrl ID='MasterBypass'>
+			<name typ='PgTL' sz='1'>Ma</name>
+			<name typ='PgTL' sz='3'>Byp</name>
+			<name typ='PgTL' sz='4'>MByp</name>
+			<name typ='PgTL' sz='8'>Mstr Byp</name>
+		</Ctrl><!--ID='MasterBypass'-->
+	</ControlNamesVariations>
+	<Editor vers='1.1.0.1'>
+		<PluginList>
+			<TDM>
+			</TDM>
+			<RTAS>
+				<PluginID manID='AVID' prodID='DmGn' plugID='DGDR'>
+					<MenuStr>RTAS: DemoGain, 1 in X 1 out</MenuStr>
+				</PluginID><!--manID='AVID' prodID='DmGn' plugID='DGDR'-->
+			</RTAS>
+		</PluginList>
+		<DiscCtrls>
+			<CtrlID>MasterBypass</CtrlID>
+		</DiscCtrls>
+	</Editor><!--vers='1.1.0.1'-->
+</PageTables><!--vers='6.4.0.89'-->

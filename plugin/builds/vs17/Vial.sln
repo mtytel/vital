@@ -1,0 +1,47 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2017
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vial - Standalone Plugin", "Vial_StandalonePlugin.vcxproj", "{474750D8-FF1F-4B84-B4D9-BCC2046C1126}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9F34C515-A6D0-6B34-28E8-3F6256757BE8} = {9F34C515-A6D0-6B34-28E8-3F6256757BE8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vial - VST", "Vial_VST.vcxproj", "{D6834A6D-CB9A-62A8-A1C1-2F52A9E52636}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9F34C515-A6D0-6B34-28E8-3F6256757BE8} = {9F34C515-A6D0-6B34-28E8-3F6256757BE8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vial - VST3", "Vial_VST3.vcxproj", "{D6BFF91B-8307-9FCA-EAD1-57D1E3F145F5}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9F34C515-A6D0-6B34-28E8-3F6256757BE8} = {9F34C515-A6D0-6B34-28E8-3F6256757BE8}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Vial - Shared Code", "Vial_SharedCode.vcxproj", "{9F34C515-A6D0-6B34-28E8-3F6256757BE8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D6834A6D-CB9A-62A8-A1C1-2F52A9E52636}.Debug|x64.ActiveCfg = Debug|x64
+		{D6834A6D-CB9A-62A8-A1C1-2F52A9E52636}.Debug|x64.Build.0 = Debug|x64
+		{D6834A6D-CB9A-62A8-A1C1-2F52A9E52636}.Release|x64.ActiveCfg = Release|x64
+		{D6834A6D-CB9A-62A8-A1C1-2F52A9E52636}.Release|x64.Build.0 = Release|x64
+		{D6BFF91B-8307-9FCA-EAD1-57D1E3F145F5}.Debug|x64.ActiveCfg = Debug|x64
+		{D6BFF91B-8307-9FCA-EAD1-57D1E3F145F5}.Debug|x64.Build.0 = Debug|x64
+		{D6BFF91B-8307-9FCA-EAD1-57D1E3F145F5}.Release|x64.ActiveCfg = Release|x64
+		{D6BFF91B-8307-9FCA-EAD1-57D1E3F145F5}.Release|x64.Build.0 = Release|x64
+		{474750D8-FF1F-4B84-B4D9-BCC2046C1126}.Debug|x64.ActiveCfg = Debug|x64
+		{474750D8-FF1F-4B84-B4D9-BCC2046C1126}.Debug|x64.Build.0 = Debug|x64
+		{474750D8-FF1F-4B84-B4D9-BCC2046C1126}.Release|x64.ActiveCfg = Release|x64
+		{474750D8-FF1F-4B84-B4D9-BCC2046C1126}.Release|x64.Build.0 = Release|x64
+		{9F34C515-A6D0-6B34-28E8-3F6256757BE8}.Debug|x64.ActiveCfg = Debug|x64
+		{9F34C515-A6D0-6B34-28E8-3F6256757BE8}.Debug|x64.Build.0 = Debug|x64
+		{9F34C515-A6D0-6B34-28E8-3F6256757BE8}.Release|x64.ActiveCfg = Release|x64
+		{9F34C515-A6D0-6B34-28E8-3F6256757BE8}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

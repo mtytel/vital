@@ -1,0 +1,3 @@
+?package(vital):needs="X11" section="Applications/Sound"\
+  title="vital" command="/usr/bin/vital"\
+  icon="/usr/share/pixmaps/vital.xpm"

@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="GfsdNK" name="Vital" projectType="guiapp" version="99999.9.9"
+              bundleIdentifier="org.tytel.vital" includeBinaryInAppConfig="1"
+              companyName="Matt Tytel" companyWebsite="vital.audio" companyEmail="matthewtytel@gmail.com"
+              defines="" displaySplashScreen="0" reportAppUsage="0" splashScreenColour="Dark"
+              cppLanguageStandard="14" companyCopyright="Matt Tytel" jucerFormatVersion="1">
+  <MAINGROUP id="CeypXq" name="Vital">
+    <GROUP id="{5E20F1A0-5E75-7060-2F6C-FA57FB1890B9}" name="src">
+      <GROUP id="{24238426-E22D-9B0B-53E8-F1FE2E36A406}" name="common">
+        <GROUP id="{4ABC3884-D1B2-B9F8-BBBE-13809C729B01}" name="wavetable">
+          <FILE id="oe6zDB" name="file_source.cpp" compile="0" resource="0" file="../src/common/wavetable/file_source.cpp"/>
+          <FILE id="PNqFcj" name="file_source.h" compile="0" resource="0" file="../src/common/wavetable/file_source.h"/>
+          <FILE id="KdwN2l" name="frequency_filter_modifier.cpp" compile="0"
+                resource="0" file="../src/common/wavetable/frequency_filter_modifier.cpp"/>
+          <FILE id="jUH4x2" name="frequency_filter_modifier.h" compile="0" resource="0"
+                file="../src/common/wavetable/frequency_filter_modifier.h"/>
+          <FILE id="EeWkLu" name="phase_modifier.cpp" compile="0" resource="0"
+                file="../src/common/wavetable/phase_modifier.cpp"/>
+          <FILE id="evrRrr" name="phase_modifier.h" compile="0" resource="0"
+                file="../src/common/wavetable/phase_modifier.h"/>
+          <FILE id="EE6gxY" name="pitch_detector.cpp" compile="0" resource="0"
+                file="../src/common/wavetable/pitch_detector.cpp"/>
+          <FILE id="ICq0kR" name="pitch_detector.h" compile="0" resource="0"
+                file="../src/common/wavetable/pitch_detector.h"/>
+          <FILE id="eanv2x" name="shepard_tone_source.cpp" compile="0" resource="0"
+                file="../src/common/wavetable/shepard_tone_source.cpp"/>
+          <FILE id="r9ixAB" name="shepard_tone_source.h" compile="0" resource="0"
+                file="../src/common/wavetable/shepard_tone_source.h"/>
+          <FILE id="NSw3FK" name="slew_limit_modifier.cpp" compile="0" resource="0"
+                file="../src/common/wavetable/slew_limit_modifier.cpp"/>
+          <FILE id="oY7wsX" name="slew_limit_modifier.h" compile="0" resource="0"
+                file="../src/common/wavetable/slew_limit_modifier.h"/>
+          <FILE id="xezXym" name="wave_fold_modifier.cpp" compile="0" resource="0"
+                file="../src/common/wavetable/wave_fold_modifier.cpp"/>
+          <FILE id="mbOjU5" name="wave_fold_modifier.h" compile="0" resource="0"
+                file="../src/common/wavetable/wave_fold_modifier.h"/>
+          <FILE id="xXN8oh" name="wave_line_source.cpp" compile="0" resource="0"
+                file="../src/common/wavetable/wave_line_source.cpp"/>
+          <FILE id="SqTW26" name="wave_line_source.h" compile="0" resource="0"
+                file="../src/common/wavetable/wave_line_source.h"/>
+          <FILE id="Trqfzt" name="wave_source.cpp" compile="0" resource="0" file="../src/common/wavetable/wave_source.cpp"/>
+          <FILE id="LnOIlK" name="wave_source.h" compile="0" resource="0" file="../src/common/wavetable/wave_source.h"/>
+          <FILE id="S5enhN" name="wave_warp_modifier.cpp" compile="0" resource="0"
+                file="../src/common/wavetable/wave_warp_modifier.cpp"/>
+          <FILE id="txcV3N" name="wave_warp_modifier.h" compile="0" resource="0"
+                file="../src/common/wavetable/wave_warp_modifier.h"/>
+          <FILE id="sSIrCT" name="wave_window_modifier.cpp" compile="0" resource="0"
+                file="../src/common/wavetable/wave_window_modifier.cpp"/>
+          <FILE id="QpecXl" name="wave_window_modifier.h" compile="0" resource="0"
+                file="../src/common/wavetable/wave_window_modifier.h"/>
+          <FILE id="BBS3SC" name="wavetable_component.cpp" compile="0" resource="0"
+                file="../src/common/wavetable/wavetable_component.cpp"/>
+          <FILE id="GjVmR5" name="wavetable_component.h" compile="0" resource="0"
+                file="../src/common/wavetable/wavetable_component.h"/>
+          <FILE id="EC6VRW" name="wavetable_component_factory.cpp" compile="0"
+                resource="0" file="../src/common/wavetable/wavetable_component_factory.cpp"/>
+          <FILE id="mLuOfy" name="wavetable_component_factory.h" compile="0"
+                resource="0" file="../src/common/wavetable/wavetable_component_factory.h"/>
+          <FILE id="lIeQfH" name="wavetable_creator.cpp" compile="0" resource="0"
+                file="../src/common/wavetable/wavetable_creator.cpp"/>
+          <FILE id="xrhpt4" name="wavetable_creator.h" compile="0" resource="0"
+                file="../src/common/wavetable/wavetable_creator.h"/>
+          <FILE id="ttfQpv" name="wavetable_group.cpp" compile="0" resource="0"
+                file="../src/common/wavetable/wavetable_group.cpp"/>
+          <FILE id="i84L1E" name="wavetable_group.h" compile="0" resource="0"
+                file="../src/common/wavetable/wavetable_group.h"/>
+          <FILE id="loSZ0a" name="wavetable_keyframe.cpp" compile="0" resource="0"
+                file="../src/common/wavetable/wavetable_keyframe.cpp"/>
+          <FILE id="gncjoq" name="wavetable_keyframe.h" compile="0" resource="0"
+                file="../src/common/wavetable/wavetable_keyframe.h"/>
+        </GROUP>
+        <FILE id="kZoVCz" name="border_bounds_constrainer.cpp" compile="0"
+              resource="0" file="../src/common/border_bounds_constrainer.cpp"/>
+        <FILE id="izwxRz" name="border_bounds_constrainer.h" compile="0" resource="0"
+              file="../src/common/border_bounds_constrainer.h"/>
+        <FILE id="JVTTVk" name="folder_browser.cpp" compile="0" resource="0"
+              file="../src/common/folder_browser.cpp"/>
+        <FILE id="KT9WHk" name="folder_browser.h" compile="0" resource="0"
+              file="../src/common/folder_browser.h"/>
+        <FILE id="O7P8do" name="fourier_transform.h" compile="0" resource="0"
+              file="../src/common/fourier_transform.h"/>
+        <FILE id="oqQjU3" name="line_generator.cpp" compile="0" resource="0"
+              file="../src/common/line_generator.cpp"/>
+        <FILE id="WochiB" name="line_generator.h" compile="0" resource="0"
+              file="../src/common/line_generator.h"/>
+        <FILE id="shXQuy" name="load_save.cpp" compile="0" resource="0" file="../src/common/load_save.cpp"/>
+        <FILE id="YsKDUQ" name="load_save.h" compile="0" resource="0" file="../src/common/load_save.h"/>
+        <FILE id="LN5QQ0" name="midi_manager.cpp" compile="0" resource="0"
+              file="../src/common/midi_manager.cpp"/>
+        <FILE id="sE0Jer" name="midi_manager.h" compile="0" resource="0" file="../src/common/midi_manager.h"/>
+        <FILE id="Xxn5pD" name="startup.cpp" compile="0" resource="0" file="../src/common/startup.cpp"/>
+        <FILE id="VY2QQ2" name="startup.h" compile="0" resource="0" file="../src/common/startup.h"/>
+        <FILE id="JLxUzB" name="synth_base.cpp" compile="0" resource="0" file="../src/common/synth_base.cpp"/>
+        <FILE id="FYbklc" name="synth_base.h" compile="0" resource="0" file="../src/common/synth_base.h"/>
+        <FILE id="pOB6Hr" name="synth_constants.h" compile="0" resource="0"
+              file="../src/common/synth_constants.h"/>
+        <FILE id="J88miL" name="synth_gui_interface.cpp" compile="0" resource="0"
+              file="../src/common/synth_gui_interface.cpp"/>
+        <FILE id="EURXvy" name="synth_gui_interface.h" compile="0" resource="0"
+              file="../src/common/synth_gui_interface.h"/>
+        <FILE id="V9u92v" name="synth_parameters.cpp" compile="0" resource="0"
+              file="../src/common/synth_parameters.cpp"/>
+        <FILE id="p1Q9zF" name="synth_parameters.h" compile="0" resource="0"
+              file="../src/common/synth_parameters.h"/>
+        <FILE id="uNVeO7" name="synth_types.cpp" compile="0" resource="0" file="../src/common/synth_types.cpp"/>
+        <FILE id="GjKj1E" name="synth_types.h" compile="0" resource="0" file="../src/common/synth_types.h"/>
+        <FILE id="xhXY3Q" name="tuning.cpp" compile="0" resource="0" file="../src/common/tuning.cpp"/>
+        <FILE id="hr0FmH" name="tuning.h" compile="0" resource="0" file="../src/common/tuning.h"/>
+      </GROUP>
+      <GROUP id="{994C5173-6686-7ED5-90AC-C96AACD31CB9}" name="headless">
+        <FILE id="sp5m0v" name="main.cpp" compile="1" resource="0" file="../src/headless/main.cpp"/>
+      </GROUP>
+      <GROUP id="{A5C9FACE-F05D-CF5D-CF7D-2B2E3AAAC5C6}" name="synthesis">
+        <GROUP id="{5CFAF50C-54C0-50C0-7CC6-12E5173CC110}" name="effects">
+          <FILE id="aCNwJd" name="compressor.cpp" compile="0" resource="0" file="../src/synthesis/effects/compressor.cpp"/>
+          <FILE id="m8TLhD" name="compressor.h" compile="0" resource="0" file="../src/synthesis/effects/compressor.h"/>
+          <FILE id="sxlSiK" name="delay.cpp" compile="0" resource="0" file="../src/synthesis/effects/delay.cpp"/>
+          <FILE id="kTeDfB" name="delay.h" compile="0" resource="0" file="../src/synthesis/effects/delay.h"/>
+          <FILE id="y8R5gV" name="distortion.cpp" compile="0" resource="0" file="../src/synthesis/effects/distortion.cpp"/>
+          <FILE id="lAtVZz" name="distortion.h" compile="0" resource="0" file="../src/synthesis/effects/distortion.h"/>
+          <FILE id="YXzEAf" name="phaser.cpp" compile="0" resource="0" file="../src/synthesis/effects/phaser.cpp"/>
+          <FILE id="v4goRR" name="phaser.h" compile="0" resource="0" file="../src/synthesis/effects/phaser.h"/>
+          <FILE id="CJ0cmj" name="reverb.cpp" compile="0" resource="0" file="../src/synthesis/effects/reverb.cpp"/>
+          <FILE id="Tevudl" name="reverb.h" compile="0" resource="0" file="../src/synthesis/effects/reverb.h"/>
+        </GROUP>
+        <GROUP id="{E64E341B-EC07-8E8D-EDA9-A409B614FDF7}" name="filters">
+          <FILE id="lPtPzS" name="comb_filter.cpp" compile="0" resource="0" file="../src/synthesis/filters/comb_filter.cpp"/>
+          <FILE id="j5EId2" name="comb_filter.h" compile="0" resource="0" file="../src/synthesis/filters/comb_filter.h"/>
+          <FILE id="RIzg4Y" name="dc_filter.cpp" compile="0" resource="0" file="../src/synthesis/filters/dc_filter.cpp"/>
+          <FILE id="XpqKwH" name="dc_filter.h" compile="0" resource="0" file="../src/synthesis/filters/dc_filter.h"/>
+          <FILE id="y50aDm" name="decimator.cpp" compile="0" resource="0" file="../src/synthesis/filters/decimator.cpp"/>
+          <FILE id="MgJKf7" name="decimator.h" compile="0" resource="0" file="../src/synthesis/filters/decimator.h"/>
+          <FILE id="Jh9lo5" name="digital_svf.cpp" compile="0" resource="0" file="../src/synthesis/filters/digital_svf.cpp"/>
+          <FILE id="Hz7pGs" name="digital_svf.h" compile="0" resource="0" file="../src/synthesis/filters/digital_svf.h"/>
+          <FILE id="Efu2pW" name="diode_filter.cpp" compile="0" resource="0"
+                file="../src/synthesis/filters/diode_filter.cpp"/>
+          <FILE id="R8kJxY" name="diode_filter.h" compile="0" resource="0" file="../src/synthesis/filters/diode_filter.h"/>
+          <FILE id="fRKKE7" name="dirty_filter.cpp" compile="0" resource="0"
+                file="../src/synthesis/filters/dirty_filter.cpp"/>
+          <FILE id="Yhizwh" name="dirty_filter.h" compile="0" resource="0" file="../src/synthesis/filters/dirty_filter.h"/>
+          <FILE id="iFOzQV" name="fir_halfband_decimator.cpp" compile="0" resource="0"
+                file="../src/synthesis/filters/fir_halfband_decimator.cpp"/>
+          <FILE id="Gv6EpA" name="fir_halfband_decimator.h" compile="0" resource="0"
+                file="../src/synthesis/filters/fir_halfband_decimator.h"/>
+          <FILE id="TmxuEz" name="formant_filter.cpp" compile="0" resource="0"
+                file="../src/synthesis/filters/formant_filter.cpp"/>
+          <FILE id="EMpV5T" name="formant_filter.h" compile="0" resource="0"
+                file="../src/synthesis/filters/formant_filter.h"/>
+          <FILE id="rzspcD" name="formant_manager.cpp" compile="0" resource="0"
+                file="../src/synthesis/filters/formant_manager.cpp"/>
+          <FILE id="EhTc2y" name="formant_manager.h" compile="0" resource="0"
+                file="../src/synthesis/filters/formant_manager.h"/>
+          <FILE id="w1i83Y" name="iir_halfband_decimator.cpp" compile="0" resource="0"
+                file="../src/synthesis/filters/iir_halfband_decimator.cpp"/>
+          <FILE id="ZfvMzK" name="iir_halfband_decimator.h" compile="0" resource="0"
+                file="../src/synthesis/filters/iir_halfband_decimator.h"/>
+          <FILE id="QJw5bc" name="ladder_filter.cpp" compile="0" resource="0"
+                file="../src/synthesis/filters/ladder_filter.cpp"/>
+          <FILE id="XlAdkz" name="ladder_filter.h" compile="0" resource="0" file="../src/synthesis/filters/ladder_filter.h"/>
+          <FILE id="CMjLtN" name="linkwitz_riley_filter.cpp" compile="0" resource="0"
+                file="../src/synthesis/filters/linkwitz_riley_filter.cpp"/>
+          <FILE id="ShoZK2" name="linkwitz_riley_filter.h" compile="0" resource="0"
+                file="../src/synthesis/filters/linkwitz_riley_filter.h"/>
+          <FILE id="u7SfJu" name="one_pole_filter.h" compile="0" resource="0"
+                file="../src/synthesis/filters/one_pole_filter.h"/>
+          <FILE id="TN4e3F" name="phaser_filter.cpp" compile="0" resource="0"
+                file="../src/synthesis/filters/phaser_filter.cpp"/>
+          <FILE id="CXTqre" name="phaser_filter.h" compile="0" resource="0" file="../src/synthesis/filters/phaser_filter.h"/>
+          <FILE id="dXxyVr" name="sallen_key_filter.cpp" compile="0" resource="0"
+                file="../src/synthesis/filters/sallen_key_filter.cpp"/>
+          <FILE id="Et5X2A" name="sallen_key_filter.h" compile="0" resource="0"
+                file="../src/synthesis/filters/sallen_key_filter.h"/>
+          <FILE id="cq1Bv6" name="synth_filter.cpp" compile="0" resource="0"
+                file="../src/synthesis/filters/synth_filter.cpp"/>
+          <FILE id="EEmVZX" name="synth_filter.h" compile="0" resource="0" file="../src/synthesis/filters/synth_filter.h"/>
+        </GROUP>
+        <GROUP id="{77B6F61E-3BFE-28DD-28BB-9F3780938AC4}" name="framework">
+          <FILE id="qHGm97" name="circular_queue.h" compile="0" resource="0"
+                file="../src/synthesis/framework/circular_queue.h"/>
+          <FILE id="HmdVGQ" name="common.h" compile="0" resource="0" file="../src/synthesis/framework/common.h"/>
+          <FILE id="IgLqPT" name="feedback.cpp" compile="0" resource="0" file="../src/synthesis/framework/feedback.cpp"/>
+          <FILE id="birmLJ" name="feedback.h" compile="0" resource="0" file="../src/synthesis/framework/feedback.h"/>
+          <FILE id="f7K13U" name="futils.h" compile="0" resource="0" file="../src/synthesis/framework/futils.h"/>
+          <FILE id="iCcsYn" name="matrix.h" compile="0" resource="0" file="../src/synthesis/framework/matrix.h"/>
+          <FILE id="OjPY4Y" name="note_handler.h" compile="0" resource="0" file="../src/synthesis/framework/note_handler.h"/>
+          <FILE id="ttUKze" name="operators.cpp" compile="0" resource="0" file="../src/synthesis/framework/operators.cpp"/>
+          <FILE id="iFcCHi" name="operators.h" compile="0" resource="0" file="../src/synthesis/framework/operators.h"/>
+          <FILE id="xFsi2z" name="poly_utils.h" compile="0" resource="0" file="../src/synthesis/framework/poly_utils.h"/>
+          <FILE id="rx7EqI" name="poly_values.h" compile="0" resource="0" file="../src/synthesis/framework/poly_values.h"/>
+          <FILE id="IWVKrn" name="processor.cpp" compile="0" resource="0" file="../src/synthesis/framework/processor.cpp"/>
+          <FILE id="yYEj6C" name="processor.h" compile="0" resource="0" file="../src/synthesis/framework/processor.h"/>
+          <FILE id="pEikV1" name="processor_router.cpp" compile="0" resource="0"
+                file="../src/synthesis/framework/processor_router.cpp"/>
+          <FILE id="xjyJUA" name="processor_router.h" compile="0" resource="0"
+                file="../src/synthesis/framework/processor_router.h"/>
+          <FILE id="V2hnUG" name="synth_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/framework/synth_module.cpp"/>
+          <FILE id="LMO1qK" name="synth_module.h" compile="0" resource="0" file="../src/synthesis/framework/synth_module.h"/>
+          <FILE id="HtuRKh" name="utils.cpp" compile="0" resource="0" file="../src/synthesis/framework/utils.cpp"/>
+          <FILE id="JIQPrc" name="utils.h" compile="0" resource="0" file="../src/synthesis/framework/utils.h"/>
+          <FILE id="gXRMaO" name="value.cpp" compile="0" resource="0" file="../src/synthesis/framework/value.cpp"/>
+          <FILE id="hq4ULs" name="value.h" compile="0" resource="0" file="../src/synthesis/framework/value.h"/>
+          <FILE id="IHvsNC" name="voice_handler.cpp" compile="0" resource="0"
+                file="../src/synthesis/framework/voice_handler.cpp"/>
+          <FILE id="VQpRmA" name="voice_handler.h" compile="0" resource="0" file="../src/synthesis/framework/voice_handler.h"/>
+        </GROUP>
+        <GROUP id="{3DA70314-F7FB-917E-089C-A6DAFFF1A5FC}" name="lookups">
+          <FILE id="sXc1yd" name="lookup_table.h" compile="0" resource="0" file="../src/synthesis/lookups/lookup_table.h"/>
+          <FILE id="avsD8m" name="memory.h" compile="0" resource="0" file="../src/synthesis/lookups/memory.h"/>
+          <FILE id="PJfaJL" name="wave_frame.cpp" compile="0" resource="0" file="../src/synthesis/lookups/wave_frame.cpp"/>
+          <FILE id="ocfU1s" name="wave_frame.h" compile="0" resource="0" file="../src/synthesis/lookups/wave_frame.h"/>
+          <FILE id="IBeYrU" name="wavetable.cpp" compile="0" resource="0" file="../src/synthesis/lookups/wavetable.cpp"/>
+          <FILE id="Fc1QKT" name="wavetable.h" compile="0" resource="0" file="../src/synthesis/lookups/wavetable.h"/>
+        </GROUP>
+        <GROUP id="{D78B1446-F592-53F1-FC62-7D5C966375F2}" name="modulators">
+          <FILE id="XonX7g" name="envelope.cpp" compile="0" resource="0" file="../src/synthesis/modulators/envelope.cpp"/>
+          <FILE id="MLCOkP" name="envelope.h" compile="0" resource="0" file="../src/synthesis/modulators/envelope.h"/>
+          <FILE id="PSmy36" name="line_map.cpp" compile="0" resource="0" file="../src/synthesis/modulators/line_map.cpp"/>
+          <FILE id="EcfIJt" name="line_map.h" compile="0" resource="0" file="../src/synthesis/modulators/line_map.h"/>
+          <FILE id="zJmtl5" name="random_lfo.cpp" compile="0" resource="0" file="../src/synthesis/modulators/random_lfo.cpp"/>
+          <FILE id="bo3lkH" name="random_lfo.h" compile="0" resource="0" file="../src/synthesis/modulators/random_lfo.h"/>
+          <FILE id="Y3a60G" name="synth_lfo.cpp" compile="0" resource="0" file="../src/synthesis/modulators/synth_lfo.cpp"/>
+          <FILE id="iGi53L" name="synth_lfo.h" compile="0" resource="0" file="../src/synthesis/modulators/synth_lfo.h"/>
+          <FILE id="vanrpw" name="trigger_random.cpp" compile="0" resource="0"
+                file="../src/synthesis/modulators/trigger_random.cpp"/>
+          <FILE id="HiTq3x" name="trigger_random.h" compile="0" resource="0"
+                file="../src/synthesis/modulators/trigger_random.h"/>
+        </GROUP>
+        <GROUP id="{7AD7C86B-0DF8-2FF3-4B00-48E56A12CDD6}" name="modules">
+          <FILE id="YvP9VT" name="chorus_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/chorus_module.cpp"/>
+          <FILE id="WvrPiI" name="chorus_module.h" compile="0" resource="0" file="../src/synthesis/modules/chorus_module.h"/>
+          <FILE id="uH4eoI" name="comb_module.cpp" compile="0" resource="0" file="../src/synthesis/modules/comb_module.cpp"/>
+          <FILE id="mfYz3m" name="comb_module.h" compile="0" resource="0" file="../src/synthesis/modules/comb_module.h"/>
+          <FILE id="a4bXu6" name="compressor_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/compressor_module.cpp"/>
+          <FILE id="Lm66nP" name="compressor_module.h" compile="0" resource="0"
+                file="../src/synthesis/modules/compressor_module.h"/>
+          <FILE id="NOmCK3" name="delay_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/delay_module.cpp"/>
+          <FILE id="cJah2Y" name="delay_module.h" compile="0" resource="0" file="../src/synthesis/modules/delay_module.h"/>
+          <FILE id="AuUpM4" name="distortion_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/distortion_module.cpp"/>
+          <FILE id="xE2cXp" name="distortion_module.h" compile="0" resource="0"
+                file="../src/synthesis/modules/distortion_module.h"/>
+          <FILE id="GH1YXC" name="envelope_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/envelope_module.cpp"/>
+          <FILE id="g0ZUlf" name="envelope_module.h" compile="0" resource="0"
+                file="../src/synthesis/modules/envelope_module.h"/>
+          <FILE id="eenLYS" name="equalizer_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/equalizer_module.cpp"/>
+          <FILE id="P895N1" name="equalizer_module.h" compile="0" resource="0"
+                file="../src/synthesis/modules/equalizer_module.h"/>
+          <FILE id="L2p4rV" name="filter_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/filter_module.cpp"/>
+          <FILE id="JRQR6A" name="filter_module.h" compile="0" resource="0" file="../src/synthesis/modules/filter_module.h"/>
+          <FILE id="caguYj" name="filters_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/filters_module.cpp"/>
+          <FILE id="hSBDEw" name="filters_module.h" compile="0" resource="0"
+                file="../src/synthesis/modules/filters_module.h"/>
+          <FILE id="L5gTC7" name="flanger_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/flanger_module.cpp"/>
+          <FILE id="tkqRxb" name="flanger_module.h" compile="0" resource="0"
+                file="../src/synthesis/modules/flanger_module.h"/>
+          <FILE id="uR1p9q" name="formant_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/formant_module.cpp"/>
+          <FILE id="o2gMSE" name="formant_module.h" compile="0" resource="0"
+                file="../src/synthesis/modules/formant_module.h"/>
+          <FILE id="H1CKkp" name="lfo_module.cpp" compile="0" resource="0" file="../src/synthesis/modules/lfo_module.cpp"/>
+          <FILE id="wCtymg" name="lfo_module.h" compile="0" resource="0" file="../src/synthesis/modules/lfo_module.h"/>
+          <FILE id="Z6sUl0" name="modulation_connection_processor.cpp" compile="0"
+                resource="0" file="../src/synthesis/modules/modulation_connection_processor.cpp"/>
+          <FILE id="w5qtfY" name="modulation_connection_processor.h" compile="0"
+                resource="0" file="../src/synthesis/modules/modulation_connection_processor.h"/>
+          <FILE id="EhFVim" name="oscillator_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/oscillator_module.cpp"/>
+          <FILE id="RScZyn" name="oscillator_module.h" compile="0" resource="0"
+                file="../src/synthesis/modules/oscillator_module.h"/>
+          <FILE id="ly3McA" name="phaser_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/phaser_module.cpp"/>
+          <FILE id="Bxt5OJ" name="phaser_module.h" compile="0" resource="0" file="../src/synthesis/modules/phaser_module.h"/>
+          <FILE id="eWReLf" name="producers_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/producers_module.cpp"/>
+          <FILE id="z5wG4V" name="producers_module.h" compile="0" resource="0"
+                file="../src/synthesis/modules/producers_module.h"/>
+          <FILE id="ag0jZx" name="random_lfo_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/random_lfo_module.cpp"/>
+          <FILE id="mjELIt" name="random_lfo_module.h" compile="0" resource="0"
+                file="../src/synthesis/modules/random_lfo_module.h"/>
+          <FILE id="d7nvCd" name="reorderable_effect_chain.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/reorderable_effect_chain.cpp"/>
+          <FILE id="hbv7nz" name="reorderable_effect_chain.h" compile="0" resource="0"
+                file="../src/synthesis/modules/reorderable_effect_chain.h"/>
+          <FILE id="vyagYY" name="reverb_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/reverb_module.cpp"/>
+          <FILE id="xfYwSE" name="reverb_module.h" compile="0" resource="0" file="../src/synthesis/modules/reverb_module.h"/>
+          <FILE id="y9GvZL" name="sample_module.cpp" compile="0" resource="0"
+                file="../src/synthesis/modules/sample_module.cpp"/>
+          <FILE id="ayVUKi" name="sample_module.h" compile="0" resource="0" file="../src/synthesis/modules/sample_module.h"/>
+        </GROUP>
+        <GROUP id="{1F81E4BF-5696-7696-7E95-7AA0E119A748}" name="producers">
+          <FILE id="k2LDTh" name="sample_source.cpp" compile="0" resource="0"
+                file="../src/synthesis/producers/sample_source.cpp"/>
+          <FILE id="mZfVF9" name="sample_source.h" compile="0" resource="0" file="../src/synthesis/producers/sample_source.h"/>
+          <FILE id="kyMr1d" name="synth_oscillator.cpp" compile="0" resource="0"
+                file="../src/synthesis/producers/synth_oscillator.cpp"/>
+          <FILE id="nehC8Y" name="synth_oscillator.h" compile="0" resource="0"
+                file="../src/synthesis/producers/synth_oscillator.h"/>
+        </GROUP>
+        <GROUP id="{48203804-B755-4600-7713-4492E108CDF6}" name="utilities">
+          <FILE id="Pile5u" name="legato_filter.cpp" compile="0" resource="0"
+                file="../src/synthesis/utilities/legato_filter.cpp"/>
+          <FILE id="hTumTZ" name="legato_filter.h" compile="0" resource="0" file="../src/synthesis/utilities/legato_filter.h"/>
+          <FILE id="E8XJvz" name="peak_meter.cpp" compile="0" resource="0" file="../src/synthesis/utilities/peak_meter.cpp"/>
+          <FILE id="fqz6b7" name="peak_meter.h" compile="0" resource="0" file="../src/synthesis/utilities/peak_meter.h"/>
+          <FILE id="nH8lht" name="portamento_slope.cpp" compile="0" resource="0"
+                file="../src/synthesis/utilities/portamento_slope.cpp"/>
+          <FILE id="xminR9" name="portamento_slope.h" compile="0" resource="0"
+                file="../src/synthesis/utilities/portamento_slope.h"/>
+          <FILE id="E9KdfW" name="smooth_value.cpp" compile="0" resource="0"
+                file="../src/synthesis/utilities/smooth_value.cpp"/>
+          <FILE id="JKOlA3" name="smooth_value.h" compile="0" resource="0" file="../src/synthesis/utilities/smooth_value.h"/>
+          <FILE id="lB9jFO" name="value_switch.cpp" compile="0" resource="0"
+                file="../src/synthesis/utilities/value_switch.cpp"/>
+          <FILE id="chFZdz" name="value_switch.h" compile="0" resource="0" file="../src/synthesis/utilities/value_switch.h"/>
+        </GROUP>
+        <FILE id="onnaOK" name="synth_engine.cpp" compile="0" resource="0"
+              file="../src/synthesis/synth_engine.cpp"/>
+        <FILE id="BGPvD1" name="synth_engine.h" compile="0" resource="0" file="../src/synthesis/synth_engine.h"/>
+        <FILE id="Hsedog" name="synth_voice_handler.cpp" compile="0" resource="0"
+              file="../src/synthesis/synth_voice_handler.cpp"/>
+        <FILE id="PFriMv" name="synth_voice_handler.h" compile="0" resource="0"
+              file="../src/synthesis/synth_voice_handler.h"/>
+      </GROUP>
+      <GROUP id="{7156E271-CE4F-69F7-BD16-1AE4D1B568AC}" name="unity_build">
+        <FILE id="ykH5qq" name="common.cpp" compile="1" resource="0" file="../src/unity_build/common.cpp"/>
+        <FILE id="Hh2SQe" name="synthesis.cpp" compile="1" resource="0" file="../src/unity_build/synthesis.cpp"/>
+      </GROUP>
+    </GROUP>
+  </MAINGROUP>
+  <EXPORTFORMATS>
+    <LINUX_MAKE targetFolder="builds/linux" bigIcon="JqKIEw" smallIcon="oFf3hH"
+                extraCompilerFlags="-ffast-math ${SIMDFLAGS} ${GLFLAGS} -ftree-vectorize -ftree-slp-vectorize -funroll-loops"
+                extraLinkerFlags="-ffast-math ${SIMDFLAGS} ${GLFLAGS} -ftree-vectorize -ftree-slp-vectorize -lcurl"
+                extraDefs="BUILD_DATE=$(BUILD_DATE)&#10;JUCE_JACK_CLIENT_NAME=&quot;Vital&quot;&#10;JUCE_ALSA_MIDI_INPUT_NAME=&quot;Vital&quot;&#10;JUCE_ALSA_MIDI_OUTPUT_NAME=&quot;Vital&quot;&#10;JUCE_USE_XRANDR=0&#10;JUCE_DSP_USE_SHARED_FFTW=1&#10;HEADLESS=1&#10;NO_AUTH=1">
+      <CONFIGURATIONS>
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
+                       targetName="vital" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
+                       linuxArchitecture="" defines=""/>
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/" isDebug="0" optimisation="6"
+                       targetName="vital" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
+                       linuxArchitecture="" defines="" linkTimeOptimisation="1"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../third_party/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../third_party/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../third_party/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../third_party/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../third_party/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../third_party/JUCE/modules"/>
+      </MODULEPATHS>
+    </LINUX_MAKE>
+    <XCODE_MAC targetFolder="builds/osx" extraDefs="HEADLESS=1&#10;NO_AUTH=1">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
+                       osxCompatibility="10.7 SDK"/>
+        <CONFIGURATION isDebug="0" name="Release" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
+                       optimisation="6"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_events" path="../third_party/JUCE/modules"/>
+        <MODULEPATH id="juce_dsp" path="../third_party/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../third_party/JUCE/modules"/>
+        <MODULEPATH id="juce_core" path="../third_party/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_formats" path="../third_party/JUCE/modules"/>
+        <MODULEPATH id="juce_audio_basics" path="../third_party/JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+  </EXPORTFORMATS>
+  <MODULES>
+    <MODULES id="juce_audio_basics" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_audio_formats" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_core" showAllCode="1" useLocalCopy="0"/>
+    <MODULES id="juce_data_structures" showAllCode="1" useLocalCopy="0"/>
+    <MODULE id="juce_dsp" showAllCode="1" useLocalCopy="0" useGlobalPath="0"/>
+    <MODULES id="juce_events" showAllCode="1" useLocalCopy="0"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_WASAPI="1" JUCE_DIRECTSOUND="1" JUCE_ALSA="1" JUCE_JACK="1"
+               JUCE_WEB_BROWSER="0" JUCE_USE_CURL="1"/>
+  <LIVE_SETTINGS>
+    <OSX/>
+    <WINDOWS/>
+    <LINUX/>
+  </LIVE_SETTINGS>
+</JUCERPROJECT>

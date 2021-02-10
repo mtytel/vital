@@ -1,0 +1,5741 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+		BF17A0E5831DED40EF0B38AC = {
+			isa = PBXBuildFile;
+			fileRef = AD536D6A3684A237ADB24704;
+		};
+		AA326DFAC7E3A606439D0B5E = {
+			isa = PBXBuildFile;
+			fileRef = 399573306D5863E703547480;
+		};
+		9973331B571A72B7F6DB5B14 = {
+			isa = PBXBuildFile;
+			fileRef = E26755374577FFB5E707A9F5;
+		};
+		7A16EA4C42496F1CA2D22FEF = {
+			isa = PBXBuildFile;
+			fileRef = 4AB2689C3D055D9A2763E2AC;
+		};
+		F0D572BBDDE3E1941291482F = {
+			isa = PBXBuildFile;
+			fileRef = 8D0FFA8F5E1C6730D9A5E2AA;
+		};
+		999D73CBF2FF2D4FC0532C59 = {
+			isa = PBXBuildFile;
+			fileRef = 2B5EF20D0BE840557CE1160D;
+		};
+		073A65DE88C7F40ED0AAD848 = {
+			isa = PBXBuildFile;
+			fileRef = 90C43CE16E06DB041EEC377F;
+		};
+		3174D9720114D8A4520BA60B = {
+			isa = PBXBuildFile;
+			fileRef = 6C33D4AA95D3CE36C5FB875A;
+		};
+		4183E724F0AA21E741D49582 = {
+			isa = PBXBuildFile;
+			fileRef = 5B45A0A549EE9EBDE12A9987;
+		};
+		293F7694B7C33204D09D2191 = {
+			isa = PBXBuildFile;
+			fileRef = 151FC9EEA4B744DACDB42CC0;
+		};
+		0C3BFC7DBEA7B14713E49772 = {
+			isa = PBXBuildFile;
+			fileRef = 72E03A78D80650173EA0CA1E;
+		};
+		D85C45F6CF7BFCF1D06FAEA7 = {
+			isa = PBXBuildFile;
+			fileRef = 591A5D7E1BDF114A78A7D6EF;
+		};
+		CBDEF0B7ACD825C1ACFC3687 = {
+			isa = PBXBuildFile;
+			fileRef = EA170B8B6946E4F4B51585CC;
+		};
+		0BAC551B7F686E037E0C22A2 = {
+			isa = PBXBuildFile;
+			fileRef = 80007F18ABD98ABBD848A1B0;
+		};
+		1D38713E044E4966AD971F06 = {
+			isa = PBXBuildFile;
+			fileRef = C4C772D9C3F472259A2210E3;
+		};
+		6648E3304493CE6F4A77F814 = {
+			isa = PBXBuildFile;
+			fileRef = D29839FD9D798968891B1645;
+		};
+		71A777762F4A4594095F5095 = {
+			isa = PBXBuildFile;
+			fileRef = BFF60E297F41FD4012C3CB79;
+		};
+		AC5922B8A1504012BE165F03 = {
+			isa = PBXBuildFile;
+			fileRef = 1C40B8E8B038128CAB67DFD0;
+		};
+		1B2B660326C0AB463C0AB323 = {
+			isa = PBXBuildFile;
+			fileRef = CBBC7471044E653CE4992E2F;
+		};
+		4987B5954E0BE7C7E1497600 = {
+			isa = PBXBuildFile;
+			fileRef = 1FA945A04C8FEDB3C1B70566;
+		};
+		9CC26642C7A85DD0B7BEF845 = {
+			isa = PBXBuildFile;
+			fileRef = 0E7F18BD3C4EDE9D248827FF;
+		};
+		ABBF69F3CCC630DB34EFB83B = {
+			isa = PBXBuildFile;
+			fileRef = 6041A9C77D57EF87FBDF4C46;
+		};
+		DA2F358C7C20F0B108FA46D8 = {
+			isa = PBXBuildFile;
+			fileRef = 6166FB869CFF98D19838EB25;
+		};
+		89EF311B1D7DE20EDEA5862C = {
+			isa = PBXBuildFile;
+			fileRef = 474E674196DA6FCA5ED35720;
+		};
+		721A6F628BE7450A67F7CE85 = {
+			isa = PBXBuildFile;
+			fileRef = BCCFFC1FF730D3F099DB025D;
+		};
+		629BED43500AE013D1A83047 = {
+			isa = PBXBuildFile;
+			fileRef = CDB8ACFAE34B00C014E67A96;
+		};
+		A8E6EEB9327FCABBCFA8EDA7 = {
+			isa = PBXBuildFile;
+			fileRef = 8989728CE374F2C301A4763F;
+		};
+		9742BF4DD8C91343C3278747 = {
+			isa = PBXBuildFile;
+			fileRef = 960B92C3C44FA4F1846C6985;
+		};
+		1ACD985B9E32AA84A59C9C1D = {
+			isa = PBXBuildFile;
+			fileRef = 38CFE3D10A15E1C947A0A44D;
+		};
+		E37ACD5E5421E480AE2C9DF6 = {
+			isa = PBXBuildFile;
+			fileRef = 5D5ED2636412E0A240088B97;
+		};
+		9614A735367E6AAC6DFC2D85 = {
+			isa = PBXBuildFile;
+			fileRef = D473DD94B50940CE0D2C1A06;
+		};
+		C411933DFC3C5642F5510DA2 = {
+			isa = PBXBuildFile;
+			fileRef = 4639204384D07175331303D5;
+		};
+		40DB5EBCF2594A9514167E9C = {
+			isa = PBXBuildFile;
+			fileRef = F8E035506B4257624F2AE9D2;
+		};
+		467CC0084730F18E04AA4E90 = {
+			isa = PBXBuildFile;
+			fileRef = 5677A18F3721228155DE5893;
+		};
+		20169C80427D9D5214FDBED5 = {
+			isa = PBXBuildFile;
+			fileRef = B353A80BF55BDA9DC00631B9;
+		};
+		B0056FE606707EBBED0D5895 = {
+			isa = PBXBuildFile;
+			fileRef = 85DC44CAD92B20F1C8E6B28D;
+		};
+		9CF32634B5D66E1A0E67DCF3 = {
+			isa = PBXBuildFile;
+			fileRef = 12475511F5F7465CE5D74814;
+		};
+		06A6679587B629B3AE1C8EE7 = {
+			isa = PBXBuildFile;
+			fileRef = A302DB7F94DBEB61EA244577;
+		};
+		70937681CB61FE423244F46D = {
+			isa = PBXBuildFile;
+			fileRef = C446C4E337CACDDBD1334AC1;
+		};
+		37436F34ED46B62CD83A6DC8 = {
+			isa = PBXBuildFile;
+			fileRef = 6A04ACAC8DCE2DAA439352FE;
+		};
+		0005F194EED9FBFCC430D31F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wave_source.cpp";
+			path = "../../../src/common/wavetable/wave_source.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		004A06D07A42740BDF623B17 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wave_window_overlay.h";
+			path = "../../../src/interface/wavetable/overlays/wave_window_overlay.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		00F769BD899B311D08948EB1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "filter_response.h";
+			path = "../../../src/interface/editor_components/filter_response.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		018CE8985207B6149F48CE31 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.scl;
+			name = "7 Limit.scl";
+			path = "../../../tunings/7 Limit.scl";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0229A4F7B30927BFB27FF116 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "sample_source.h";
+			path = "../../../src/synthesis/producers/sample_source.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		026B14D7F898B13DFF5995B3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_constants.h";
+			path = "../../../src/common/synth_constants.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		027DC9E907D41AB65ED41A19 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "distortion_module.h";
+			path = "../../../src/synthesis/modules/distortion_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		02CDEB156C229E6A8460C5F4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "envelope_test.cpp";
+			path = "../../synthesis/modulators/envelope_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		02EE22B5B1B51C470216AA5A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "random_lfo_test.cpp";
+			path = "../../synthesis/modulators/random_lfo_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0300AF3BF2DA1A88B962B35C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wave_source_editor.h";
+			path = "../../../src/interface/wavetable/editors/wave_source_editor.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0329339E42F41C9841E32371 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "transpose_quantize.cpp";
+			path = "../../../src/interface/editor_components/transpose_quantize.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		03609D366DBF5F502A189C6F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "reverb_section_test.cpp";
+			path = "../../interface/reverb_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		03A538F3052D97867124956F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "distortion_section_test.cpp";
+			path = "../../interface/distortion_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		041BEB88DA227F6FD6010E21 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "comb_filter.h";
+			path = "../../../src/synthesis/filters/comb_filter.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		05EBFA1CC575B09D1AE5B304 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wave_source_editor.cpp";
+			path = "../../../src/interface/wavetable/editors/wave_source_editor.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		05ED42167943D5CD31A1E4FC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "note_handler_test.h";
+			path = "../../synthesis/note_handler_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		069FCF7D2FDBE42BF75CDEAE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "phaser_test.h";
+			path = "../../synthesis/effects/phaser_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		06CE1616CB7CCAF571D22284 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "reverb_module.h";
+			path = "../../../src/synthesis/modules/reverb_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		08490DF2F2332E0C682A3F18 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "ladder_filter_test.h";
+			path = "../../synthesis/filters/ladder_filter_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		08F1742C3D7D6CAF541BAD8E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "slew_limiter_overlay.cpp";
+			path = "../../../src/interface/wavetable/overlays/slew_limiter_overlay.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		096DEB4074404F203BD627CA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "peak_meter_viewer.cpp";
+			path = "../../../src/interface/editor_components/peak_meter_viewer.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0A54A378097B63207C75F6A2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synthesis_interface.cpp";
+			path = "../../../src/interface/editor_sections/synthesis_interface.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0A93E39FFF4CA3EC70A5482E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "oscillator_advanced_section_test.h";
+			path = "../../interface/oscillator_advanced_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0A9EC4B13C76037D8A832801 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "dirty_filter_test.h";
+			path = "../../synthesis/filters/dirty_filter_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0C3DA7355D0949650B708AB1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "comb_filter_test.cpp";
+			path = "../../synthesis/filters/comb_filter_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0D57001889596E6A1D6BD4DC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "phaser_test.cpp";
+			path = "../../synthesis/effects/phaser_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0D69DABA32F1C6C06701E978 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = distortion.cpp;
+			path = ../../../src/synthesis/effects/distortion.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		0D8C00B71C8E1132F95B5A08 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "smooth_value.cpp";
+			path = "../../../src/synthesis/utilities/smooth_value.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0DA2D92114A75D70272819CC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "header_section.h";
+			path = "../../../src/interface/editor_sections/header_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0DBCD98C7867D52CC77977AC = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_gui_basics";
+			path = "../../../third_party/JUCE/modules/juce_gui_basics";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0E7F18BD3C4EDE9D248827FF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "interface_wavetable.cpp";
+			path = "../../../src/unity_build/interface_wavetable.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0F1B29C31A277E6BB55D535B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wavetable_group.cpp";
+			path = "../../../src/common/wavetable/wavetable_group.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0FB24FC81A93707E975DD1F5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "compressor_test.h";
+			path = "../../synthesis/effects/compressor_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0FC4789387042C8F427C5B00 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = shaders.h;
+			path = "../../../src/interface/look_and_feel/shaders.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		0FCCB2C421909685A85FCE92 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "linkwitz_riley_filter.cpp";
+			path = "../../../src/synthesis/filters/linkwitz_riley_filter.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		107CC27C7F0F6511E003EB2F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "reverb_section.h";
+			path = "../../../src/interface/editor_sections/reverb_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1145979376938BCCE088278A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "poly_values_test.h";
+			path = "../../synthesis/framework/poly_values_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		11A2FA52D15D54B47378BFCB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "border_bounds_constrainer.cpp";
+			path = "../../../src/common/border_bounds_constrainer.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		11DD8D85D9F4682BF89EC2A8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "ladder_filter_test.cpp";
+			path = "../../synthesis/filters/ladder_filter_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		12433A6280C44C86C84AB2FB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "open_gl_multi_image.h";
+			path = "../../../src/interface/editor_components/open_gl_multi_image.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		12475511F5F7465CE5D74814 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_graphics.mm";
+			path = "../../JuceLibraryCode/include_juce_graphics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		12544E44C75A635FC9C971C7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "popup_browser.cpp";
+			path = "../../../src/interface/editor_sections/popup_browser.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		12DB3AD4CE09E589E16FC84E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wavetable_overlay_factory.cpp";
+			path = "../../../src/interface/wavetable/wavetable_overlay_factory.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		135A93B229F095C9FA90205A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "phaser_filter_test.h";
+			path = "../../synthesis/filters/phaser_filter_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		13600B2D92B3A5BD77EF5052 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "bar_renderer.h";
+			path = "../../../src/interface/editor_components/bar_renderer.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		146944CDD71A23D4D97B64FB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_section.h";
+			path = "../../../src/interface/editor_sections/synth_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1486262161F4FEFB7CFE23C3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "ladder_filter.h";
+			path = "../../../src/synthesis/filters/ladder_filter.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		151FC9EEA4B744DACDB42CC0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Foundation.framework;
+			path = System/Library/Frameworks/Foundation.framework;
+			sourceTree = SDKROOT;
+		};
+		1531E747D7C2C8BC67A6B960 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "transpose_quantize.h";
+			path = "../../../src/interface/editor_components/transpose_quantize.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		15AAA1ACF5A84443DE6A8C65 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "trigger_random.cpp";
+			path = "../../../src/synthesis/modulators/trigger_random.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		16213572261310B33882DD01 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "text_selector.h";
+			path = "../../../src/interface/editor_components/text_selector.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		16B0197EF264D88B5B4CF673 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_lfo_test.h";
+			path = "../../synthesis/modulators/synth_lfo_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		16CE62C4EA921F92531CD038 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_oscillator.h";
+			path = "../../../src/synthesis/producers/synth_oscillator.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		16F9368F005806A0705A219E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synthesis_interface_test.cpp";
+			path = "../../interface/synthesis_interface_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		170C570AAF37DE451FBE294D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "bend_section.cpp";
+			path = "../../../src/interface/editor_sections/bend_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		17175B2CE10F4686C7A38C93 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "open_gl_multi_image.cpp";
+			path = "../../../src/interface/editor_components/open_gl_multi_image.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1729C04CBD844895F6375CBF = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = phaser.svg;
+			path = ../../../icons/phaser.svg;
+			sourceTree = "SOURCE_ROOT";
+		};
+		17ACE13922051956F2FE2275 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "sample_section.cpp";
+			path = "../../../src/interface/editor_sections/sample_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		17D4F34E13DDC255165CE354 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "reverb_section.cpp";
+			path = "../../../src/interface/editor_sections/reverb_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1808BF52BC9EA58F473C9FB7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wave_source_overlay.cpp";
+			path = "../../../src/interface/wavetable/overlays/wave_source_overlay.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		180F7E8DE8D231336DE6C106 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = compressor.cpp;
+			path = ../../../src/synthesis/effects/compressor.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		1821AD88789A96D76237B589 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = "vital_word_ring.svg";
+			path = "../../../icons/vital_word_ring.svg";
+			sourceTree = "SOURCE_ROOT";
+		};
+		185A73672B706E8BAA02C9BC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "equalizer_response.h";
+			path = "../../../src/interface/editor_components/equalizer_response.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		18CFC8CF695AF8D867DFF71E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "frequency_filter_modifier.h";
+			path = "../../../src/common/wavetable/frequency_filter_modifier.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		18D16405835B5E6F91D51FB6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "bank_exporter.h";
+			path = "../../../src/interface/editor_sections/bank_exporter.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		18FD75E4C26D1403F05074EE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = upsampler.h;
+			path = ../../../src/synthesis/filters/upsampler.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		1908D634F0667AE39D808E42 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "dc_filter.cpp";
+			path = "../../../src/synthesis/filters/dc_filter.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		19C4239FD4983036BC9C8DE9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wavetable_organizer.h";
+			path = "../../../src/interface/wavetable/wavetable_organizer.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		19C64E519B7167023C709657 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "envelope_section.h";
+			path = "../../../src/interface/editor_sections/envelope_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1C40B8E8B038128CAB67DFD0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "interface_editor_sections.cpp";
+			path = "../../../src/unity_build/interface_editor_sections.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1CA9462CEFBACA9A7FA66278 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = fonts.h;
+			path = "../../../src/interface/look_and_feel/fonts.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1D141A649FB30F8FA91EA2A2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.ttf;
+			name = "Lato-Light.ttf";
+			path = "../../../fonts/Lato-Light.ttf";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1D2AC22DCF3EC1E94B0EC157 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "modulation_connection_processor.cpp";
+			path = "../../../src/synthesis/modules/modulation_connection_processor.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1D377DFC7740FE69A60850D3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_slider.h";
+			path = "../../../src/interface/editor_components/synth_slider.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1ECE119271F8DBB4B472CEDC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "phaser_filter.h";
+			path = "../../../src/synthesis/filters/phaser_filter.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1F469B2447B4184972DB72C4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = oscilloscope.h;
+			path = "../../../src/interface/editor_components/oscilloscope.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1F58CE5ED1BB713E141FB918 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "distortion_section_test.h";
+			path = "../../interface/distortion_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1F5C1FEEC647E866E3C8368C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "default_look_and_feel.h";
+			path = "../../../src/interface/look_and_feel/default_look_and_feel.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1FA945A04C8FEDB3C1B70566 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "interface_look_and_feel.cpp";
+			path = "../../../src/unity_build/interface_look_and_feel.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		1FB8F41C7E6443B77B20D58E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "file_source.h";
+			path = "../../../src/common/wavetable/file_source.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		20D359DD2A7D346E3FAD480D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "volume_section.cpp";
+			path = "../../../src/interface/editor_sections/volume_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		217BA1F33143B0E78B5C3E56 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "compressor_section_test.cpp";
+			path = "../../interface/compressor_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		21BF7766934184D09EC4CB71 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "sound_engine.cpp";
+			path = "../../../src/synthesis/synth_engine/sound_engine.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2201A5E1F17C2A2963189756 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_utils";
+			path = "../../../third_party/JUCE/modules/juce_audio_utils";
+			sourceTree = "SOURCE_ROOT";
+		};
+		221A7051F646BBDFFEBA50C3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "modulation_button.h";
+			path = "../../../src/interface/editor_components/modulation_button.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		222B0210054AE2788B85543A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "lfo_module.cpp";
+			path = "../../../src/synthesis/modules/lfo_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		226C0FDBC9BAD62135F6F564 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "compressor_editor.cpp";
+			path = "../../../src/interface/editor_components/compressor_editor.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2292812045C0F744BADD172E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "default_look_and_feel.cpp";
+			path = "../../../src/interface/look_and_feel/default_look_and_feel.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		231040DE44E5CB81EE05E65F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "compressor_editor.h";
+			path = "../../../src/interface/editor_components/compressor_editor.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		23B02498BF11885DCF1B97C3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "text_look_and_feel.h";
+			path = "../../../src/interface/look_and_feel/text_look_and_feel.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		23D5E9DECA3DCBAD0994E5B6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "interface_test.cpp";
+			path = "../../interface/interface_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		241F54155C37B3A18CFE01CF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wavetable_component_list.h";
+			path = "../../../src/interface/wavetable/wavetable_component_list.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2443D2F4004FBEB2A95C030C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "reverb_test.h";
+			path = "../../synthesis/effects/reverb_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2447DD05D3E85277371C3DDC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "formant_module.h";
+			path = "../../../src/synthesis/modules/formant_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		247AF363F7BB6F07F42B3250 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_basics";
+			path = "../../../third_party/JUCE/modules/juce_audio_basics";
+			sourceTree = "SOURCE_ROOT";
+		};
+		24971EEDA766260265C160FD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "sample_section.h";
+			path = "../../../src/interface/editor_sections/sample_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		25029134ECE6B3C73579F83F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "filter_section_test.cpp";
+			path = "../../interface/filter_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		255F09B020C78BC53F0590F7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "filters_module.cpp";
+			path = "../../../src/synthesis/modules/filters_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		27BF9E58229A475FCDBB75EC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "pitch_detector.h";
+			path = "../../../src/common/wavetable/pitch_detector.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2863E96930F8D2E42C0B8AC1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = reverb.svg;
+			path = ../../../icons/reverb.svg;
+			sourceTree = "SOURCE_ROOT";
+		};
+		286E53FCDF1F59152FF50B35 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "chorus_section_test.cpp";
+			path = "../../interface/chorus_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		28B417B92CD8580382F1EEA6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "formant_filter.h";
+			path = "../../../src/synthesis/filters/formant_filter.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		29A9D5914A766964BCECAE2D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "bar_editor.h";
+			path = "../../../src/interface/wavetable/editors/bar_editor.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		29AF9491F2B0E09F26B2A9D0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wavetable_component.cpp";
+			path = "../../../src/common/wavetable/wavetable_component.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		29DFC38FD142918CAC4ADFE2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = phaser.h;
+			path = ../../../src/synthesis/effects/phaser.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		2A170D38853E137B78A78EB1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "expired_section.cpp";
+			path = "../../../src/interface/editor_sections/expired_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2A26BBD2FAE20C114163C725 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "iir_halfband_decimator.h";
+			path = "../../../src/synthesis/filters/iir_halfband_decimator.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2B2DAF77E529EF609CE07E03 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "load_save.cpp";
+			path = "../../../src/common/load_save.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2B57105F01D93B85FF6A82B4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = compressor.svg;
+			path = ../../../icons/compressor.svg;
+			sourceTree = "SOURCE_ROOT";
+		};
+		2B5EF20D0BE840557CE1160D = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreAudio.framework;
+			path = System/Library/Frameworks/CoreAudio.framework;
+			sourceTree = SDKROOT;
+		};
+		2B7EE1F831132762954FF723 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = BinaryData.h;
+			path = ../../JuceLibraryCode/BinaryData.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		2C280E33BDEC0B35D68A00D0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "download_section.cpp";
+			path = "../../../src/interface/editor_sections/download_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2C7D0E87BF0C302034EB1BB8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "sample_section_test.h";
+			path = "../../interface/sample_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2C97D1FA0BABE40459BE1EBF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "envelope_module.cpp";
+			path = "../../../src/synthesis/modules/envelope_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2DA3F2CC4056BA0CBEC02DE6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "envelope_test.h";
+			path = "../../synthesis/modulators/envelope_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2DFADC6256CCCD80560DA255 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synthesis_interface_test.h";
+			path = "../../interface/synthesis_interface_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2E3D7DF237FB711C5E78613D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "preset_browser.h";
+			path = "../../../src/interface/editor_sections/preset_browser.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2FD173C5590A9F377D741096 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "full_interface_test.h";
+			path = "../../interface/full_interface_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		2FE8C749DF7F36E29F601572 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "filter_section.h";
+			path = "../../../src/interface/editor_sections/filter_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		303FB7B5273832AB2FEC4C3F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = AppConfig.h;
+			path = ../../JuceLibraryCode/AppConfig.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		30C079185E3648620E45BC58 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synth_oscillator_test.cpp";
+			path = "../../synthesis/producers/synth_oscillator_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		311CD815D74F7B2FD68B5C17 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "compressor_section.h";
+			path = "../../../src/interface/editor_sections/compressor_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3209EAEC69A3ADD75A23371C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "download_section.h";
+			path = "../../../src/interface/editor_sections/download_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		322CD843A3FB12F245FE731B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = shaders.cpp;
+			path = "../../../src/interface/look_and_feel/shaders.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		323041DCA6CE7C0232DC9961 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "full_interface.h";
+			path = "../../../src/interface/editor_sections/full_interface.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		32C6F8954117F4C2D9EF7ED0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wavetable_3d.cpp";
+			path = "../../../src/interface/editor_components/wavetable_3d.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		33BEBF2092BA7CDB309EBAF1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "preset_selector.cpp";
+			path = "../../../src/interface/editor_components/preset_selector.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		33C08F59D16676B1560BBADB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = utils.cpp;
+			path = ../../../src/synthesis/framework/utils.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		34121CF20D6FDC1E951163DC = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = "vital_v.svg";
+			path = "../../../icons/vital_v.svg";
+			sourceTree = "SOURCE_ROOT";
+		};
+		349140280AAD915E7AFC269D = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_opengl";
+			path = "../../../third_party/JUCE/modules/juce_opengl";
+			sourceTree = "SOURCE_ROOT";
+		};
+		34CD153211F9D24FFBE81A73 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wave_frame.h";
+			path = "../../../src/synthesis/lookups/wave_frame.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		352D8791CEDF4403D6752073 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "expired_section.h";
+			path = "../../../src/interface/editor_sections/expired_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		356529F5991F089F551E8DE8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wave_frame.cpp";
+			path = "../../../src/synthesis/lookups/wave_frame.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		35980235BE17DD3DEDE403B2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = reverb.cpp;
+			path = ../../../src/synthesis/effects/reverb.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		35B2B6251B5EE937E548E6D3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "poly_utils_test.h";
+			path = "../../synthesis/poly_utils_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		35E012CC9AE35FB83D687E8B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "distortion_section.h";
+			path = "../../../src/interface/editor_sections/distortion_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		367B71B23DAE6BF0404FE44C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "legato_filter.cpp";
+			path = "../../../src/synthesis/utilities/legato_filter.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		36BE804913B09BDAC067418B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wave_line_source.h";
+			path = "../../../src/common/wavetable/wave_line_source.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		36C6DCDB74B3EE4256FFBF12 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "modulation_tab_selector.cpp";
+			path = "../../../src/interface/editor_components/modulation_tab_selector.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		37E4518703CFA15C78EF7F59 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "compressor_section.cpp";
+			path = "../../../src/interface/editor_sections/compressor_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		380086076605F9AB4AD11D18 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "smooth_value.h";
+			path = "../../../src/synthesis/utilities/smooth_value.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		387482A1339D133CF74DAF5A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "file_source_overlay.cpp";
+			path = "../../../src/interface/wavetable/overlays/file_source_overlay.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3876873B5D1F22A7466B1E7D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "delay_section_test.cpp";
+			path = "../../interface/delay_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		38CFE3D10A15E1C947A0A44D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_devices.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_devices.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3942ED909C4B07A42D799C6C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "linkwitz_riley_filter_test.cpp";
+			path = "../../synthesis/filters/linkwitz_riley_filter_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		399573306D5863E703547480 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Accelerate.framework;
+			path = System/Library/Frameworks/Accelerate.framework;
+			sourceTree = SDKROOT;
+		};
+		39F032E3A03771EA06109635 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synth_slider.cpp";
+			path = "../../../src/interface/editor_components/synth_slider.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3A8ABF3A9FC81D189934CCBE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "compressor_module.h";
+			path = "../../../src/synthesis/modules/compressor_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3AA609EE0E448E261BAED6F1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "phase_modifier_overlay.cpp";
+			path = "../../../src/interface/wavetable/overlays/phase_modifier_overlay.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3AB88E385538AB2ABBB58002 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_base.h";
+			path = "../../../src/common/synth_base.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3B44F005D91349F841DF1FE8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "peak_meter.cpp";
+			path = "../../../src/synthesis/utilities/peak_meter.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3B92E0802CDA66665118AD5F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synthesis_interface.h";
+			path = "../../../src/interface/editor_sections/synthesis_interface.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3BDE1AE3C34779FF04C5FF59 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "note_handler.h";
+			path = "../../../src/synthesis/framework/note_handler.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3CE86D8ECDF534AB5505B1A3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "decimator_test.cpp";
+			path = "../../synthesis/filters/decimator_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3D2E097A4E007ACA98F0ECFA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "comb_filter_test.h";
+			path = "../../synthesis/filters/comb_filter_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3D8C77186D4AA5A4A470F383 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = folder.svg;
+			path = ../../../icons/folder.svg;
+			sourceTree = "SOURCE_ROOT";
+		};
+		3E156A83D9BE7445A4C3C91D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = value.h;
+			path = ../../../src/synthesis/framework/value.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		3EC26E273A12B9F57D27EBBF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "portamento_slope.h";
+			path = "../../../src/synthesis/utilities/portamento_slope.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3FD732FC400715E0E0F483F0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "poly_utils_test.cpp";
+			path = "../../synthesis/poly_utils_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		3FE0576E2323DB33569B6A05 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = flanger.svg;
+			path = ../../../icons/flanger.svg;
+			sourceTree = "SOURCE_ROOT";
+		};
+		40EFE00C544F1F1B815338B8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "incrementer_buttons.h";
+			path = "../../../src/interface/editor_components/incrementer_buttons.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		4166C15196EE6710AF1E1113 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "modulation_interface.h";
+			path = "../../../src/interface/editor_sections/modulation_interface.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		41D3334EB54B7564EEF518AD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "filter_module.cpp";
+			path = "../../../src/synthesis/modules/filter_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		423EE44D13CDD53057DA25BE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "open_gl_background.h";
+			path = "../../../src/interface/editor_components/open_gl_background.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		434F4E0F03DE24C1EC88D334 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "voice_section.cpp";
+			path = "../../../src/interface/editor_sections/voice_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		4405ABB56F60ED6A1FC9C4CD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = common.h;
+			path = ../../../src/synthesis/framework/common.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		44AC96547D665A3393285514 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "open_gl_multi_quad.cpp";
+			path = "../../../src/interface/editor_components/open_gl_multi_quad.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		44BA39E9E4D91D510A719375 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "tempo_selector.h";
+			path = "../../../src/interface/editor_components/tempo_selector.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		452B4ED2FDA5BACECD4AFFB4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "macro_knob_section.cpp";
+			path = "../../../src/interface/editor_sections/macro_knob_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		453AED3DD5801BB86E28CF3D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "modulation_stress_test.h";
+			path = "../../stress/modulation_stress_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		45CA3699F7899676AEF2C9A9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "sallen_key_filter_test.h";
+			path = "../../synthesis/filters/sallen_key_filter_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		4639204384D07175331303D5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_utils.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_utils.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		4647A37E8C9D874E13AF98CE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "dirty_filter_test.cpp";
+			path = "../../synthesis/filters/dirty_filter_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		46516E28663C292FFAC15F77 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "iir_halfband_decimator_test.cpp";
+			path = "../../synthesis/filters/iir_halfband_decimator_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		466E0F5634B209AB318E8B2C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = matrix.h;
+			path = ../../../src/synthesis/framework/matrix.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		46DFF14C16CCF8ED52CB9C40 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wave_line_source_overlay.cpp";
+			path = "../../../src/interface/wavetable/overlays/wave_line_source_overlay.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		474558D49539D4E5CDB8E4F3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = "vital_ring.svg";
+			path = "../../../icons/vital_ring.svg";
+			sourceTree = "SOURCE_ROOT";
+		};
+		474B0FC9A3CE911F34E92538 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "peak_meter_test.cpp";
+			path = "../../synthesis/utilities/peak_meter_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		474E674196DA6FCA5ED35720 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = main.cpp;
+			path = ../../main.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		477448E534D21338A3EFE83E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "line_generator.cpp";
+			path = "../../../src/common/line_generator.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		47885F28959346D4EB724368 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "line_editor.cpp";
+			path = "../../../src/interface/editor_components/line_editor.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		478896BC433807718878A322 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wave_warp_overlay.h";
+			path = "../../../src/interface/wavetable/overlays/wave_warp_overlay.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		4789B3203A38D4838842A7BD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "reorderable_effect_chain.cpp";
+			path = "../../../src/synthesis/modules/reorderable_effect_chain.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		47F83893273C3F331E54FBCA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wavetable_playhead_info.cpp";
+			path = "../../../src/interface/wavetable/wavetable_playhead_info.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		48906981B4DC648AF2B6B610 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "shepard_tone_source.h";
+			path = "../../../src/common/wavetable/shepard_tone_source.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		49BB08FE8AB7B17FF3FDFD78 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "portamento_section.h";
+			path = "../../../src/interface/editor_sections/portamento_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		4AB2689C3D055D9A2763E2AC = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Carbon.framework;
+			path = System/Library/Frameworks/Carbon.framework;
+			sourceTree = SDKROOT;
+		};
+		4B9C410E42B2E4BB5BD61048 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "peak_meter.h";
+			path = "../../../src/synthesis/utilities/peak_meter.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		4BC1CAFD710CEFE8F60C2305 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "legato_filter.h";
+			path = "../../../src/synthesis/utilities/legato_filter.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		4C1CD76846B9DD20E8442002 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "drag_drop_effect_order.h";
+			path = "../../../src/interface/editor_components/drag_drop_effect_order.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		4D202621B4DBC357E0B41C0D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "update_check_section.h";
+			path = "../../../src/interface/editor_sections/update_check_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		4D26608099C3C3FC96855651 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "value_switch_test.cpp";
+			path = "../../synthesis/utilities/value_switch_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		4F0F15C83E003836D3EE9C1B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "open_gl_image.h";
+			path = "../../../src/interface/editor_components/open_gl_image.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5015F33035E514A89170C668 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wavetable_edit_section.cpp";
+			path = "../../../src/interface/editor_sections/wavetable_edit_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		523D038B7595C581702AB00D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "volume_section.h";
+			path = "../../../src/interface/editor_sections/volume_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5252B9AA7BD8F256E8474296 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = processor.h;
+			path = ../../../src/synthesis/framework/processor.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		52931313598477293E1E772F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synth_types.cpp";
+			path = "../../../src/common/synth_types.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		52DFF6EF74914B02D96ACDF6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = feedback.cpp;
+			path = ../../../src/synthesis/framework/feedback.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		5312C5E5970C909685D1ED22 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "lfo_module.h";
+			path = "../../../src/synthesis/modules/lfo_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		535F44E482F2643C7FFF9B7F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "envelope_editor.h";
+			path = "../../../src/interface/editor_components/envelope_editor.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		53742E45041BDFDC42CEE78D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wavetable_component.h";
+			path = "../../../src/common/wavetable/wavetable_component.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		541D2F1F6732BF4D228D2FD4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = feedback.h;
+			path = ../../../src/synthesis/framework/feedback.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		542362CA83BA859BC9B8C8C5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synth_section.cpp";
+			path = "../../../src/interface/editor_sections/synth_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		54B740920F02A370BB9BC686 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "trigger_random_test.cpp";
+			path = "../../synthesis/modulators/trigger_random_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		55050C9DFD7D49E0D351F27C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "equalizer_section_test.cpp";
+			path = "../../interface/equalizer_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		55D7431D44BF42C9B3D806D5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "audio_file_drop_source.h";
+			path = "../../../src/interface/editor_components/audio_file_drop_source.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		55FACF49F2AA58C5F3555F85 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "phase_editor.h";
+			path = "../../../src/interface/wavetable/editors/phase_editor.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		560D9D2096486815935BA930 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "processor_router.h";
+			path = "../../../src/synthesis/framework/processor_router.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5677A18F3721228155DE5893 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_data_structures.mm";
+			path = "../../JuceLibraryCode/include_juce_data_structures.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		569E1076EB32443964FB1CBF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "line_map.cpp";
+			path = "../../../src/synthesis/modulators/line_map.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5720CC2EF8785F264D1E30C7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "flanger_section.cpp";
+			path = "../../../src/interface/editor_sections/flanger_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		57214B9A4EC0CA1FEA6DFBC8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = phaser.cpp;
+			path = ../../../src/synthesis/effects/phaser.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		573A7E5E9A90FB5A6AC5D630 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "equalizer_section.h";
+			path = "../../../src/interface/editor_sections/equalizer_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		57D9491F8EA6F792C539BB55 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "portamento_section.cpp";
+			path = "../../../src/interface/editor_sections/portamento_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		57F025C1563B2AAA6DCB7E2B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "modulation_matrix.cpp";
+			path = "../../../src/interface/editor_sections/modulation_matrix.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5830B102CE5D56DF8637B1C9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "distortion_test.cpp";
+			path = "../../synthesis/effects/distortion_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5869231756BDD3906ABC2A72 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "master_controls_interface.cpp";
+			path = "../../../src/interface/editor_sections/master_controls_interface.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		591A5D7E1BDF114A78A7D6EF = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = OpenGL.framework;
+			path = System/Library/Frameworks/OpenGL.framework;
+			sourceTree = SDKROOT;
+		};
+		594555E37341BC7D0AF1A700 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "formant_filter_test.cpp";
+			path = "../../synthesis/filters/formant_filter_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		59DF9015888E176E3F40EAC8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "extra_mod_section.h";
+			path = "../../../src/interface/editor_sections/extra_mod_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5A5619D731DCB942B255BC94 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "comb_module.cpp";
+			path = "../../../src/synthesis/modules/comb_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5A91B7D9E8324E22630D09B5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = delay.svg;
+			path = ../../../icons/delay.svg;
+			sourceTree = "SOURCE_ROOT";
+		};
+		5B45A0A549EE9EBDE12A9987 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = DiscRecording.framework;
+			path = System/Library/Frameworks/DiscRecording.framework;
+			sourceTree = SDKROOT;
+		};
+		5B65E136ABE6B0F2A0C7E2F9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "modulation_connection_processor.h";
+			path = "../../../src/synthesis/modules/modulation_connection_processor.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5B6CD250F6A3D166858C2BAB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "vocal_tract.cpp";
+			path = "../../../src/synthesis/filters/vocal_tract.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5BC2593D26F25CE163B3B651 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "oscillator_section_test.cpp";
+			path = "../../interface/oscillator_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5CB30E6A6D6489677471F90F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_oscillator_test.h";
+			path = "../../synthesis/producers/synth_oscillator_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5CC7E2D8BC73F08DB9F4A43C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "envelope_section_test.cpp";
+			path = "../../interface/envelope_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5CD3F890876C90DE3727C499 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "portamento_slope.cpp";
+			path = "../../../src/synthesis/utilities/portamento_slope.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5CDEE06F9F15318F11215755 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "delay_test.h";
+			path = "../../synthesis/effects/delay_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5CE1E17ED5780E7504AE1247 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "line_map_editor.cpp";
+			path = "../../../src/interface/editor_components/line_map_editor.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5D3F3FB83692BEF4C05AB22D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "spectral_morph.h";
+			path = "../../../src/synthesis/producers/spectral_morph.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5D5ED2636412E0A240088B97 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_formats.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_formats.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5D972F1246A6C93274AFBF6C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "formant_module.cpp";
+			path = "../../../src/synthesis/modules/formant_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5DCD95D2A1CCECA0ADDE674C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "sample_section_test.cpp";
+			path = "../../interface/sample_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5E9A49BFFEE384E0AA24E67F = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_data_structures";
+			path = "../../../third_party/JUCE/modules/juce_data_structures";
+			sourceTree = "SOURCE_ROOT";
+		};
+		5EC9F2BBF33A53731E4C84A7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "frequency_filter_modifier.cpp";
+			path = "../../../src/common/wavetable/frequency_filter_modifier.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6041A9C77D57EF87FBDF4C46 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = synthesis.cpp;
+			path = "../../../src/unity_build/synthesis.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		60D572983F59EB9C8F4CFCF5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "tab_selector.cpp";
+			path = "../../../src/interface/editor_components/tab_selector.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		60FA18DFA36FC4E236942909 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "bend_section.h";
+			path = "../../../src/interface/editor_sections/bend_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6166FB869CFF98D19838EB25 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "interface_tests.cpp";
+			path = "../../interface_tests.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6198335FD2B2C61191F9FDA5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "ladder_filter.cpp";
+			path = "../../../src/synthesis/filters/ladder_filter.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6239E43B766890B87481632F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "flanger_module.h";
+			path = "../../../src/synthesis/modules/flanger_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		629AD92C04B476C7FF60FC67 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "smooth_value_test.cpp";
+			path = "../../synthesis/utilities/smooth_value_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		62B308AA631528367E7BA6C6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "portamento_slope_test.cpp";
+			path = "../../synthesis/utilities/portamento_slope_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		62BF67FC1BAA877C027FA2F1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "one_pole_filter.h";
+			path = "../../../src/synthesis/filters/one_pole_filter.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		62F16E4A2DBDA19BA6140FD8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "poly_values.h";
+			path = "../../../src/synthesis/framework/poly_values.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		638AE6F72FADF062909867C7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "envelope_section.cpp";
+			path = "../../../src/interface/editor_sections/envelope_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		63C6915F0B76ACF29B4677B8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = equalizer.svg;
+			path = ../../../icons/equalizer.svg;
+			sourceTree = "SOURCE_ROOT";
+		};
+		6635D2510EC0ADF4D11B8D01 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synth_parameters.cpp";
+			path = "../../../src/common/synth_parameters.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		66372DA103FF4A556C878649 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = processor.cpp;
+			path = ../../../src/synthesis/framework/processor.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		66D35449B829AAA516A3B3EE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "filter_module.h";
+			path = "../../../src/synthesis/modules/filter_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6768FE919CC4D66C78D51F64 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wavetable_creator.h";
+			path = "../../../src/common/wavetable/wavetable_creator.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		67D07D0D56CAC479531F872D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = decimator.cpp;
+			path = ../../../src/synthesis/filters/decimator.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		68D27C77681B950238514276 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wavetable_group.h";
+			path = "../../../src/common/wavetable/wavetable_group.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		68F603642DCC824FDB1E9E52 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_processors";
+			path = "../../../third_party/JUCE/modules/juce_audio_processors";
+			sourceTree = "SOURCE_ROOT";
+		};
+		69832D09D8C5E3B30358EB12 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "modulation_tab_selector.h";
+			path = "../../../src/interface/editor_components/modulation_tab_selector.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		69BE0BA589BA563463D9F9B0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "phaser_filter.cpp";
+			path = "../../../src/synthesis/filters/phaser_filter.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6A04ACAC8DCE2DAA439352FE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_opengl.mm";
+			path = "../../JuceLibraryCode/include_juce_opengl.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6A47BA3FB7B862ADD1E9185A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = distortion.h;
+			path = ../../../src/synthesis/effects/distortion.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		6A7169088CF11EE95FBBD0E0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = authentication.h;
+			path = ../../../src/common/authentication.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		6AAA210E07CF6CC16A5B1026 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synth_lfo.cpp";
+			path = "../../../src/synthesis/modulators/synth_lfo.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6ABF9910B2BC112F9FDA1D81 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "chorus_module.cpp";
+			path = "../../../src/synthesis/modules/chorus_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6BFDA8C51BFBE937EEB4F0A7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "bar_editor.cpp";
+			path = "../../../src/interface/wavetable/editors/bar_editor.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6BFEF6B571B755C017C09C5B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "delay_section_test.h";
+			path = "../../interface/delay_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6C33D4AA95D3CE36C5FB875A = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreMIDI.framework;
+			path = System/Library/Frameworks/CoreMIDI.framework;
+			sourceTree = SDKROOT;
+		};
+		6CC5C5C3A9A599B77E749B8C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "about_section.h";
+			path = "../../../src/interface/editor_sections/about_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6CDDA233F47BFE4E829A3A83 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = skin.h;
+			path = "../../../src/interface/look_and_feel/skin.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6D709C815FA3FEAE163CDCFC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "sample_viewer.cpp";
+			path = "../../../src/interface/editor_components/sample_viewer.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6E8D821026D7EE8B0908DC78 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "envelope_module.h";
+			path = "../../../src/synthesis/modules/envelope_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		6FCE542B01C79855D2121C1B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synth_gui_interface.cpp";
+			path = "../../../src/common/synth_gui_interface.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		700B45B15161160CA9F18A65 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "filter_section.cpp";
+			path = "../../../src/interface/editor_sections/filter_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		712F3C6AA18B57E36E396999 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = operators.h;
+			path = ../../../src/synthesis/framework/operators.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		7177C25737791E09F7F98278 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_graphics";
+			path = "../../../third_party/JUCE/modules/juce_graphics";
+			sourceTree = "SOURCE_ROOT";
+		};
+		717913B7BB8DBE8025F9CB83 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "diode_filter_test.cpp";
+			path = "../../synthesis/filters/diode_filter_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		71AFB7A4BDDF913D43A0C5E4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "random_section.h";
+			path = "../../../src/interface/editor_sections/random_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		71F5D5B428C9F3F7267DFC0A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wavetable_organizer.cpp";
+			path = "../../../src/interface/wavetable/wavetable_organizer.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		72189EB91BBCF8967AA9A2B2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "envelope_editor.cpp";
+			path = "../../../src/interface/editor_components/envelope_editor.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7264AAD574AC720EDCC3EFA0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wave_warp_modifier.cpp";
+			path = "../../../src/common/wavetable/wave_warp_modifier.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		72E03A78D80650173EA0CA1E = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = IOKit.framework;
+			path = System/Library/Frameworks/IOKit.framework;
+			sourceTree = SDKROOT;
+		};
+		73070D4A3F45AD1A39E2F9A0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = JuceHeader.h;
+			path = ../../JuceLibraryCode/JuceHeader.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		73C17D14BD0F1250B3FAF66C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synth_module.cpp";
+			path = "../../../src/synthesis/framework/synth_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		74FDA4984939CCFD9C41B45E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "processor_test.h";
+			path = "../../synthesis/processor_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		75349DA2797D2FE1E9DDA627 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "sallen_key_filter_test.cpp";
+			path = "../../synthesis/filters/sallen_key_filter_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		75924F66F0D9BE0E62E49392 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wavetable_playhead.cpp";
+			path = "../../../src/interface/wavetable/wavetable_playhead.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		765B7BBF75A6B1F6EB099234 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "open_gl_background.cpp";
+			path = "../../../src/interface/editor_components/open_gl_background.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		77045B24B24C86E06B5EA01C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "modulation_meter.h";
+			path = "../../../src/interface/editor_components/modulation_meter.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		774891D08892A97C290F9100 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "engine_launch_test.h";
+			path = "../../stress/engine_launch_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		77EAA2E95009AD411FDA7654 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_lfo.h";
+			path = "../../../src/synthesis/modulators/synth_lfo.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		77FD1F17FC9DC71FD7752C8F = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = "drag_drop_arrows.svg";
+			path = "../../../icons/drag_drop_arrows.svg";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7839581C0B5223C60DFAB48D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "oscillator_section_test.h";
+			path = "../../interface/oscillator_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		786BA85AF93546A959B66E83 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "processor_router.cpp";
+			path = "../../../src/synthesis/framework/processor_router.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		788CAE8CE69ABCD365D32906 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = memory.h;
+			path = ../../../src/synthesis/lookups/memory.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		790B82CA3CCF590DC3E7BE75 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = cog.svg;
+			path = ../../../icons/cog.svg;
+			sourceTree = "SOURCE_ROOT";
+		};
+		7914CA03E625DA6C2D2F17DE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synth_oscillator.cpp";
+			path = "../../../src/synthesis/producers/synth_oscillator.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7985AFFFB79423881AC65F45 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "authentication_section.h";
+			path = "../../../src/interface/editor_sections/authentication_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7991FB9C41CF9F0819DC30E5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "drag_drop_effect_order.cpp";
+			path = "../../../src/interface/editor_components/drag_drop_effect_order.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7A5892FED520D574EE65E5A5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "about_section.cpp";
+			path = "../../../src/interface/editor_sections/about_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7A605FE3BB3E033CDBB29677 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synth_preset_selector.cpp";
+			path = "../../../src/interface/editor_components/synth_preset_selector.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7A68D46ED33B01D9C6D4336A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "equalizer_module.cpp";
+			path = "../../../src/synthesis/modules/equalizer_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7B90BF5BF994F899ED63FBE7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "curve_look_and_feel.cpp";
+			path = "../../../src/interface/look_and_feel/curve_look_and_feel.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7DFAABB676A97C1CEBB53427 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "filter_response.cpp";
+			path = "../../../src/interface/editor_components/filter_response.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7E3DC46C223D4782778F8D51 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "lfo_editor.cpp";
+			path = "../../../src/interface/editor_components/lfo_editor.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7E851FAE5A3A3281C7D34895 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.ttf;
+			name = "Montserrat-Regular.ttf";
+			path = "../../../fonts/Montserrat-Regular.ttf";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7ED6206F2E8F1E3CD0A8AEB1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = fonts.cpp;
+			path = "../../../src/interface/look_and_feel/fonts.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7EE4116D0A34BF683817830D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "diode_filter.h";
+			path = "../../../src/synthesis/filters/diode_filter.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7EFA42C122F3B3B1F51CCFEF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "formant_filter.cpp";
+			path = "../../../src/synthesis/filters/formant_filter.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		7FE26E74263CE10925191EC9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "save_section.h";
+			path = "../../../src/interface/editor_sections/save_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		80007F18ABD98ABBD848A1B0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = WebKit.framework;
+			path = System/Library/Frameworks/WebKit.framework;
+			sourceTree = SDKROOT;
+		};
+		80D9AFAAE9D326F3E5B598A1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "portamento_slope_test.h";
+			path = "../../synthesis/utilities/portamento_slope_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8146DC9B3712B2300933923D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "full_interface_test.cpp";
+			path = "../../interface/full_interface_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		81E07CC614444EA1D2C6A622 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "formant_manager.cpp";
+			path = "../../../src/synthesis/filters/formant_manager.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		82020CC4A48AC0E0BD1AF0F5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "line_generator.h";
+			path = "../../../src/common/line_generator.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		820B43D8CA2DBD3C64464075 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "midi_keyboard.cpp";
+			path = "../../../src/interface/editor_components/midi_keyboard.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8221B869D155E2F86412B825 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "modulation_manager.h";
+			path = "../../../src/interface/editor_sections/modulation_manager.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		82A4DB0391326CA1187FCD64 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synth_filter.cpp";
+			path = "../../../src/synthesis/filters/synth_filter.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		840EF494D6B5644BCF60437A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "sallen_key_filter.cpp";
+			path = "../../../src/synthesis/filters/sallen_key_filter.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		844B68DF292BBEEFD4C46467 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wavetable_creator.cpp";
+			path = "../../../src/common/wavetable/wavetable_creator.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		846765F070D79D9C0C65D40B = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.otf;
+			name = "Montserrat-Light.otf";
+			path = "../../../fonts/Montserrat-Light.otf";
+			sourceTree = "SOURCE_ROOT";
+		};
+		85DC44CAD92B20F1C8E6B28D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_events.mm";
+			path = "../../JuceLibraryCode/include_juce_events.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8672FE8164575BF3CBC3CD7D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "chorus_module.h";
+			path = "../../../src/synthesis/modules/chorus_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		867D21CDDBDBC66AA5D57679 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fir_halfband_decimator_test.h";
+			path = "../../synthesis/filters/fir_halfband_decimator_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		86F333F006E5757034AAD717 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = skin.cpp;
+			path = "../../../src/interface/look_and_feel/skin.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		871B963BCB85E581E7E058C8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "compressor_module.cpp";
+			path = "../../../src/synthesis/modules/compressor_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		872060395B480DD9EA951B4B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "line_map_editor.h";
+			path = "../../../src/interface/editor_components/line_map_editor.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8845FB50B2C667B7F0589436 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "producers_module.cpp";
+			path = "../../../src/synthesis/modules/producers_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		885754C9EF77FDDDF3FD58C1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "reverb_section_test.h";
+			path = "../../interface/reverb_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		88B1EF6629FE92F6D5608247 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "poly_utils.h";
+			path = "../../../src/synthesis/framework/poly_utils.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8989728CE374F2C301A4763F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = BinaryData.cpp;
+			path = ../../JuceLibraryCode/BinaryData.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		8AF0B0CEE02CC7F68265AABF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "voice_handler.cpp";
+			path = "../../../src/synthesis/framework/voice_handler.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8B3F0DED9F969EDD690E31DF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "phaser_section.cpp";
+			path = "../../../src/interface/editor_sections/phaser_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8BA8DA18F3C50DD7EC4F99AE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wavetable_playhead_info.h";
+			path = "../../../src/interface/wavetable/wavetable_playhead_info.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8BB279133BBBA9CB65F672D4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = json.h;
+			path = "../../../third_party/json/json.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8BD3727CBD17C4FA2CF03C07 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "peak_meter_test.h";
+			path = "../../synthesis/utilities/peak_meter_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8C0F6DD5FFD314530096288B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "distortion_section.cpp";
+			path = "../../../src/interface/editor_sections/distortion_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8D0FFA8F5E1C6730D9A5E2AA = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = Cocoa.framework;
+			path = System/Library/Frameworks/Cocoa.framework;
+			sourceTree = SDKROOT;
+		};
+		8D1443EC4C9B0EE109DDEEDB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "macro_knob_section.h";
+			path = "../../../src/interface/editor_sections/macro_knob_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8F228F710332AD8BEF328812 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "fir_halfband_decimator_test.cpp";
+			path = "../../synthesis/filters/fir_halfband_decimator_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8F44CB196B812585801E96D6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "preset_browser.cpp";
+			path = "../../../src/interface/editor_sections/preset_browser.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8FD36D7472908758CEBF6A4C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "delay_section.cpp";
+			path = "../../../src/interface/editor_sections/delay_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		8FD3806D724E6C4D4F4338F6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wave_window_overlay.cpp";
+			path = "../../../src/interface/wavetable/overlays/wave_window_overlay.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		90407AB25FD292F002DD7C72 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "modulation_manager.cpp";
+			path = "../../../src/interface/editor_sections/modulation_manager.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		90C43CE16E06DB041EEC377F = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = CoreAudioKit.framework;
+			path = System/Library/Frameworks/CoreAudioKit.framework;
+			sourceTree = SDKROOT;
+		};
+		90F11B4FC94F6BCD15AEF50A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wave_window_modifier.cpp";
+			path = "../../../src/common/wavetable/wave_window_modifier.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		90F22BED3C2B8B357C1D5156 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "sound_engine.h";
+			path = "../../../src/synthesis/synth_engine/sound_engine.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		91C90920265932C5EE521108 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "phase_editor.cpp";
+			path = "../../../src/interface/wavetable/editors/phase_editor.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		91F6DE99986331206EA4476E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "text_look_and_feel.cpp";
+			path = "../../../src/interface/look_and_feel/text_look_and_feel.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		91F9B86EA1E24DDA63BD28BF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "lfo_editor.h";
+			path = "../../../src/interface/editor_components/lfo_editor.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		9213CCBFFCF66DD4B3953C17 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "frequency_filter_overlay.cpp";
+			path = "../../../src/interface/wavetable/overlays/frequency_filter_overlay.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		926E05C4E3D6774E59893148 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "lfo_section.cpp";
+			path = "../../../src/interface/editor_sections/lfo_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		92B53F6640E5522CB137BB13 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "oscillator_section.h";
+			path = "../../../src/interface/editor_sections/oscillator_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		93987B9A410C6D9A75DA7BCE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "shepard_tone_source.cpp";
+			path = "../../../src/common/wavetable/shepard_tone_source.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		9399005E66F46FAE3C33CA5D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wave_window_editor.cpp";
+			path = "../../../src/interface/wavetable/editors/wave_window_editor.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		94A79414F5710BE9F7CE0F25 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "formant_manager.h";
+			path = "../../../src/synthesis/filters/formant_manager.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		9510628A66CCF911898CF7F7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "line_editor.h";
+			path = "../../../src/interface/editor_components/line_editor.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		9605B68D1CE1587805167EB2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "dc_filter.h";
+			path = "../../../src/synthesis/filters/dc_filter.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		960B92C3C44FA4F1846C6985 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_basics.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_basics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		96EB57DF51524AB7C4F989F3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = startup.h;
+			path = ../../../src/common/startup.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		97631655B67CA2F4380D012C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "formant_filter_test.h";
+			path = "../../synthesis/filters/formant_filter_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		9798465F8C0D9F8FB8634687 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wave_window_editor.h";
+			path = "../../../src/interface/wavetable/editors/wave_window_editor.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		97B53B766DADE0947971965B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "comb_module.h";
+			path = "../../../src/synthesis/modules/comb_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		97C65DDEC844BFC3320C3C5D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "digital_svf_test.h";
+			path = "../../synthesis/filters/digital_svf_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		97CB5BF3D13161B7508BF63F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = tuning.h;
+			path = ../../../src/common/tuning.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		98002A5C5184EB034F8061CF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = operators.cpp;
+			path = ../../../src/synthesis/framework/operators.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		980143928EEC6A03CDCC3098 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synth_button.cpp";
+			path = "../../../src/interface/editor_components/synth_button.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		980A67D9B3EE30435CB17644 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "sample_source_test.cpp";
+			path = "../../synthesis/producers/sample_source_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		989E76CBBD4D928F7904C486 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = decimator.h;
+			path = ../../../src/synthesis/filters/decimator.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		9A4AE579197CA85CB6DC2E00 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "dirty_filter.h";
+			path = "../../../src/synthesis/filters/dirty_filter.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		9AC7DBC44623EE8AD521F82A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "border_bounds_constrainer.h";
+			path = "../../../src/common/border_bounds_constrainer.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		9B598D297253DFCB95003019 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wavetable_component_factory.cpp";
+			path = "../../../src/common/wavetable/wavetable_component_factory.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		9B6C6FFEFD92D0530239ABE4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = chorus.svg;
+			path = ../../../icons/chorus.svg;
+			sourceTree = "SOURCE_ROOT";
+		};
+		9C02A5DAAEF2EE5E2817EAF4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fir_halfband_decimator.h";
+			path = "../../../src/synthesis/filters/fir_halfband_decimator.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		9C558F4F14F7BD65CBA4FFB2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "digital_svf_test.cpp";
+			path = "../../synthesis/filters/digital_svf_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		9C94D9A01C651D7AEDFEB445 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = compressor.h;
+			path = ../../../src/synthesis/effects/compressor.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		9D6B18E54421CC6D0F32DE59 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = envelope.cpp;
+			path = ../../../src/synthesis/modulators/envelope.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		9DEEADCE45A86F2AA8D2B143 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "portamento_section_test.cpp";
+			path = "../../interface/portamento_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		9E8D06CC1193641310A11BC9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "trigger_random_test.h";
+			path = "../../synthesis/modulators/trigger_random_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		9EC9179FB842823FA1B00319 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "delete_section.cpp";
+			path = "../../../src/interface/editor_sections/delete_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A086385238A1879841AA85B5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "diode_filter_test.h";
+			path = "../../synthesis/filters/diode_filter_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A29CD8B14F3A763D2925B935 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "linkwitz_riley_filter.h";
+			path = "../../../src/synthesis/filters/linkwitz_riley_filter.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A2BB4D231753056CD4EF4B0D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wavetable_keyframe.cpp";
+			path = "../../../src/common/wavetable/wavetable_keyframe.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A302DB7F94DBEB61EA244577 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_gui_basics.mm";
+			path = "../../JuceLibraryCode/include_juce_gui_basics.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A3061EAE1063442BAEE785E0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wave_window_modifier.h";
+			path = "../../../src/common/wavetable/wave_window_modifier.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A35CCC679FF4D0972685E1FA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "random_lfo_test.h";
+			path = "../../synthesis/modulators/random_lfo_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A3F62B9C8F71014B0D4B2060 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "save_section.cpp";
+			path = "../../../src/interface/editor_sections/save_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A46F7AA5D7AA93E8DFBD5B5A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = delay.cpp;
+			path = ../../../src/synthesis/effects/delay.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		A4B622D63092C1B71552F3B4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "chorus_section_test.h";
+			path = "../../interface/chorus_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A52ADDED22FAC0B16C094DC0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "reorderable_effect_chain.h";
+			path = "../../../src/synthesis/modules/reorderable_effect_chain.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A530C477C1D1BD4BB33F6BBF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wave_warp_modifier.h";
+			path = "../../../src/common/wavetable/wave_warp_modifier.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A61AF1AC12E1E2258EB46E92 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "extra_mod_section.cpp";
+			path = "../../../src/interface/editor_sections/extra_mod_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A7292CFFC513F0AF0176A119 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "equalizer_response.cpp";
+			path = "../../../src/interface/editor_components/equalizer_response.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A74AD1A73FBEFB576327E202 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wavetable_3d.h";
+			path = "../../../src/interface/editor_components/wavetable_3d.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A832E46AFBCC3C7994F30444 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_button.h";
+			path = "../../../src/interface/editor_components/synth_button.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A87BE30834B10E0EB8CF4995 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wave_source_overlay.h";
+			path = "../../../src/interface/wavetable/overlays/wave_source_overlay.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		A94B379E551E1D8B55078B45 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = utils.h;
+			path = ../../../src/synthesis/framework/utils.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		AA310F0FD3D2648FAF05EFF1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "processor_test.cpp";
+			path = "../../synthesis/processor_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		AA6F63C56A85EA3288423579 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "tempo_selector.cpp";
+			path = "../../../src/interface/editor_components/tempo_selector.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		AADC8D92259BF7FA870AD5C2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "phase_modifier.h";
+			path = "../../../src/common/wavetable/phase_modifier.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		AADF65C16FDFD6ADC62CAF51 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = link.svg;
+			path = ../../../icons/link.svg;
+			sourceTree = "SOURCE_ROOT";
+		};
+		AB079907889060B891C4E778 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "load_save.h";
+			path = "../../../src/common/load_save.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		AB62949D80B7EEA5B2B6A133 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "modulation_button.cpp";
+			path = "../../../src/interface/editor_components/modulation_button.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		AB781A322D64E1EA6124B4EE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = paths.h;
+			path = "../../../src/interface/look_and_feel/paths.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		ABCEE9650391F86C7446301B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "oscillator_module.cpp";
+			path = "../../../src/synthesis/modules/oscillator_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		ABFBA3DC34FBA54614A997AF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = tuning.cpp;
+			path = ../../../src/common/tuning.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		AC84FA84E37CE376E6B0F143 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "sample_source.cpp";
+			path = "../../../src/synthesis/producers/sample_source.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		AD536D6A3684A237ADB24704 = {
+			isa = PBXFileReference;
+			explicitFileType = "compiled.mach-o.executable";
+			includeInIndex = 0;
+			path = VitalTests;
+			sourceTree = "BUILT_PRODUCTS_DIR";
+		};
+		AD71CC8EDB3A5DA12769BD4C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "filters_module.h";
+			path = "../../../src/synthesis/modules/filters_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		ADCE1E0456C809693F709DED = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "digital_svf.h";
+			path = "../../../src/synthesis/filters/digital_svf.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		ADD3C3586CD547FDDF114521 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "trigger_random.h";
+			path = "../../../src/synthesis/modulators/trigger_random.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		ADD69B20B4B503BE6D380D73 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wavetable_keyframe.h";
+			path = "../../../src/common/wavetable/wavetable_keyframe.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		ADE922B304FB5EAD8919EC10 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "random_lfo.cpp";
+			path = "../../../src/synthesis/modulators/random_lfo.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		AE05C9606D0074E997CFCB77 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "full_interface.cpp";
+			path = "../../../src/interface/editor_sections/full_interface.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		AE606C15FC812FA4C5B5F1D2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "oscillator_section.cpp";
+			path = "../../../src/interface/editor_sections/oscillator_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		AECBC83AC89D73A996841BEE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synth_base.cpp";
+			path = "../../../src/common/synth_base.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		AF84D54469EDBFBE9582CDCD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = reverb.h;
+			path = ../../../src/synthesis/effects/reverb.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		B076A46B90BE1176BA64711E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_module.h";
+			path = "../../../src/synthesis/framework/synth_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B0D7D93374C255697B5040B4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = shuffle.svg;
+			path = ../../../icons/shuffle.svg;
+			sourceTree = "SOURCE_ROOT";
+		};
+		B14FCAD5904FE20ACC9DA0FA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "open_gl_image_component.h";
+			path = "../../../src/interface/editor_components/open_gl_image_component.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B23237A65CC1C9DF19A78820 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "phaser_section.h";
+			path = "../../../src/interface/editor_sections/phaser_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B353A80BF55BDA9DC00631B9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_dsp.mm";
+			path = "../../JuceLibraryCode/include_juce_dsp.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B3789CB88AE6D7B25A161424 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "popup_browser.h";
+			path = "../../../src/interface/editor_sections/popup_browser.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B3B5DF9E769664C43E3D4A39 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "dc_filter_test.h";
+			path = "../../synthesis/filters/dc_filter_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B3BC012AAB2C041CE881933C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "delete_section.h";
+			path = "../../../src/interface/editor_sections/delete_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B4A2F94BF7F9E1116627036D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = futils.h;
+			path = ../../../src/synthesis/framework/futils.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		B558A6ABD8B2FC877AA74EF3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "matrix_test.cpp";
+			path = "../../synthesis/framework/matrix_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B5D2089BD0D84E37B76112B5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "equalizer_section_test.h";
+			path = "../../interface/equalizer_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B60861142ABAE5479BBAC19C = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.ttf;
+			name = "Lato-Regular.ttf";
+			path = "../../../fonts/Lato-Regular.ttf";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B63B9D1D4CE12A3ED7D04C99 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_filter.h";
+			path = "../../../src/synthesis/filters/synth_filter.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B689AF564B7B75BFEEF82AB8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.vitalskin;
+			name = default.vitalskin;
+			path = ../../../default.vitalskin;
+			sourceTree = "SOURCE_ROOT";
+		};
+		B6D332113CEBB4575D39D759 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "phase_modifier.cpp";
+			path = "../../../src/common/wavetable/phase_modifier.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B7B32E5CBAAAB218D7529B40 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wave_fold_overlay.h";
+			path = "../../../src/interface/wavetable/overlays/wave_fold_overlay.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B80414B88358846B3606B00C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "slew_limit_modifier.h";
+			path = "../../../src/common/wavetable/slew_limit_modifier.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B82818026228A9DD1348C59E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = concurrentqueue.h;
+			path = "../../../third_party/concurrentqueue/concurrentqueue.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B86F940A4DC9D65727AE8F74 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = wavetable.cpp;
+			path = ../../../src/synthesis/lookups/wavetable.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		B8DE2CF311FCD4B1D9C0E495 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "master_controls_interface.h";
+			path = "../../../src/interface/editor_sections/master_controls_interface.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B91D19815CCF9FC9C9138696 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wave_source.h";
+			path = "../../../src/common/wavetable/wave_source.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B94E92C3BD0E5092613758F5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "comb_filter.cpp";
+			path = "../../../src/synthesis/filters/comb_filter.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		B9651963B39729C430D27DD6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "sample_viewer.h";
+			path = "../../../src/interface/editor_components/sample_viewer.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BA5C38FE4EAB57C0D4514794 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.scl;
+			name = Pythagorean.scl;
+			path = ../../../tunings/Pythagorean.scl;
+			sourceTree = "SOURCE_ROOT";
+		};
+		BB8153DE5FB88A2B033FE7DC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "matrix_test.h";
+			path = "../../synthesis/framework/matrix_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BB84E100B3A2FA0A92385B51 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "distortion_test.h";
+			path = "../../synthesis/effects/distortion_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BC00B3AA990BC8A815F6CABA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "flanger_module.cpp";
+			path = "../../../src/synthesis/modules/flanger_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BC4EE5111A9FF8409446F7D1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "smooth_value_test.h";
+			path = "../../synthesis/utilities/smooth_value_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BCCFFC1FF730D3F099DB025D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "stress_tests.cpp";
+			path = "../../stress_tests.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BCD7AFC27A39399669480D11 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "note_handler_test.cpp";
+			path = "../../synthesis/note_handler_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BCE5200D8C10100C8C1BE916 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "modulation_meter.cpp";
+			path = "../../../src/interface/editor_components/modulation_meter.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BD2838DB936BE9629B2BB8EB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "dirty_filter.cpp";
+			path = "../../../src/synthesis/filters/dirty_filter.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BDAA69D002564B9A064D3C59 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_devices";
+			path = "../../../third_party/JUCE/modules/juce_audio_devices";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BE82BDB84D073A63AFD5FC8F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "oscillator_module.h";
+			path = "../../../src/synthesis/modules/oscillator_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BEB2199B9D0E8CE967C2D058 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "file_source.cpp";
+			path = "../../../src/common/wavetable/file_source.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BEFB458547B008AEFCD629C3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "chorus_section.cpp";
+			path = "../../../src/interface/editor_sections/chorus_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BFAB16597BBF7F1A0305E523 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wavetable_component_list.cpp";
+			path = "../../../src/interface/wavetable/wavetable_component_list.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BFEF9DC0B404B4E7615F1D26 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "authentication_section.cpp";
+			path = "../../../src/interface/editor_sections/authentication_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		BFF60E297F41FD4012C3CB79 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "interface_editor_components.cpp";
+			path = "../../../src/unity_build/interface_editor_components.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C04EFA805406FA40FC401F3C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "phase_modifier_overlay.h";
+			path = "../../../src/interface/wavetable/overlays/phase_modifier_overlay.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C0DCC332BFD3273034E4D1CA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "lookup_table.h";
+			path = "../../../src/synthesis/lookups/lookup_table.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C0E849ED2B642E2569EFF242 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "legato_filter_test.h";
+			path = "../../synthesis/utilities/legato_filter_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C1000D0B43F6979A9D8FCE89 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "slew_limit_modifier.cpp";
+			path = "../../../src/common/wavetable/slew_limit_modifier.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C14639C81481F577D84F681B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "open_gl_line_renderer.cpp";
+			path = "../../../src/interface/editor_components/open_gl_line_renderer.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C1C8F627AE476E76259E230D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "fir_halfband_decimator.cpp";
+			path = "../../../src/synthesis/filters/fir_halfband_decimator.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C1D9ABAE887DE5B8C8810DC6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "decimator_test.h";
+			path = "../../synthesis/filters/decimator_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C1FB9104FAA342756EFBC9B3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wave_line_source.cpp";
+			path = "../../../src/common/wavetable/wave_line_source.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C20A2F84C11356BE1956A266 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "vocal_tract.h";
+			path = "../../../src/synthesis/filters/vocal_tract.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C35D03BD2FDDD08E09A8769B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_voice_handler.h";
+			path = "../../../src/synthesis/modules/synth_voice_handler.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C424B62F158C791E392494F3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "circular_queue_test.cpp";
+			path = "../../synthesis/framework/circular_queue_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C42D60BE3E7AC46A65CF80EA = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.ttf;
+			name = DroidSansMono.ttf;
+			path = ../../../fonts/DroidSansMono.ttf;
+			sourceTree = "SOURCE_ROOT";
+		};
+		C446C4E337CACDDBD1334AC1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_gui_extra.mm";
+			path = "../../JuceLibraryCode/include_juce_gui_extra.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C4949C55CF4187B031CA8791 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "phaser_section_test.cpp";
+			path = "../../interface/phaser_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C4C772D9C3F472259A2210E3 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.nib;
+			name = RecentFilesMenuTemplate.nib;
+			path = RecentFilesMenuTemplate.nib;
+			sourceTree = "SOURCE_ROOT";
+		};
+		C4F37BE73A25881A2590A1A5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "open_gl_component.h";
+			path = "../../../src/interface/editor_components/open_gl_component.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C5020C95E642AC4B2CDD2981 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = "vital_word.svg";
+			path = "../../../icons/vital_word.svg";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C554D1CC0D6F4F3A5A9F4F77 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "text_selector.cpp";
+			path = "../../../src/interface/editor_components/text_selector.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C61AAE0DE81D010D5EF7BA16 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wave_frame_test.cpp";
+			path = "../../synthesis/lookups/wave_frame_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C67AAEF9CBC82C076D34886D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wave_fold_overlay.cpp";
+			path = "../../../src/interface/wavetable/overlays/wave_fold_overlay.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C6E4019AC59CB8671148EB9C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_preset_selector.h";
+			path = "../../../src/interface/editor_components/synth_preset_selector.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C720B9593F7B737D0CF38EAF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "phaser_filter_test.cpp";
+			path = "../../synthesis/filters/phaser_filter_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C737EC23A7C3EDF0B3ACA9A6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "iir_halfband_decimator.cpp";
+			path = "../../../src/synthesis/filters/iir_halfband_decimator.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C754AB9E7767B309FF56369D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "modulation_interface.cpp";
+			path = "../../../src/interface/editor_sections/modulation_interface.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C7A28CA83A480E4461F0F0B9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "envelope_section_test.h";
+			path = "../../interface/envelope_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C822B9D3273ACBF5ACC5171B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "phaser_module.h";
+			path = "../../../src/synthesis/modules/phaser_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C83E5C43641C54BD0915E14E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wavetable_overlay_factory.h";
+			path = "../../../src/interface/wavetable/wavetable_overlay_factory.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		C9C725A2899327A06E57ACD5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "flanger_section_test.cpp";
+			path = "../../interface/flanger_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CA472B975FCFA1B7A5D7FA9A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_gui_interface.h";
+			path = "../../../src/common/synth_gui_interface.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CA98FDA2AD5552AFD96D3ACD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "midi_manager.h";
+			path = "../../../src/common/midi_manager.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CB31E332452A8DC1D679BAD1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_dsp";
+			path = "../../../third_party/JUCE/modules/juce_dsp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CBBC7471044E653CE4992E2F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "interface_editor_sections2.cpp";
+			path = "../../../src/unity_build/interface_editor_sections2.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CC5B0CD752876A88DFAB9019 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "line_map.h";
+			path = "../../../src/synthesis/modulators/line_map.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CC627B68FF781B5DB0D3C5E1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "random_section.cpp";
+			path = "../../../src/interface/editor_sections/random_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CD4AB89F5AF1EA3F58891917 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "oscillator_advanced_section_test.cpp";
+			path = "../../interface/oscillator_advanced_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CD51BC31E5B1EDF354D13B9C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "circular_queue.h";
+			path = "../../../src/synthesis/framework/circular_queue.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CDB8ACFAE34B00C014E67A96 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synthesis_tests.cpp";
+			path = "../../synthesis_tests.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CDBAD016788D25C1CACEEEBB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "reverb_module.cpp";
+			path = "../../../src/synthesis/modules/reverb_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CDD3865ACE4383ED48A33B95 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "equalizer_section.cpp";
+			path = "../../../src/interface/editor_sections/equalizer_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CF03AAE0C614E44A2B1E4C6F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "frequency_filter_overlay.h";
+			path = "../../../src/interface/wavetable/overlays/frequency_filter_overlay.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CF35ABC50BD0329D8B894350 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "linkwitz_riley_filter_test.h";
+			path = "../../synthesis/filters/linkwitz_riley_filter_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		CFE7387FD7777645ADED4F91 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = distortion.svg;
+			path = ../../../icons/distortion.svg;
+			sourceTree = "SOURCE_ROOT";
+		};
+		D0258E93F451A1A44636A6A4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = startup.cpp;
+			path = ../../../src/common/startup.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		D07D95280783CBC139248775 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "engine_launch_test.cpp";
+			path = "../../stress/engine_launch_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D176D528B324A00A47659022 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wavetable_playhead.h";
+			path = "../../../src/interface/wavetable/wavetable_playhead.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D1DB051E98D1D19B2AC30E5B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wave_frame_test.h";
+			path = "../../synthesis/lookups/wave_frame_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D29839FD9D798968891B1645 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = common.cpp;
+			path = "../../../src/unity_build/common.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D303946F2CDDF00056EF8020 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "file_source_overlay.h";
+			path = "../../../src/interface/wavetable/overlays/file_source_overlay.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D3CCFFAE39310926F582ECFD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "tab_selector.h";
+			path = "../../../src/interface/editor_components/tab_selector.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D4336519451E4945C5A9D983 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "update_check_section.cpp";
+			path = "../../../src/interface/editor_sections/update_check_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D473DD94B50940CE0D2C1A06 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_audio_processors.mm";
+			path = "../../JuceLibraryCode/include_juce_audio_processors.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D4C6CCF2F5A622354C4B1D79 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "interface_test.h";
+			path = "../../interface/interface_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D50A174551A897AA6A46B407 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_events";
+			path = "../../../third_party/JUCE/modules/juce_events";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D58B2FB37A918CFAEC6BD56E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_strings.h";
+			path = "../../../src/interface/look_and_feel/synth_strings.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D5E152239EBD7DF6BD15BDC1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wave_fold_modifier.h";
+			path = "../../../src/common/wavetable/wave_fold_modifier.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D6A5FB9992FDD44AE6B51E7E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = envelope.h;
+			path = ../../../src/synthesis/modulators/envelope.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		D863CE538160FEA99CA9C8D7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "distortion_module.cpp";
+			path = "../../../src/synthesis/modules/distortion_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D8C1C39E7EA7BCA3A82847F6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "oscillator_advanced_section.h";
+			path = "../../../src/interface/editor_sections/oscillator_advanced_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D948F82D598E2D475CA8D578 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wavetable_component_overlay.cpp";
+			path = "../../../src/interface/wavetable/overlays/wavetable_component_overlay.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D9936CFE676F6F8B40CD7C1F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "poly_values_test.cpp";
+			path = "../../synthesis/framework/poly_values_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D9BCE6D2A2945001660FBF98 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "value_switch_test.h";
+			path = "../../synthesis/utilities/value_switch_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D9D91BFE9CE1C18750FDA541 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "voice_section.h";
+			path = "../../../src/interface/editor_sections/voice_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		D9F36BE05E3AA6BB43BD2456 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = upsampler.cpp;
+			path = ../../../src/synthesis/filters/upsampler.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		DA012E86B5E6710EC610418E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_parameters.h";
+			path = "../../../src/common/synth_parameters.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		DA0CE9B957F77D30E335D3ED = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "diode_filter.cpp";
+			path = "../../../src/synthesis/filters/diode_filter.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		DA53FAB2F04948F4F808BD9D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "phaser_section_test.h";
+			path = "../../interface/phaser_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		DAB566F5258C2CDF6C1D41D9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "slew_limiter_overlay.h";
+			path = "../../../src/interface/wavetable/overlays/slew_limiter_overlay.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		DB16130AE06D014B0D3633F5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "delay_test.cpp";
+			path = "../../synthesis/effects/delay_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		DB6981A39CAA54292D06D2FD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "open_gl_line_renderer.h";
+			path = "../../../src/interface/editor_components/open_gl_line_renderer.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		DBBD4944810610A4964E7E5A = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "sample_module.h";
+			path = "../../../src/synthesis/modules/sample_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		DBEC0FE374B1D1BBE651A9AB = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "compressor_test.cpp";
+			path = "../../synthesis/effects/compressor_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		DC57E782579540CE3AA6D1D0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wave_fold_modifier.cpp";
+			path = "../../../src/common/wavetable/wave_fold_modifier.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		DC62DC0B2A82359370484A23 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "preset_selector.h";
+			path = "../../../src/interface/editor_components/preset_selector.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		DCA2EF31BC6314FAD1C9888D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "voice_section_test.cpp";
+			path = "../../interface/voice_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		DCF7803468C25484381FD818 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "bar_renderer.cpp";
+			path = "../../../src/interface/editor_components/bar_renderer.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		DCFB72605CC77DCA1C122EAA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "effects_interface.cpp";
+			path = "../../../src/interface/editor_sections/effects_interface.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		DE21DEF28BE26BE0B29BC5BF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "compressor_section_test.h";
+			path = "../../interface/compressor_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		DF63DEE05403248A2204C84B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "effects_interface.h";
+			path = "../../../src/interface/editor_sections/effects_interface.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		DF87B75C77094C0A121EED55 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_core";
+			path = "../../../third_party/JUCE/modules/juce_core";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E13842D977D9936CC80AF573 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "digital_svf.cpp";
+			path = "../../../src/synthesis/filters/digital_svf.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E17F8CC7251E94555BC02963 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wavetable_edit_section.h";
+			path = "../../../src/interface/editor_sections/wavetable_edit_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E26755374577FFB5E707A9F5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = AudioToolbox.framework;
+			path = System/Library/Frameworks/AudioToolbox.framework;
+			sourceTree = SDKROOT;
+		};
+		E27D84F9D3D8D760842125BE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "lfo_section_test.cpp";
+			path = "../../interface/lfo_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E3098C6B760546D26E2ABCD5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "producers_module.h";
+			path = "../../../src/synthesis/modules/producers_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E371DD8330B58C88E5139FE0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "delay_module.cpp";
+			path = "../../../src/synthesis/modules/delay_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E44CC033ABB0D49AF3DA11A4 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wavetable_component_overlay.h";
+			path = "../../../src/interface/wavetable/overlays/wavetable_component_overlay.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E57A9040BE469501B290F16F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "value_switch.h";
+			path = "../../../src/synthesis/utilities/value_switch.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E700C5BCC5D00E1CEE666D8B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "flanger_section_test.h";
+			path = "../../interface/flanger_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E7212E73562F1C27A148F70E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "curve_look_and_feel.h";
+			path = "../../../src/interface/look_and_feel/curve_look_and_feel.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E79C555C6894170D085AA761 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "keyboard_interface.h";
+			path = "../../../src/interface/editor_sections/keyboard_interface.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E7BB420AB978E14E7F6C9608 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "lfo_section_test.h";
+			path = "../../interface/lfo_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E7E13531198D59DBBA4C662B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "delay_module.h";
+			path = "../../../src/synthesis/modules/delay_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E82696B4B54F5146345E740C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "open_gl_component.cpp";
+			path = "../../../src/interface/editor_components/open_gl_component.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E82B48C4B895E19DFF141AFE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "flanger_section.h";
+			path = "../../../src/interface/editor_sections/flanger_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E85F54DC186D2CE06F8BAE3F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "header_section.cpp";
+			path = "../../../src/interface/editor_sections/header_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E874128CE0D4C7AEB0B4B7C8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "open_gl_image.cpp";
+			path = "../../../src/interface/editor_components/open_gl_image.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		E8CBC1255D1B332842BBBE78 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = value.cpp;
+			path = ../../../src/synthesis/framework/value.cpp;
+			sourceTree = "SOURCE_ROOT";
+		};
+		E9AEB39A1020F39CCDF2180C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "fourier_transform.h";
+			path = "../../../src/common/fourier_transform.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EA170B8B6946E4F4B51585CC = {
+			isa = PBXFileReference;
+			lastKnownFileType = wrapper.framework;
+			name = QuartzCore.framework;
+			path = System/Library/Frameworks/QuartzCore.framework;
+			sourceTree = SDKROOT;
+		};
+		EA9AA304032965F31C2DB5C9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wavetable_component_factory.h";
+			path = "../../../src/common/wavetable/wavetable_component_factory.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EAD0FCA816BE6173A91E3415 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "reverb_test.cpp";
+			path = "../../synthesis/effects/reverb_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EAEEAF1CD6023241A9EBF43F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "random_lfo.h";
+			path = "../../../src/synthesis/modulators/random_lfo.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EB19450676F7CB7FADD8B51F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = delay.h;
+			path = ../../../src/synthesis/effects/delay.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		EB274B3C111CCF1ADC2DE5E6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "iir_halfband_decimator_test.h";
+			path = "../../synthesis/filters/iir_halfband_decimator_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EC0A9A6D4AD9683D0CC9D8DE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "oscillator_advanced_section.cpp";
+			path = "../../../src/interface/editor_sections/oscillator_advanced_section.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EC2440556B1D5A7E6BC5C972 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "open_gl_image_component.cpp";
+			path = "../../../src/interface/editor_components/open_gl_image_component.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		ED57BDBF2CBD3A69B38469A1 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "random_lfo_module.h";
+			path = "../../../src/synthesis/modules/random_lfo_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EDB0EC755776599123A383BC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synth_lfo_test.cpp";
+			path = "../../synthesis/modulators/synth_lfo_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EE7800FED65E1DACE95326B6 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "bend_section_test.cpp";
+			path = "../../interface/bend_section_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EEBFDB4A570B75D3951A9B3B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "voice_section_test.h";
+			path = "../../interface/voice_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EED2FB8CF2FCFC883AEFC82E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = overlay.h;
+			path = "../../../src/interface/editor_components/overlay.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EF2EAED6C57743013D7A4649 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "value_switch.cpp";
+			path = "../../../src/synthesis/utilities/value_switch.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		EF83504EB226BB9AE877186C = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "portamento_section_test.h";
+			path = "../../interface/portamento_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F04572C2DA496EAAEA3742DD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "wave_warp_overlay.cpp";
+			path = "../../../src/interface/wavetable/overlays/wave_warp_overlay.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F198E6877F8D30570A403002 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "keyboard_interface.cpp";
+			path = "../../../src/interface/editor_sections/keyboard_interface.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F19C245959BF14D59D3B6B57 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "modulation_stress_test.cpp";
+			path = "../../stress/modulation_stress_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F19FA89F3C50621A5378C89F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "bend_section_test.h";
+			path = "../../interface/bend_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F1BC83604B9DA7A87B1BFA5B = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = oscilloscope.cpp;
+			path = "../../../src/interface/editor_components/oscilloscope.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F2229E646559DF9CB3E061EE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "lfo_section.h";
+			path = "../../../src/interface/editor_sections/lfo_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F2E2D01D1EE314415B99ADAD = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_audio_formats";
+			path = "../../../third_party/JUCE/modules/juce_audio_formats";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F300A4B9A24F998A164B1529 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "chorus_section.h";
+			path = "../../../src/interface/editor_sections/chorus_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F3CA742A33C411CABA1474E5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "random_lfo_module.cpp";
+			path = "../../../src/synthesis/modules/random_lfo_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F42F2E34269BB03E30D5C7FC = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "pitch_detector.cpp";
+			path = "../../../src/common/wavetable/pitch_detector.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F479CF22149F01C033951EFE = {
+			isa = PBXFileReference;
+			lastKnownFileType = file;
+			name = "juce_gui_extra";
+			path = "../../../third_party/JUCE/modules/juce_gui_extra";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F509296CFD091681538D31A0 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "legato_filter_test.cpp";
+			path = "../../synthesis/utilities/legato_filter_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F516DB15733061FA2656F285 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "midi_manager.cpp";
+			path = "../../../src/common/midi_manager.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F6A747CA06C147531CBB35E5 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "sample_source_test.h";
+			path = "../../synthesis/producers/sample_source_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F7573476A217B5295788FBA9 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "sallen_key_filter.h";
+			path = "../../../src/synthesis/filters/sallen_key_filter.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F7AF7556976B253A5BECA986 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "delay_section.h";
+			path = "../../../src/interface/editor_sections/delay_section.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F7B3C5BFF2053A6C8E0CD8D7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "peak_meter_viewer.h";
+			path = "../../../src/interface/editor_components/peak_meter_viewer.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F7EEE1FF6CC8B7A619066F65 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "voice_handler.h";
+			path = "../../../src/synthesis/framework/voice_handler.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F8199C55415043046A4720AD = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "circular_queue_test.h";
+			path = "../../synthesis/framework/circular_queue_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F8A6CAE39DA2689923DA9404 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "wave_line_source_overlay.h";
+			path = "../../../src/interface/wavetable/overlays/wave_line_source_overlay.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F8E035506B4257624F2AE9D2 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.objcpp;
+			name = "include_juce_core.mm";
+			path = "../../JuceLibraryCode/include_juce_core.mm";
+			sourceTree = "SOURCE_ROOT";
+		};
+		F9A9FEC630EB0306E6B5A936 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "modulation_matrix.h";
+			path = "../../../src/interface/editor_sections/modulation_matrix.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FA0DA0213271E0558D7412E7 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "synth_voice_handler.cpp";
+			path = "../../../src/synthesis/modules/synth_voice_handler.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FA85952C8D7AF09E40C50A59 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "phaser_module.cpp";
+			path = "../../../src/synthesis/modules/phaser_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FA9400F633B5A60EDBD0C0AE = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = wavetable.h;
+			path = ../../../src/synthesis/lookups/wavetable.h;
+			sourceTree = "SOURCE_ROOT";
+		};
+		FB266535DAA846B72549A159 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.scl;
+			name = "5 Limit.scl";
+			path = "../../../tunings/5 Limit.scl";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FD2D54F9796DC6AD8B44B1BA = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "equalizer_module.h";
+			path = "../../../src/synthesis/modules/equalizer_module.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FDCC87795C2B7A040D36360F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "dc_filter_test.cpp";
+			path = "../../synthesis/filters/dc_filter_test.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FDE2800978CBA61215FB4B8D = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "sample_module.cpp";
+			path = "../../../src/synthesis/modules/sample_module.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FE1BDFF60EB188A855084243 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.cpp.cpp;
+			name = "bank_exporter.cpp";
+			path = "../../../src/interface/editor_sections/bank_exporter.cpp";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FE3EE828BC6C33AC5974D1BF = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "open_gl_multi_quad.h";
+			path = "../../../src/interface/editor_components/open_gl_multi_quad.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FE6ADC8876551DF8BC9D979F = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "filter_section_test.h";
+			path = "../../interface/filter_section_test.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FE87FB35C7DC320A647105C8 = {
+			isa = PBXFileReference;
+			lastKnownFileType = file.svg;
+			name = "effects_filter.svg";
+			path = "../../../icons/effects_filter.svg";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FEDC7D3E7599B6B6B1C4D75E = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "midi_keyboard.h";
+			path = "../../../src/interface/editor_components/midi_keyboard.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		FEEFF87BE139E30CAC0E2A93 = {
+			isa = PBXFileReference;
+			lastKnownFileType = sourcecode.c.h;
+			name = "synth_types.h";
+			path = "../../../src/common/synth_types.h";
+			sourceTree = "SOURCE_ROOT";
+		};
+		41896C1C255E0D54B90774DD = {
+			isa = PBXGroup;
+			children = (
+				FB266535DAA846B72549A159,
+				018CE8985207B6149F48CE31,
+				BA5C38FE4EAB57C0D4514794,
+			);
+			name = tunings;
+			sourceTree = "<group>";
+		};
+		3F72746D7331E82E70A9E8BB = {
+			isa = PBXGroup;
+			children = (
+				B689AF564B7B75BFEEF82AB8,
+			);
+			name = skins;
+			sourceTree = "<group>";
+		};
+		C36E614840270BE90614F436 = {
+			isa = PBXGroup;
+			children = (
+				C42D60BE3E7AC46A65CF80EA,
+				1D141A649FB30F8FA91EA2A2,
+				B60861142ABAE5479BBAC19C,
+				846765F070D79D9C0C65D40B,
+				7E851FAE5A3A3281C7D34895,
+			);
+			name = fonts;
+			sourceTree = "<group>";
+		};
+		F58405699D698248C4078BF2 = {
+			isa = PBXGroup;
+			children = (
+				9B6C6FFEFD92D0530239ABE4,
+				790B82CA3CCF590DC3E7BE75,
+				2B57105F01D93B85FF6A82B4,
+				5A91B7D9E8324E22630D09B5,
+				CFE7387FD7777645ADED4F91,
+				77FD1F17FC9DC71FD7752C8F,
+				FE87FB35C7DC320A647105C8,
+				63C6915F0B76ACF29B4677B8,
+				3FE0576E2323DB33569B6A05,
+				3D8C77186D4AA5A4A470F383,
+				AADF65C16FDFD6ADC62CAF51,
+				1729C04CBD844895F6375CBF,
+				2863E96930F8D2E42C0B8AC1,
+				B0D7D93374C255697B5040B4,
+				474558D49539D4E5CDB8E4F3,
+				34121CF20D6FDC1E951163DC,
+				C5020C95E642AC4B2CDD2981,
+				1821AD88789A96D76237B589,
+			);
+			name = icons;
+			sourceTree = "<group>";
+		};
+		E05B1D929DDE764C0036CF5D = {
+			isa = PBXGroup;
+			children = (
+				BEB2199B9D0E8CE967C2D058,
+				1FB8F41C7E6443B77B20D58E,
+				5EC9F2BBF33A53731E4C84A7,
+				18CFC8CF695AF8D867DFF71E,
+				B6D332113CEBB4575D39D759,
+				AADC8D92259BF7FA870AD5C2,
+				F42F2E34269BB03E30D5C7FC,
+				27BF9E58229A475FCDBB75EC,
+				93987B9A410C6D9A75DA7BCE,
+				48906981B4DC648AF2B6B610,
+				C1000D0B43F6979A9D8FCE89,
+				B80414B88358846B3606B00C,
+				DC57E782579540CE3AA6D1D0,
+				D5E152239EBD7DF6BD15BDC1,
+				C1FB9104FAA342756EFBC9B3,
+				36BE804913B09BDAC067418B,
+				0005F194EED9FBFCC430D31F,
+				B91D19815CCF9FC9C9138696,
+				7264AAD574AC720EDCC3EFA0,
+				A530C477C1D1BD4BB33F6BBF,
+				90F11B4FC94F6BCD15AEF50A,
+				A3061EAE1063442BAEE785E0,
+				29AF9491F2B0E09F26B2A9D0,
+				53742E45041BDFDC42CEE78D,
+				9B598D297253DFCB95003019,
+				EA9AA304032965F31C2DB5C9,
+				844B68DF292BBEEFD4C46467,
+				6768FE919CC4D66C78D51F64,
+				0F1B29C31A277E6BB55D535B,
+				68D27C77681B950238514276,
+				A2BB4D231753056CD4EF4B0D,
+				ADD69B20B4B503BE6D380D73,
+			);
+			name = wavetable;
+			sourceTree = "<group>";
+		};
+		F5CDFCDF7EAC498A8513CA6C = {
+			isa = PBXGroup;
+			children = (
+				E05B1D929DDE764C0036CF5D,
+				6A7169088CF11EE95FBBD0E0,
+				11A2FA52D15D54B47378BFCB,
+				9AC7DBC44623EE8AD521F82A,
+				E9AEB39A1020F39CCDF2180C,
+				477448E534D21338A3EFE83E,
+				82020CC4A48AC0E0BD1AF0F5,
+				2B2DAF77E529EF609CE07E03,
+				AB079907889060B891C4E778,
+				F516DB15733061FA2656F285,
+				CA98FDA2AD5552AFD96D3ACD,
+				D0258E93F451A1A44636A6A4,
+				96EB57DF51524AB7C4F989F3,
+				AECBC83AC89D73A996841BEE,
+				3AB88E385538AB2ABBB58002,
+				026B14D7F898B13DFF5995B3,
+				6FCE542B01C79855D2121C1B,
+				CA472B975FCFA1B7A5D7FA9A,
+				6635D2510EC0ADF4D11B8D01,
+				DA012E86B5E6710EC610418E,
+				52931313598477293E1E772F,
+				FEEFF87BE139E30CAC0E2A93,
+				ABFBA3DC34FBA54614A997AF,
+				97CB5BF3D13161B7508BF63F,
+			);
+			name = common;
+			sourceTree = "<group>";
+		};
+		2C65FBB04E4B498139120ADF = {
+			isa = PBXGroup;
+			children = (
+				55D7431D44BF42C9B3D806D5,
+				DCF7803468C25484381FD818,
+				13600B2D92B3A5BD77EF5052,
+				226C0FDBC9BAD62135F6F564,
+				231040DE44E5CB81EE05E65F,
+				7991FB9C41CF9F0819DC30E5,
+				4C1CD76846B9DD20E8442002,
+				72189EB91BBCF8967AA9A2B2,
+				535F44E482F2643C7FFF9B7F,
+				A7292CFFC513F0AF0176A119,
+				185A73672B706E8BAA02C9BC,
+				7DFAABB676A97C1CEBB53427,
+				00F769BD899B311D08948EB1,
+				40EFE00C544F1F1B815338B8,
+				7E3DC46C223D4782778F8D51,
+				91F9B86EA1E24DDA63BD28BF,
+				47885F28959346D4EB724368,
+				9510628A66CCF911898CF7F7,
+				5CE1E17ED5780E7504AE1247,
+				872060395B480DD9EA951B4B,
+				820B43D8CA2DBD3C64464075,
+				FEDC7D3E7599B6B6B1C4D75E,
+				AB62949D80B7EEA5B2B6A133,
+				221A7051F646BBDFFEBA50C3,
+				BCE5200D8C10100C8C1BE916,
+				77045B24B24C86E06B5EA01C,
+				36C6DCDB74B3EE4256FFBF12,
+				69832D09D8C5E3B30358EB12,
+				765B7BBF75A6B1F6EB099234,
+				423EE44D13CDD53057DA25BE,
+				E82696B4B54F5146345E740C,
+				C4F37BE73A25881A2590A1A5,
+				E874128CE0D4C7AEB0B4B7C8,
+				4F0F15C83E003836D3EE9C1B,
+				EC2440556B1D5A7E6BC5C972,
+				B14FCAD5904FE20ACC9DA0FA,
+				C14639C81481F577D84F681B,
+				DB6981A39CAA54292D06D2FD,
+				17175B2CE10F4686C7A38C93,
+				12433A6280C44C86C84AB2FB,
+				44AC96547D665A3393285514,
+				FE3EE828BC6C33AC5974D1BF,
+				F1BC83604B9DA7A87B1BFA5B,
+				1F469B2447B4184972DB72C4,
+				EED2FB8CF2FCFC883AEFC82E,
+				096DEB4074404F203BD627CA,
+				F7B3C5BFF2053A6C8E0CD8D7,
+				33BEBF2092BA7CDB309EBAF1,
+				DC62DC0B2A82359370484A23,
+				6D709C815FA3FEAE163CDCFC,
+				B9651963B39729C430D27DD6,
+				980143928EEC6A03CDCC3098,
+				A832E46AFBCC3C7994F30444,
+				7A605FE3BB3E033CDBB29677,
+				C6E4019AC59CB8671148EB9C,
+				39F032E3A03771EA06109635,
+				1D377DFC7740FE69A60850D3,
+				60D572983F59EB9C8F4CFCF5,
+				D3CCFFAE39310926F582ECFD,
+				AA6F63C56A85EA3288423579,
+				44BA39E9E4D91D510A719375,
+				C554D1CC0D6F4F3A5A9F4F77,
+				16213572261310B33882DD01,
+				0329339E42F41C9841E32371,
+				1531E747D7C2C8BC67A6B960,
+				32C6F8954117F4C2D9EF7ED0,
+				A74AD1A73FBEFB576327E202,
+			);
+			name = "editor_components";
+			sourceTree = "<group>";
+		};
+		256DCA6F7F304B9F5DAFD04A = {
+			isa = PBXGroup;
+			children = (
+				7A5892FED520D574EE65E5A5,
+				6CC5C5C3A9A599B77E749B8C,
+				BFEF9DC0B404B4E7615F1D26,
+				7985AFFFB79423881AC65F45,
+				FE1BDFF60EB188A855084243,
+				18D16405835B5E6F91D51FB6,
+				170C570AAF37DE451FBE294D,
+				60FA18DFA36FC4E236942909,
+				BEFB458547B008AEFCD629C3,
+				F300A4B9A24F998A164B1529,
+				37E4518703CFA15C78EF7F59,
+				311CD815D74F7B2FD68B5C17,
+				8FD36D7472908758CEBF6A4C,
+				F7AF7556976B253A5BECA986,
+				9EC9179FB842823FA1B00319,
+				B3BC012AAB2C041CE881933C,
+				8C0F6DD5FFD314530096288B,
+				35E012CC9AE35FB83D687E8B,
+				2C280E33BDEC0B35D68A00D0,
+				3209EAEC69A3ADD75A23371C,
+				DCFB72605CC77DCA1C122EAA,
+				DF63DEE05403248A2204C84B,
+				638AE6F72FADF062909867C7,
+				19C64E519B7167023C709657,
+				CDD3865ACE4383ED48A33B95,
+				573A7E5E9A90FB5A6AC5D630,
+				2A170D38853E137B78A78EB1,
+				352D8791CEDF4403D6752073,
+				A61AF1AC12E1E2258EB46E92,
+				59DF9015888E176E3F40EAC8,
+				700B45B15161160CA9F18A65,
+				2FE8C749DF7F36E29F601572,
+				5720CC2EF8785F264D1E30C7,
+				E82B48C4B895E19DFF141AFE,
+				AE05C9606D0074E997CFCB77,
+				323041DCA6CE7C0232DC9961,
+				E85F54DC186D2CE06F8BAE3F,
+				0DA2D92114A75D70272819CC,
+				F198E6877F8D30570A403002,
+				E79C555C6894170D085AA761,
+				926E05C4E3D6774E59893148,
+				F2229E646559DF9CB3E061EE,
+				452B4ED2FDA5BACECD4AFFB4,
+				8D1443EC4C9B0EE109DDEEDB,
+				5869231756BDD3906ABC2A72,
+				B8DE2CF311FCD4B1D9C0E495,
+				C754AB9E7767B309FF56369D,
+				4166C15196EE6710AF1E1113,
+				90407AB25FD292F002DD7C72,
+				8221B869D155E2F86412B825,
+				57F025C1563B2AAA6DCB7E2B,
+				F9A9FEC630EB0306E6B5A936,
+				EC0A9A6D4AD9683D0CC9D8DE,
+				D8C1C39E7EA7BCA3A82847F6,
+				AE606C15FC812FA4C5B5F1D2,
+				92B53F6640E5522CB137BB13,
+				8B3F0DED9F969EDD690E31DF,
+				B23237A65CC1C9DF19A78820,
+				12544E44C75A635FC9C971C7,
+				B3789CB88AE6D7B25A161424,
+				57D9491F8EA6F792C539BB55,
+				49BB08FE8AB7B17FF3FDFD78,
+				8F44CB196B812585801E96D6,
+				2E3D7DF237FB711C5E78613D,
+				CC627B68FF781B5DB0D3C5E1,
+				71AFB7A4BDDF913D43A0C5E4,
+				17D4F34E13DDC255165CE354,
+				107CC27C7F0F6511E003EB2F,
+				17ACE13922051956F2FE2275,
+				24971EEDA766260265C160FD,
+				A3F62B9C8F71014B0D4B2060,
+				7FE26E74263CE10925191EC9,
+				542362CA83BA859BC9B8C8C5,
+				146944CDD71A23D4D97B64FB,
+				0A54A378097B63207C75F6A2,
+				3B92E0802CDA66665118AD5F,
+				D4336519451E4945C5A9D983,
+				4D202621B4DBC357E0B41C0D,
+				434F4E0F03DE24C1EC88D334,
+				D9D91BFE9CE1C18750FDA541,
+				20D359DD2A7D346E3FAD480D,
+				523D038B7595C581702AB00D,
+				5015F33035E514A89170C668,
+				E17F8CC7251E94555BC02963,
+			);
+			name = "editor_sections";
+			sourceTree = "<group>";
+		};
+		162F9485A8B0299900D417D6 = {
+			isa = PBXGroup;
+			children = (
+				7B90BF5BF994F899ED63FBE7,
+				E7212E73562F1C27A148F70E,
+				2292812045C0F744BADD172E,
+				1F5C1FEEC647E866E3C8368C,
+				7ED6206F2E8F1E3CD0A8AEB1,
+				1CA9462CEFBACA9A7FA66278,
+				AB781A322D64E1EA6124B4EE,
+				322CD843A3FB12F245FE731B,
+				0FC4789387042C8F427C5B00,
+				86F333F006E5757034AAD717,
+				6CDDA233F47BFE4E829A3A83,
+				D58B2FB37A918CFAEC6BD56E,
+				91F6DE99986331206EA4476E,
+				23B02498BF11885DCF1B97C3,
+			);
+			name = "look_and_feel";
+			sourceTree = "<group>";
+		};
+		B5C7A59F13ECB52E07B69199 = {
+			isa = PBXGroup;
+			children = (
+				6BFDA8C51BFBE937EEB4F0A7,
+				29A9D5914A766964BCECAE2D,
+				91C90920265932C5EE521108,
+				55FACF49F2AA58C5F3555F85,
+				05EBFA1CC575B09D1AE5B304,
+				0300AF3BF2DA1A88B962B35C,
+				9399005E66F46FAE3C33CA5D,
+				9798465F8C0D9F8FB8634687,
+			);
+			name = editors;
+			sourceTree = "<group>";
+		};
+		84439FD7605A8EBF22E5506A = {
+			isa = PBXGroup;
+			children = (
+				387482A1339D133CF74DAF5A,
+				D303946F2CDDF00056EF8020,
+				9213CCBFFCF66DD4B3953C17,
+				CF03AAE0C614E44A2B1E4C6F,
+				3AA609EE0E448E261BAED6F1,
+				C04EFA805406FA40FC401F3C,
+				08F1742C3D7D6CAF541BAD8E,
+				DAB566F5258C2CDF6C1D41D9,
+				C67AAEF9CBC82C076D34886D,
+				B7B32E5CBAAAB218D7529B40,
+				46DFF14C16CCF8ED52CB9C40,
+				F8A6CAE39DA2689923DA9404,
+				1808BF52BC9EA58F473C9FB7,
+				A87BE30834B10E0EB8CF4995,
+				D948F82D598E2D475CA8D578,
+				E44CC033ABB0D49AF3DA11A4,
+				F04572C2DA496EAAEA3742DD,
+				478896BC433807718878A322,
+				8FD3806D724E6C4D4F4338F6,
+				004A06D07A42740BDF623B17,
+			);
+			name = overlays;
+			sourceTree = "<group>";
+		};
+		4658E467FD91F29142CB6D3B = {
+			isa = PBXGroup;
+			children = (
+				B5C7A59F13ECB52E07B69199,
+				84439FD7605A8EBF22E5506A,
+				BFAB16597BBF7F1A0305E523,
+				241F54155C37B3A18CFE01CF,
+				71F5D5B428C9F3F7267DFC0A,
+				19C4239FD4983036BC9C8DE9,
+				12DB3AD4CE09E589E16FC84E,
+				C83E5C43641C54BD0915E14E,
+				75924F66F0D9BE0E62E49392,
+				D176D528B324A00A47659022,
+				47F83893273C3F331E54FBCA,
+				8BA8DA18F3C50DD7EC4F99AE,
+			);
+			name = wavetable;
+			sourceTree = "<group>";
+		};
+		8FD52F7C37B571044882E061 = {
+			isa = PBXGroup;
+			children = (
+				2C65FBB04E4B498139120ADF,
+				256DCA6F7F304B9F5DAFD04A,
+				162F9485A8B0299900D417D6,
+				4658E467FD91F29142CB6D3B,
+			);
+			name = interface;
+			sourceTree = "<group>";
+		};
+		3E5217AC1636710C79F08B31 = {
+			isa = PBXGroup;
+			children = (
+				180F7E8DE8D231336DE6C106,
+				9C94D9A01C651D7AEDFEB445,
+				A46F7AA5D7AA93E8DFBD5B5A,
+				EB19450676F7CB7FADD8B51F,
+				0D69DABA32F1C6C06701E978,
+				6A47BA3FB7B862ADD1E9185A,
+				57214B9A4EC0CA1FEA6DFBC8,
+				29DFC38FD142918CAC4ADFE2,
+				35980235BE17DD3DEDE403B2,
+				AF84D54469EDBFBE9582CDCD,
+			);
+			name = effects;
+			sourceTree = "<group>";
+		};
+		B27E2B7E5B8306F353B90601 = {
+			isa = PBXGroup;
+			children = (
+				B94E92C3BD0E5092613758F5,
+				041BEB88DA227F6FD6010E21,
+				1908D634F0667AE39D808E42,
+				9605B68D1CE1587805167EB2,
+				67D07D0D56CAC479531F872D,
+				989E76CBBD4D928F7904C486,
+				E13842D977D9936CC80AF573,
+				ADCE1E0456C809693F709DED,
+				DA0CE9B957F77D30E335D3ED,
+				7EE4116D0A34BF683817830D,
+				BD2838DB936BE9629B2BB8EB,
+				9A4AE579197CA85CB6DC2E00,
+				C1C8F627AE476E76259E230D,
+				9C02A5DAAEF2EE5E2817EAF4,
+				7EFA42C122F3B3B1F51CCFEF,
+				28B417B92CD8580382F1EEA6,
+				81E07CC614444EA1D2C6A622,
+				94A79414F5710BE9F7CE0F25,
+				C737EC23A7C3EDF0B3ACA9A6,
+				2A26BBD2FAE20C114163C725,
+				6198335FD2B2C61191F9FDA5,
+				1486262161F4FEFB7CFE23C3,
+				0FCCB2C421909685A85FCE92,
+				A29CD8B14F3A763D2925B935,
+				62BF67FC1BAA877C027FA2F1,
+				69BE0BA589BA563463D9F9B0,
+				1ECE119271F8DBB4B472CEDC,
+				840EF494D6B5644BCF60437A,
+				F7573476A217B5295788FBA9,
+				82A4DB0391326CA1187FCD64,
+				B63B9D1D4CE12A3ED7D04C99,
+				D9F36BE05E3AA6BB43BD2456,
+				18FD75E4C26D1403F05074EE,
+				5B6CD250F6A3D166858C2BAB,
+				C20A2F84C11356BE1956A266,
+			);
+			name = filters;
+			sourceTree = "<group>";
+		};
+		E17BE649952CD5666C1AE4D6 = {
+			isa = PBXGroup;
+			children = (
+				CD51BC31E5B1EDF354D13B9C,
+				4405ABB56F60ED6A1FC9C4CD,
+				52DFF6EF74914B02D96ACDF6,
+				541D2F1F6732BF4D228D2FD4,
+				B4A2F94BF7F9E1116627036D,
+				466E0F5634B209AB318E8B2C,
+				3BDE1AE3C34779FF04C5FF59,
+				98002A5C5184EB034F8061CF,
+				712F3C6AA18B57E36E396999,
+				88B1EF6629FE92F6D5608247,
+				62F16E4A2DBDA19BA6140FD8,
+				66372DA103FF4A556C878649,
+				5252B9AA7BD8F256E8474296,
+				786BA85AF93546A959B66E83,
+				560D9D2096486815935BA930,
+				73C17D14BD0F1250B3FAF66C,
+				B076A46B90BE1176BA64711E,
+				33C08F59D16676B1560BBADB,
+				A94B379E551E1D8B55078B45,
+				E8CBC1255D1B332842BBBE78,
+				3E156A83D9BE7445A4C3C91D,
+				8AF0B0CEE02CC7F68265AABF,
+				F7EEE1FF6CC8B7A619066F65,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		349DEAAA969296B2D8B716CB = {
+			isa = PBXGroup;
+			children = (
+				C0DCC332BFD3273034E4D1CA,
+				788CAE8CE69ABCD365D32906,
+				356529F5991F089F551E8DE8,
+				34CD153211F9D24FFBE81A73,
+				B86F940A4DC9D65727AE8F74,
+				FA9400F633B5A60EDBD0C0AE,
+			);
+			name = lookups;
+			sourceTree = "<group>";
+		};
+		3B303607580354EA7311BBA3 = {
+			isa = PBXGroup;
+			children = (
+				9D6B18E54421CC6D0F32DE59,
+				D6A5FB9992FDD44AE6B51E7E,
+				569E1076EB32443964FB1CBF,
+				CC5B0CD752876A88DFAB9019,
+				ADE922B304FB5EAD8919EC10,
+				EAEEAF1CD6023241A9EBF43F,
+				6AAA210E07CF6CC16A5B1026,
+				77EAA2E95009AD411FDA7654,
+				15AAA1ACF5A84443DE6A8C65,
+				ADD3C3586CD547FDDF114521,
+			);
+			name = modulators;
+			sourceTree = "<group>";
+		};
+		7558EDB646165101938363CD = {
+			isa = PBXGroup;
+			children = (
+				6ABF9910B2BC112F9FDA1D81,
+				8672FE8164575BF3CBC3CD7D,
+				5A5619D731DCB942B255BC94,
+				97B53B766DADE0947971965B,
+				871B963BCB85E581E7E058C8,
+				3A8ABF3A9FC81D189934CCBE,
+				E371DD8330B58C88E5139FE0,
+				E7E13531198D59DBBA4C662B,
+				D863CE538160FEA99CA9C8D7,
+				027DC9E907D41AB65ED41A19,
+				2C97D1FA0BABE40459BE1EBF,
+				6E8D821026D7EE8B0908DC78,
+				7A68D46ED33B01D9C6D4336A,
+				FD2D54F9796DC6AD8B44B1BA,
+				41D3334EB54B7564EEF518AD,
+				66D35449B829AAA516A3B3EE,
+				255F09B020C78BC53F0590F7,
+				AD71CC8EDB3A5DA12769BD4C,
+				BC00B3AA990BC8A815F6CABA,
+				6239E43B766890B87481632F,
+				5D972F1246A6C93274AFBF6C,
+				2447DD05D3E85277371C3DDC,
+				222B0210054AE2788B85543A,
+				5312C5E5970C909685D1ED22,
+				1D2AC22DCF3EC1E94B0EC157,
+				5B65E136ABE6B0F2A0C7E2F9,
+				ABCEE9650391F86C7446301B,
+				BE82BDB84D073A63AFD5FC8F,
+				FA85952C8D7AF09E40C50A59,
+				C822B9D3273ACBF5ACC5171B,
+				8845FB50B2C667B7F0589436,
+				E3098C6B760546D26E2ABCD5,
+				F3CA742A33C411CABA1474E5,
+				ED57BDBF2CBD3A69B38469A1,
+				4789B3203A38D4838842A7BD,
+				A52ADDED22FAC0B16C094DC0,
+				CDBAD016788D25C1CACEEEBB,
+				06CE1616CB7CCAF571D22284,
+				FDE2800978CBA61215FB4B8D,
+				DBBD4944810610A4964E7E5A,
+				FA0DA0213271E0558D7412E7,
+				C35D03BD2FDDD08E09A8769B,
+			);
+			name = modules;
+			sourceTree = "<group>";
+		};
+		DD4BDF136754CD6AC8F34188 = {
+			isa = PBXGroup;
+			children = (
+				AC84FA84E37CE376E6B0F143,
+				0229A4F7B30927BFB27FF116,
+				5D3F3FB83692BEF4C05AB22D,
+				7914CA03E625DA6C2D2F17DE,
+				16CE62C4EA921F92531CD038,
+			);
+			name = producers;
+			sourceTree = "<group>";
+		};
+		2A77426A056B04162F945EE9 = {
+			isa = PBXGroup;
+			children = (
+				21BF7766934184D09EC4CB71,
+				90F22BED3C2B8B357C1D5156,
+			);
+			name = "synth_engine";
+			sourceTree = "<group>";
+		};
+		2497ED9FF1A76F720BDB0193 = {
+			isa = PBXGroup;
+			children = (
+				367B71B23DAE6BF0404FE44C,
+				4BC1CAFD710CEFE8F60C2305,
+				3B44F005D91349F841DF1FE8,
+				4B9C410E42B2E4BB5BD61048,
+				5CD3F890876C90DE3727C499,
+				3EC26E273A12B9F57D27EBBF,
+				0D8C00B71C8E1132F95B5A08,
+				380086076605F9AB4AD11D18,
+				EF2EAED6C57743013D7A4649,
+				E57A9040BE469501B290F16F,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+		4109231EA4DAB9114CDCCF7E = {
+			isa = PBXGroup;
+			children = (
+				3E5217AC1636710C79F08B31,
+				B27E2B7E5B8306F353B90601,
+				E17BE649952CD5666C1AE4D6,
+				349DEAAA969296B2D8B716CB,
+				3B303607580354EA7311BBA3,
+				7558EDB646165101938363CD,
+				DD4BDF136754CD6AC8F34188,
+				2A77426A056B04162F945EE9,
+				2497ED9FF1A76F720BDB0193,
+			);
+			name = synthesis;
+			sourceTree = "<group>";
+		};
+		CE42EDA4D485E7FE511BAB86 = {
+			isa = PBXGroup;
+			children = (
+				D29839FD9D798968891B1645,
+				BFF60E297F41FD4012C3CB79,
+				1C40B8E8B038128CAB67DFD0,
+				CBBC7471044E653CE4992E2F,
+				1FA945A04C8FEDB3C1B70566,
+				0E7F18BD3C4EDE9D248827FF,
+				6041A9C77D57EF87FBDF4C46,
+			);
+			name = "unity_build";
+			sourceTree = "<group>";
+		};
+		22FE8F4953DBB1955B71409A = {
+			isa = PBXGroup;
+			children = (
+				F5CDFCDF7EAC498A8513CA6C,
+				8FD52F7C37B571044882E061,
+				4109231EA4DAB9114CDCCF7E,
+				CE42EDA4D485E7FE511BAB86,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		0CEE296E8AAD9877FEA4F8E5 = {
+			isa = PBXGroup;
+			children = (
+				EE7800FED65E1DACE95326B6,
+				F19FA89F3C50621A5378C89F,
+				286E53FCDF1F59152FF50B35,
+				A4B622D63092C1B71552F3B4,
+				217BA1F33143B0E78B5C3E56,
+				DE21DEF28BE26BE0B29BC5BF,
+				3876873B5D1F22A7466B1E7D,
+				6BFEF6B571B755C017C09C5B,
+				03A538F3052D97867124956F,
+				1F58CE5ED1BB713E141FB918,
+				5CC7E2D8BC73F08DB9F4A43C,
+				C7A28CA83A480E4461F0F0B9,
+				55050C9DFD7D49E0D351F27C,
+				B5D2089BD0D84E37B76112B5,
+				25029134ECE6B3C73579F83F,
+				FE6ADC8876551DF8BC9D979F,
+				C9C725A2899327A06E57ACD5,
+				E700C5BCC5D00E1CEE666D8B,
+				8146DC9B3712B2300933923D,
+				2FD173C5590A9F377D741096,
+				23D5E9DECA3DCBAD0994E5B6,
+				D4C6CCF2F5A622354C4B1D79,
+				E27D84F9D3D8D760842125BE,
+				E7BB420AB978E14E7F6C9608,
+				CD4AB89F5AF1EA3F58891917,
+				0A93E39FFF4CA3EC70A5482E,
+				5BC2593D26F25CE163B3B651,
+				7839581C0B5223C60DFAB48D,
+				C4949C55CF4187B031CA8791,
+				DA53FAB2F04948F4F808BD9D,
+				9DEEADCE45A86F2AA8D2B143,
+				EF83504EB226BB9AE877186C,
+				03609D366DBF5F502A189C6F,
+				885754C9EF77FDDDF3FD58C1,
+				5DCD95D2A1CCECA0ADDE674C,
+				2C7D0E87BF0C302034EB1BB8,
+				16F9368F005806A0705A219E,
+				2DFADC6256CCCD80560DA255,
+				DCA2EF31BC6314FAD1C9888D,
+				EEBFDB4A570B75D3951A9B3B,
+			);
+			name = interface;
+			sourceTree = "<group>";
+		};
+		DC3AB060B30BC516D0DD4F3B = {
+			isa = PBXGroup;
+			children = (
+				D07D95280783CBC139248775,
+				774891D08892A97C290F9100,
+				F19C245959BF14D59D3B6B57,
+				453AED3DD5801BB86E28CF3D,
+			);
+			name = stress;
+			sourceTree = "<group>";
+		};
+		7C0F6F1872BDD55DBADD8397 = {
+			isa = PBXGroup;
+			children = (
+				DBEC0FE374B1D1BBE651A9AB,
+				0FB24FC81A93707E975DD1F5,
+				DB16130AE06D014B0D3633F5,
+				5CDEE06F9F15318F11215755,
+				5830B102CE5D56DF8637B1C9,
+				BB84E100B3A2FA0A92385B51,
+				0D57001889596E6A1D6BD4DC,
+				069FCF7D2FDBE42BF75CDEAE,
+				EAD0FCA816BE6173A91E3415,
+				2443D2F4004FBEB2A95C030C,
+			);
+			name = effects;
+			sourceTree = "<group>";
+		};
+		B9433A6E95E8DC5BCEB0B784 = {
+			isa = PBXGroup;
+			children = (
+				0C3DA7355D0949650B708AB1,
+				3D2E097A4E007ACA98F0ECFA,
+				FDCC87795C2B7A040D36360F,
+				B3B5DF9E769664C43E3D4A39,
+				3CE86D8ECDF534AB5505B1A3,
+				C1D9ABAE887DE5B8C8810DC6,
+				9C558F4F14F7BD65CBA4FFB2,
+				97C65DDEC844BFC3320C3C5D,
+				717913B7BB8DBE8025F9CB83,
+				A086385238A1879841AA85B5,
+				4647A37E8C9D874E13AF98CE,
+				0A9EC4B13C76037D8A832801,
+				8F228F710332AD8BEF328812,
+				867D21CDDBDBC66AA5D57679,
+				594555E37341BC7D0AF1A700,
+				97631655B67CA2F4380D012C,
+				46516E28663C292FFAC15F77,
+				EB274B3C111CCF1ADC2DE5E6,
+				11DD8D85D9F4682BF89EC2A8,
+				08490DF2F2332E0C682A3F18,
+				3942ED909C4B07A42D799C6C,
+				CF35ABC50BD0329D8B894350,
+				C720B9593F7B737D0CF38EAF,
+				135A93B229F095C9FA90205A,
+				75349DA2797D2FE1E9DDA627,
+				45CA3699F7899676AEF2C9A9,
+			);
+			name = filters;
+			sourceTree = "<group>";
+		};
+		58703D154C2BCDC1C81E531D = {
+			isa = PBXGroup;
+			children = (
+				C424B62F158C791E392494F3,
+				F8199C55415043046A4720AD,
+				B558A6ABD8B2FC877AA74EF3,
+				BB8153DE5FB88A2B033FE7DC,
+				D9936CFE676F6F8B40CD7C1F,
+				1145979376938BCCE088278A,
+			);
+			name = framework;
+			sourceTree = "<group>";
+		};
+		61CC675AA4061D5D4AB7D74C = {
+			isa = PBXGroup;
+			children = (
+				C61AAE0DE81D010D5EF7BA16,
+				D1DB051E98D1D19B2AC30E5B,
+			);
+			name = lookups;
+			sourceTree = "<group>";
+		};
+		6E143A87143F0F2B853124B6 = {
+			isa = PBXGroup;
+			children = (
+				02CDEB156C229E6A8460C5F4,
+				2DA3F2CC4056BA0CBEC02DE6,
+				02EE22B5B1B51C470216AA5A,
+				A35CCC679FF4D0972685E1FA,
+				EDB0EC755776599123A383BC,
+				16B0197EF264D88B5B4CF673,
+				54B740920F02A370BB9BC686,
+				9E8D06CC1193641310A11BC9,
+			);
+			name = modulators;
+			sourceTree = "<group>";
+		};
+		897859B1C042A3F668355A32 = {
+			isa = PBXGroup;
+			children = (
+				980A67D9B3EE30435CB17644,
+				F6A747CA06C147531CBB35E5,
+				30C079185E3648620E45BC58,
+				5CB30E6A6D6489677471F90F,
+			);
+			name = producers;
+			sourceTree = "<group>";
+		};
+		E16EE0460A524BE4EEBFC974 = {
+			isa = PBXGroup;
+			children = (
+				F509296CFD091681538D31A0,
+				C0E849ED2B642E2569EFF242,
+				474B0FC9A3CE911F34E92538,
+				8BD3727CBD17C4FA2CF03C07,
+				62B308AA631528367E7BA6C6,
+				80D9AFAAE9D326F3E5B598A1,
+				629AD92C04B476C7FF60FC67,
+				BC4EE5111A9FF8409446F7D1,
+				4D26608099C3C3FC96855651,
+				D9BCE6D2A2945001660FBF98,
+			);
+			name = utilities;
+			sourceTree = "<group>";
+		};
+		F2800A2104A6FBEA392BB688 = {
+			isa = PBXGroup;
+			children = (
+				7C0F6F1872BDD55DBADD8397,
+				B9433A6E95E8DC5BCEB0B784,
+				58703D154C2BCDC1C81E531D,
+				61CC675AA4061D5D4AB7D74C,
+				6E143A87143F0F2B853124B6,
+				897859B1C042A3F668355A32,
+				E16EE0460A524BE4EEBFC974,
+				BCD7AFC27A39399669480D11,
+				05ED42167943D5CD31A1E4FC,
+				3FD732FC400715E0E0F483F0,
+				35B2B6251B5EE937E548E6D3,
+				AA310F0FD3D2648FAF05EFF1,
+				74FDA4984939CCFD9C41B45E,
+			);
+			name = synthesis;
+			sourceTree = "<group>";
+		};
+		3162B9C0717DEF9E8F5B4863 = {
+			isa = PBXGroup;
+			children = (
+				0CEE296E8AAD9877FEA4F8E5,
+				DC3AB060B30BC516D0DD4F3B,
+				F2800A2104A6FBEA392BB688,
+				6166FB869CFF98D19838EB25,
+				474E674196DA6FCA5ED35720,
+				BCCFFC1FF730D3F099DB025D,
+				CDB8ACFAE34B00C014E67A96,
+			);
+			name = tests;
+			sourceTree = "<group>";
+		};
+		626BEE8B16C27035215973F5 = {
+			isa = PBXGroup;
+			children = (
+				B82818026228A9DD1348C59E,
+			);
+			name = concurrentqueue;
+			sourceTree = "<group>";
+		};
+		3493246FD4D543221BBF1ABB = {
+			isa = PBXGroup;
+			children = (
+				8BB279133BBBA9CB65F672D4,
+			);
+			name = json;
+			sourceTree = "<group>";
+		};
+		9561FC99A9E28E21D821820C = {
+			isa = PBXGroup;
+			children = (
+				626BEE8B16C27035215973F5,
+				3493246FD4D543221BBF1ABB,
+			);
+			name = "third_party";
+			sourceTree = "<group>";
+		};
+		E6F55E099A03EDB1F990708E = {
+			isa = PBXGroup;
+			children = (
+				41896C1C255E0D54B90774DD,
+				3F72746D7331E82E70A9E8BB,
+				C36E614840270BE90614F436,
+				F58405699D698248C4078BF2,
+				22FE8F4953DBB1955B71409A,
+				3162B9C0717DEF9E8F5B4863,
+				9561FC99A9E28E21D821820C,
+			);
+			name = VitalTests;
+			sourceTree = "<group>";
+		};
+		422E5F33E78823B5E110C006 = {
+			isa = PBXGroup;
+			children = (
+				247AF363F7BB6F07F42B3250,
+				BDAA69D002564B9A064D3C59,
+				F2E2D01D1EE314415B99ADAD,
+				68F603642DCC824FDB1E9E52,
+				2201A5E1F17C2A2963189756,
+				DF87B75C77094C0A121EED55,
+				5E9A49BFFEE384E0AA24E67F,
+				CB31E332452A8DC1D679BAD1,
+				D50A174551A897AA6A46B407,
+				7177C25737791E09F7F98278,
+				0DBCD98C7867D52CC77977AC,
+				F479CF22149F01C033951EFE,
+				349140280AAD915E7AFC269D,
+			);
+			name = "JUCE Modules";
+			sourceTree = "<group>";
+		};
+		E84590C6B6AC15CD59A65DCC = {
+			isa = PBXGroup;
+			children = (
+				303FB7B5273832AB2FEC4C3F,
+				8989728CE374F2C301A4763F,
+				2B7EE1F831132762954FF723,
+				960B92C3C44FA4F1846C6985,
+				38CFE3D10A15E1C947A0A44D,
+				5D5ED2636412E0A240088B97,
+				D473DD94B50940CE0D2C1A06,
+				4639204384D07175331303D5,
+				F8E035506B4257624F2AE9D2,
+				5677A18F3721228155DE5893,
+				B353A80BF55BDA9DC00631B9,
+				85DC44CAD92B20F1C8E6B28D,
+				12475511F5F7465CE5D74814,
+				A302DB7F94DBEB61EA244577,
+				C446C4E337CACDDBD1334AC1,
+				6A04ACAC8DCE2DAA439352FE,
+				73070D4A3F45AD1A39E2F9A0,
+			);
+			name = "JUCE Library Code";
+			sourceTree = "<group>";
+		};
+		B3B22BD613B6765236444EE1 = {
+			isa = PBXGroup;
+			children = (
+				C4C772D9C3F472259A2210E3,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		901406C9B1F149B0C0B43289 = {
+			isa = PBXGroup;
+			children = (
+				399573306D5863E703547480,
+				E26755374577FFB5E707A9F5,
+				4AB2689C3D055D9A2763E2AC,
+				8D0FFA8F5E1C6730D9A5E2AA,
+				2B5EF20D0BE840557CE1160D,
+				90C43CE16E06DB041EEC377F,
+				6C33D4AA95D3CE36C5FB875A,
+				5B45A0A549EE9EBDE12A9987,
+				151FC9EEA4B744DACDB42CC0,
+				72E03A78D80650173EA0CA1E,
+				591A5D7E1BDF114A78A7D6EF,
+				EA170B8B6946E4F4B51585CC,
+				80007F18ABD98ABBD848A1B0,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CE69B81244E05FBF06EBB0CA = {
+			isa = PBXGroup;
+			children = (
+				AD536D6A3684A237ADB24704,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		667548BE990C9AFB45B785C4 = {
+			isa = PBXGroup;
+			children = (
+				E6F55E099A03EDB1F990708E,
+				422E5F33E78823B5E110C006,
+				E84590C6B6AC15CD59A65DCC,
+				B3B22BD613B6765236444EE1,
+				901406C9B1F149B0C0B43289,
+				CE69B81244E05FBF06EBB0CA,
+			);
+			name = Source;
+			sourceTree = "<group>";
+		};
+		23D777AA6BF6F800DA37844C = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				COPY_PHASE_STRIP = NO;
+				DEVELOPMENT_TEAM = EFXDM6K3KJ;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_FAST_MATH = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_DEBUG=1",
+					"DEBUG=1",
+					"NO_TEXT_ENTRY=1",
+					"NO_AUTH=1",
+					"JUCE_OPENGL3=1",
+					"JUCER_XCODE_MAC_E4F0A9CA=1",
+					"JUCE_APP_VERSION=1.0.6",
+					"JUCE_APP_VERSION_HEX=0x10006",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"../../JuceLibraryCode",
+					"../../../third_party/JUCE/modules",
+					"../../../src/common",
+					"../../../src/common/wavetable",
+					"../../../src/interface/editor_components",
+					"../../../src/interface/editor_sections",
+					"../../../src/interface/look_and_feel",
+					"../../../src/interface/wavetable",
+					"../../../src/interface/wavetable/editors",
+					"../../../src/interface/wavetable/overlays",
+					"../../../src/standalone",
+					"../../../src/synthesis/synth_engine",
+					"../../../src/synthesis/effects",
+					"../../../src/synthesis/filters",
+					"../../../src/synthesis/framework",
+					"../../../src/synthesis/lookups",
+					"../../../src/synthesis/modulators",
+					"../../../src/synthesis/modules",
+					"../../../src/synthesis/producers",
+					"../../../src/synthesis/utilities",
+					"../../../tests/synthesis",
+					"../../../third_party",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "/usr/bin";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_HEADER_SEARCH_PATHS = (
+					"../../JuceLibraryCode",
+					"../../../third_party/JUCE/modules",
+					"../../../src/common",
+					"../../../src/common/wavetable",
+					"../../../src/interface/editor_components",
+					"../../../src/interface/editor_sections",
+					"../../../src/interface/look_and_feel",
+					"../../../src/interface/wavetable",
+					"../../../src/interface/wavetable/editors",
+					"../../../src/interface/wavetable/overlays",
+					"../../../src/standalone",
+					"../../../src/synthesis/synth_engine",
+					"../../../src/synthesis/effects",
+					"../../../src/synthesis/filters",
+					"../../../src/synthesis/framework",
+					"../../../src/synthesis/lookups",
+					"../../../src/synthesis/modulators",
+					"../../../src/synthesis/modules",
+					"../../../src/synthesis/producers",
+					"../../../src/synthesis/utilities",
+					"../../../tests/synthesis",
+					"../../../third_party",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = audio.vital.tests;
+				PRODUCT_NAME = "VitalTests";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e x86_64";
+			};
+			name = Debug;
+		};
+		B73FB4D2C811B3993B81A4CB = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_LINK_OBJC_RUNTIME = NO;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COMBINE_HIDPI_IMAGES = YES;
+				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = EFXDM6K3KJ;
+				GCC_FAST_MATH = YES;
+				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
+				GCC_OPTIMIZATION_LEVEL = 3;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"_NDEBUG=1",
+					"NDEBUG=1",
+					"NO_TEXT_ENTRY=1",
+					"NO_AUTH=1",
+					"JUCE_OPENGL3=1",
+					"JUCER_XCODE_MAC_E4F0A9CA=1",
+					"JUCE_APP_VERSION=1.0.6",
+					"JUCE_APP_VERSION_HEX=0x10006",
+					"JucePlugin_Build_VST=0",
+					"JucePlugin_Build_VST3=0",
+					"JucePlugin_Build_AU=0",
+					"JucePlugin_Build_AUv3=0",
+					"JucePlugin_Build_RTAS=0",
+					"JucePlugin_Build_AAX=0",
+					"JucePlugin_Build_Standalone=0",
+					"JucePlugin_Build_Unity=0",
+				);
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				HEADER_SEARCH_PATHS = (
+					"../../JuceLibraryCode",
+					"../../../third_party/JUCE/modules",
+					"../../../src/common",
+					"../../../src/common/wavetable",
+					"../../../src/interface/editor_components",
+					"../../../src/interface/editor_sections",
+					"../../../src/interface/look_and_feel",
+					"../../../src/interface/wavetable",
+					"../../../src/interface/wavetable/editors",
+					"../../../src/interface/wavetable/overlays",
+					"../../../src/standalone",
+					"../../../src/synthesis/synth_engine",
+					"../../../src/synthesis/effects",
+					"../../../src/synthesis/filters",
+					"../../../src/synthesis/framework",
+					"../../../src/synthesis/lookups",
+					"../../../src/synthesis/modulators",
+					"../../../src/synthesis/modules",
+					"../../../src/synthesis/producers",
+					"../../../src/synthesis/utilities",
+					"../../../tests/synthesis",
+					"../../../third_party",
+					"$(inherited)",
+				);
+				INSTALL_PATH = "/usr/bin";
+				LLVM_LTO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_HEADER_SEARCH_PATHS = (
+					"../../JuceLibraryCode",
+					"../../../third_party/JUCE/modules",
+					"../../../src/common",
+					"../../../src/common/wavetable",
+					"../../../src/interface/editor_components",
+					"../../../src/interface/editor_sections",
+					"../../../src/interface/look_and_feel",
+					"../../../src/interface/wavetable",
+					"../../../src/interface/wavetable/editors",
+					"../../../src/interface/wavetable/overlays",
+					"../../../src/standalone",
+					"../../../src/synthesis/synth_engine",
+					"../../../src/synthesis/effects",
+					"../../../src/synthesis/filters",
+					"../../../src/synthesis/framework",
+					"../../../src/synthesis/lookups",
+					"../../../src/synthesis/modulators",
+					"../../../src/synthesis/modules",
+					"../../../src/synthesis/producers",
+					"../../../src/synthesis/utilities",
+					"../../../tests/synthesis",
+					"../../../third_party",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = audio.vital.tests;
+				PRODUCT_NAME = "VitalTests";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				USE_HEADERMAP = NO;
+				VALID_ARCHS = "arm64 arm64e x86_64";
+			};
+			name = Release;
+		};
+		578CB384E3858CEE6BCF7CCE = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "VitalTests";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Debug;
+		};
+		8E583243B67667A546D57AF2 = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = NO;
+				GCC_C_LANGUAGE_STANDARD = c11;
+				GCC_INLINES_ARE_PRIVATE_EXTERN = YES;
+				GCC_MODEL_TUNING = G5;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_SYMBOLS_PRIVATE_EXTERN = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_CHECK_SWITCH_STATEMENTS = YES;
+				GCC_WARN_MISSING_PARENTHESES = YES;
+				GCC_WARN_NON_VIRTUAL_DESTRUCTOR = YES;
+				GCC_WARN_TYPECHECK_CALLS_TO_PRINTF = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				PRODUCT_NAME = "VitalTests";
+				SDKROOT = macosx;
+				WARNING_CFLAGS = "-Wreorder";
+				ZERO_LINK = NO;
+			};
+			name = Release;
+		};
+		0F75D88975ECE1C0FF2075E2 = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				578CB384E3858CEE6BCF7CCE,
+				8E583243B67667A546D57AF2,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		3E19F3A6861535883698C24B = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				23D777AA6BF6F800DA37844C,
+				B73FB4D2C811B3993B81A4CB,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		AB16D10910E5AC94370AB422 = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D38713E044E4966AD971F06,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9814724D8219BB258172FB53 = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6648E3304493CE6F4A77F814,
+				71A777762F4A4594095F5095,
+				AC5922B8A1504012BE165F03,
+				1B2B660326C0AB463C0AB323,
+				4987B5954E0BE7C7E1497600,
+				9CC26642C7A85DD0B7BEF845,
+				ABBF69F3CCC630DB34EFB83B,
+				DA2F358C7C20F0B108FA46D8,
+				89EF311B1D7DE20EDEA5862C,
+				721A6F628BE7450A67F7CE85,
+				629BED43500AE013D1A83047,
+				A8E6EEB9327FCABBCFA8EDA7,
+				9742BF4DD8C91343C3278747,
+				1ACD985B9E32AA84A59C9C1D,
+				E37ACD5E5421E480AE2C9DF6,
+				9614A735367E6AAC6DFC2D85,
+				C411933DFC3C5642F5510DA2,
+				40DB5EBCF2594A9514167E9C,
+				467CC0084730F18E04AA4E90,
+				20169C80427D9D5214FDBED5,
+				B0056FE606707EBBED0D5895,
+				9CF32634B5D66E1A0E67DCF3,
+				06A6679587B629B3AE1C8EE7,
+				70937681CB61FE423244F46D,
+				37436F34ED46B62CD83A6DC8,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3E5AEB4D5E3844C9E0579C6D = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA326DFAC7E3A606439D0B5E,
+				9973331B571A72B7F6DB5B14,
+				7A16EA4C42496F1CA2D22FEF,
+				F0D572BBDDE3E1941291482F,
+				999D73CBF2FF2D4FC0532C59,
+				073A65DE88C7F40ED0AAD848,
+				3174D9720114D8A4520BA60B,
+				4183E724F0AA21E741D49582,
+				293F7694B7C33204D09D2191,
+				0C3BFC7DBEA7B14713E49772,
+				D85C45F6CF7BFCF1D06FAEA7,
+				CBDEF0B7ACD825C1ACFC3687,
+				0BAC551B7F686E037E0C22A2,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		20D8C66B5464124420D2D531 = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E19F3A6861535883698C24B;
+			buildPhases = (
+				AB16D10910E5AC94370AB422,
+				9814724D8219BB258172FB53,
+				3E5AEB4D5E3844C9E0579C6D,
+			);
+			buildRules = ( );
+			dependencies = ( );
+			name = "VitalTests - ConsoleApp";
+			productName = VitalTests;
+			productReference = AD536D6A3684A237ADB24704;
+			productType = "com.apple.product-type.tool";
+		};
+		F9CC39989FE65ABEACC63708 = {
+			isa = PBXProject;
+			buildConfigurationList = 0F75D88975ECE1C0FF2075E2;
+			attributes = { LastUpgradeCheck = 1200; ORGANIZATIONNAME = "Matt Tytel"; };
+			compatibilityVersion = "Xcode 3.2";
+			hasScannedForEncodings = 0;
+			mainGroup = 667548BE990C9AFB45B785C4;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (20D8C66B5464124420D2D531);
+			knownRegions = (en, Base);
+		};
+	};
+	rootObject = F9CC39989FE65ABEACC63708;
+}

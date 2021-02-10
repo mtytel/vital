@@ -1,0 +1,414 @@
+vital (1.0.6-1) trusty; urgency=low
+
+  * Skins and some bug fixes
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Tue, 9 Feb 2021 12:32:07 -0700
+
+vital (1.0.5-1) trusty; urgency=low
+
+  * Various bug fixes and workflow improvements
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 1 Jan 2021 12:32:07 -0700
+
+vital (1.0.4-1) trusty; urgency=low
+
+  * Various bug fixes
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Tue, 8 Dec 2020 12:32:07 -0700
+
+vital (1.0.3-1) trusty; urgency=low
+
+  * Fixed downloading issues on some systems
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Tue, 24 Nov 2020 12:32:07 -0700
+
+vital (1.0.2-1) trusty; urgency=low
+
+  * Release changes
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Mon, 23 Nov 2020 12:32:07 -0700
+
+vital (1.0.1-1) trusty; urgency=low
+
+  * Bug fixes.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sat, 21 Nov 2020 12:32:07 -0700
+
+vital (1.0.0-1) trusty; urgency=low
+
+  * Release candidate.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Tue, 3 Nov 2020 12:32:07 -0700
+
+vital (0.9.1-1) trusty; urgency=low
+
+  * High DPI stuff.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 30 Oct 2020 12:32:07 -0700
+
+vital (0.9.0-1) trusty; urgency=low
+
+  * Tweaked diode filter blending.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Mon, 26 Oct 2020 12:32:07 -0700
+
+vital (0.8.6-1) trusty; urgency=low
+
+  * Error logging.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sun, 4 Oct 2020 12:32:07 -0700
+
+vital (0.8.5-1) trusty; urgency=low
+
+  * Error logging.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sat, 26 Sep 2020 12:32:07 -0700
+
+vital (0.8.4-1) trusty; urgency=low
+
+  * Better downloading.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Wed, 22 Jul 2020 12:32:07 -0700
+
+vital (0.8.3-1) trusty; urgency=low
+
+  * Auto spectrogram/oscilloscope toggle.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Wed, 22 Jul 2020 12:32:07 -0700
+
+vital (0.8.2-1) trusty; urgency=low
+
+  * Auto download content and update checks.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Wed, 22 Jul 2020 12:32:07 -0700
+
+vital (0.8.1-1) trusty; urgency=low
+
+  * Made lfo smooth param, Better sample quality.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Wed, 22 Jul 2020 12:32:07 -0700
+
+vital (0.8.0-1) trusty; urgency=low
+
+  * Full graphics optimizations
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Wed, 22 Jul 2020 12:32:07 -0700
+
+vital (0.7.7-1) trusty; urgency=low
+
+  * UI optimizations
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 10 Jul 2020 12:32:07 -0700
+
+vital (0.7.6-1) trusty; urgency=low
+
+  * Added more comb filter options.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Wed, 10 Jun 2020 12:32:07 -0700
+
+vital (0.7.5-1) trusty; urgency=low
+
+  * Set larger flanger/phaser center range.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Mon, 8 Jun 2020 12:32:07 -0700
+
+vital (0.7.4-1) trusty; urgency=low
+
+  * Audio rate modulation for more parameters.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 22 May 2020 12:32:07 -0700
+
+vital (0.7.3-1) trusty; urgency=low
+
+  * Audio rate modulation of some parameters.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 15 May 2020 12:32:07 -0700
+
+vital (0.7.2-1) trusty; urgency=low
+
+  * Added VST3 bypass parameter.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 8 May 2020 12:32:07 -0700
+
+vital (0.7.1-1) trusty; urgency=low
+
+  * Making some parameters bipolar.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 24 Apr 2020 12:32:07 -0700
+
+vital (0.7.0-1) trusty; urgency=low
+
+  * Added voice override modes.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 17 Apr 2020 12:32:07 -0700
+
+vital (0.6.9-1) trusty; urgency=low
+
+  * Added reverb delay.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Thu, 16 Apr 2020 12:32:07 -0700
+
+vital (0.6.8-1) trusty; urgency=low
+
+  * Improving skin.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Tue, 14 Apr 2020 12:32:07 -0700
+
+vital (0.6.7-1) trusty; urgency=low
+
+  * Made chorus filter a cutoff and spread.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Mon, 13 Apr 2020 12:32:07 -0700
+
+vital (0.6.6-1) trusty; urgency=low
+
+  * Fixed Linux build.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 10 Apr 2020 12:32:07 -0700
+
+vital (0.6.5-1) trusty; urgency=low
+
+  * Added global stereo modes.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Wed, 8 Apr 2020 12:32:07 -0700
+
+vital (0.6.4-1) trusty; urgency=low
+
+  * Added global voice transpose
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Tue, 7 Apr 2020 12:32:07 -0700
+
+vital (0.6.3-1) trusty; urgency=low
+
+  * Added sample bounce.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Tue, 31 Mar 2020 12:32:07 -0700
+
+vital (0.6.2-1) trusty; urgency=low
+
+  * Added compressor mix.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Tue, 31 Mar 2020 12:32:07 -0700
+
+vital (0.6.1-1) trusty; urgency=low
+
+  * Upped modulation slots to 64.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Mon, 30 Mar 2020 12:32:07 -0700
+
+vital (0.6.0-1) trusty; urgency=low
+
+  * Random lfo sync.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 27 Mar 2020 12:32:07 -0700
+
+vital (0.5.9-1) trusty; urgency=low
+
+  * Phaser blend.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Thu, 26 Mar 2020 12:32:07 -0700
+
+vital (0.5.8-1) trusty; urgency=low
+
+  * Improving chorus.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 20 Mar 2020 12:32:07 -0700
+
+vital (0.5.7-1) trusty; urgency=low
+
+  * Added stereo tempo to delay
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Thu, 19 Mar 2020 12:32:07 -0700
+
+vital (0.5.6-1) trusty; urgency=low
+
+  * Added notch mode to EQ.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Wed, 18 Mar 2020 12:32:07 -0700
+
+vital (0.5.5-1) trusty; urgency=low
+
+  * Effects tempo improvements.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Wed, 11 Mar 2020 12:32:07 -0700
+
+vital (0.5.2-1) trusty; urgency=low
+
+  * Adding style to patches. Removing tags.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Tue, 25 Feb 2020 12:32:07 -0700
+
+vital (0.5.1-1) trusty; urgency=low
+
+  * Moved MPE enabled into patch
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Tue, 25 Feb 2020 12:32:07 -0700
+
+vital (0.5.0-1) trusty; urgency=low
+
+  * Upgraded sub to third oscillator
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sun, 9 Feb 2020 12:32:07 -0700
+
+vital (0.4.7-1) trusty; urgency=low
+
+  * Started adding vocode osc morph.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sun, 15 Dec 2019 12:32:07 -0700
+
+vital (0.4.6-1) trusty; urgency=low
+
+  * Added stereo phase knob to lfo.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sun, 15 Dec 2019 12:32:07 -0700
+
+vital (0.4.5-1) trusty; urgency=low
+
+  * Made compressor band options a dropdown
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sun, 15 Dec 2019 12:32:07 -0700
+
+vital (0.4.4-1) trusty; urgency=low
+
+  * Made sync distortion bipolar
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sun, 8 Dec 2019 12:32:07 -0700
+
+vital (0.4.3-1) trusty; urgency=low
+
+  * Made formant distortion bipolar
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Tue, 3 Dec 2019 12:32:07 -0700
+
+vital (0.4.2-1) trusty; urgency=low
+
+  * Added 2d wavetable viewing
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sun, 17 Nov 2019 12:32:07 -0700
+
+vital (0.4.1-1) trusty; urgency=low
+
+  * Added random source controls
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sun, 17 Nov 2019 12:32:07 -0700
+
+vital (0.4.0-1) trusty; urgency=low
+
+  * Allow adding parameters without messing up VST param order
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Wed, 13 Nov 2019 12:32:07 -0700
+
+vital (0.3.9-1) trusty; urgency=low
+
+  * Better quality wave source saving/loading.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sun, 20 Oct 2019 12:32:07 -0700
+
+vital (0.3.8-1) trusty; urgency=low
+
+  * Added wavetable post scaling and dc removal options
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sun, 20 Oct 2019 12:32:07 -0700
+
+vital (0.3.7-1) trusty; urgency=low
+
+  * Decreased Patch size
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 18 Oct 2019 12:32:07 -0700
+
+vital (0.3.6-1) trusty; urgency=low
+
+  * Added more lfo modes
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 18 Oct 2019 12:31:07 -0700
+
+vital (0.3.5-1) trusty; urgency=low
+
+  * Added sample FM and RM
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Wed, 16 Oct 2019 12:31:07 -0700
+
+vital (0.3.4-1) trusty; urgency=low
+
+  * Added filter into effects section
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 27 Sep 2019 12:31:07 -0700
+
+vital (0.3.3-1) trusty; urgency=low
+
+  * Fixing some wavetable loading
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Wed, 21 Aug 2019 12:31:07 -0700
+
+vital (0.3.2-1) trusty; urgency=low
+
+  * Added transpose quantize
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sun, 11 Aug 2019 12:31:07 -0700
+
+vital (0.3.1-1) trusty; urgency=low
+
+  * Changed sample MIDI center for keytrack
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sun, 16 Jun 2019 12:31:07 -0700
+
+vital (0.3.0-1) trusty; urgency=low
+
+  * New Reverb!
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sat, 25 May 2019 12:31:07 -0700
+
+vital (0.2.7-1) trusty; urgency=low
+
+  * Corrected level amounts for sources.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Wed, 25 Apr 2019 12:31:07 -0700
+
+vital (0.2.6-1) trusty; urgency=low
+
+  * Added LFO fade in and delay
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 19 Apr 2019 12:31:07 -0700
+
+vital (0.2.5-1) trusty; urgency=low
+
+  * Increased resolution at low time envelope values.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sun, 14 Apr 2019 12:31:07 -0700
+
+vital (0.2.4-1) trusty; urgency=low
+
+  * Reorganized portamento values.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 12 Apr 2019 12:31:07 -0700
+
+vital (0.2.3-1) trusty; urgency=low
+
+  * Moved modulation source mapping to modulation matrix.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sat, 7 Apr 2019 12:31:07 -0700
+
+vital (0.2.2-1) trusty; urgency=low
+
+  * Added serial filter routing
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sat, 30 Mar 2019 12:31:07 -0700
+
+vital (0.2.1-1) trusty; urgency=low
+
+  * Changing parameter scaling
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Sun, 03 Feb 2019 12:31:07 -0700
+
+vital (0.2.0-1) trusty; urgency=low
+
+  * Large UI changes
+  * Slightly different filter routing mechanism
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 25 Jan 2019 12:31:07 -0700
+
+vital (0.1.0-1) trusty; urgency=low
+
+  * Initial Release.
+
+ -- Matt Tytel <matthewtytel@gmail.com>  Fri, 30 Nov 2018 12:31:07 -0700

@@ -1,0 +1,16 @@
+Source: vital
+Section: sound
+Priority: optional
+Maintainer: Matt Tytel <matt@vital.audio>
+Build-Depends: debhelper (>= 9), mesa-common-dev, libasound2-dev, libfreetype6-dev, libx11-dev, libxrandr-dev, libxinerama-dev, libxcursor-dev, freeglut3-dev, libxcomposite-dev, libjack-dev, libcurl4-gnutls-dev, libfftw3-3, libsecret-1-0, libglib2.0-0
+Standards-Version: 3.9.6
+Homepage: https://vital.audio
+#Vcs-Git: git://anonscm.debian.org/collab-maint/helm.git
+#Vcs-Browser: http://anonscm.debian.org/?p=collab-maint/helm.git;a=summary
+
+Package: vital
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: powerful wavetable synthesizer with realtime modulation feedback
+ vital is a MIDI enabled polyphonic music synthesizer with an easy to use
+ parameter modulation system with real-time graphical feedback.

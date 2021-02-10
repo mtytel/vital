@@ -1,4 +1,4 @@
-# Vital Source
+# Vital
 Vital is a spectral warping wavetable synthesizer.
 
 ## Installing

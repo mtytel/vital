@@ -8,9 +8,7 @@ If you are making a proprietary or closed source app and would like to use Vital
 Create an account and download Vital at [vital.audio](https://vital.audio)
 
 ## Issues
-Report issues to https://forum.vital.audio
-
-I won't be checking issues on github on a regular basis.
+Report bugs (e.g.non-code and non-compiling issues) to https://forum.vital.audio
 
 ## Pull requests
 I will not take any pull requests.

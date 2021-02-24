@@ -1,5 +1,5 @@
 # Vital
-Vital is a spectral warping wavetable synthesizer.
+Vital is a spectral warping wavetable synthesizer. This is the source.
 
 ## Code Licensing
 If you are making a proprietary or closed source app and would like to use Vital's source code, contact licensing@vital.audio for non GPLv3 licensing options.
@@ -9,6 +9,7 @@ Create an account and download Vital at [vital.audio](https://vital.audio)
 
 ## Issues
 Report bugs (e.g.non-code and non-compiling issues) to https://forum.vital.audio
+Feel free to report issues building Vital here but note that I'm not prioritizing them.
 
 ## Pull requests
 I will not take any pull requests.

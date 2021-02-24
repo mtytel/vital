@@ -9,6 +9,7 @@ Create an account and download Vital at [vital.audio](https://vital.audio)
 
 ## Issues
 Report bugs (e.g.non-code and non-compiling issues) to https://forum.vital.audio
+
 Feel free to report issues building Vital here but note that I'm not prioritizing them.
 
 ## Pull requests

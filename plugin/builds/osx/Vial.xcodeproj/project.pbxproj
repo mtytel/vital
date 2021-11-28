@@ -1681,8 +1681,6 @@
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					04C62C3EDEE68AB6BB542024 = {
-						DevelopmentTeam = EFXDM6K3KJ;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -1705,8 +1703,6 @@
 						};
 					};
 					5DD7392369A544599AE7F84E = {
-						DevelopmentTeam = EFXDM6K3KJ;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -1729,8 +1725,6 @@
 						};
 					};
 					650B07A70E4EC6685842D802 = {
-						DevelopmentTeam = EFXDM6K3KJ;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -1753,8 +1747,6 @@
 						};
 					};
 					995510783F0DBDE21AB02443 = {
-						DevelopmentTeam = EFXDM6K3KJ;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -1777,8 +1769,6 @@
 						};
 					};
 					C2D01B9344ECB5A5F8D03D03 = {
-						DevelopmentTeam = EFXDM6K3KJ;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -1801,8 +1791,6 @@
 						};
 					};
 					DDA3E4C82DD636A6B1B37767 = {
-						DevelopmentTeam = EFXDM6K3KJ;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -1825,8 +1813,6 @@
 						};
 					};
 					F9F0DA819689524463BB1AEE = {
-						DevelopmentTeam = EFXDM6K3KJ;
-						ProvisioningStyle = Automatic;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 0;
@@ -2141,11 +2127,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_ENTITLEMENTS = "Shared_Code.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = EFXDM6K3KJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
 				GCC_FAST_MATH = YES;
@@ -2155,7 +2140,8 @@
 					"_NDEBUG=1",
 					"NDEBUG=1",
 					"JUCE_OPENGL3=1",
-					"REQUIRE_AUTH=1",
+					"REQUIRE_AUTH=0",
+					"NO_AUTH=1",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
 					"JUCE_APP_VERSION=1.0.6",
 					"JUCE_APP_VERSION_HEX=0x10006",
@@ -2172,7 +2158,6 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"$(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(SRCROOT)/../../../third_party/JUCE/modules",
 					"$(SRCROOT)/../../../src/common",
@@ -2200,10 +2185,9 @@
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
 				PRODUCT_NAME = "Vial";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				USE_HEADERMAP = NO;
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
@@ -2227,12 +2211,11 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_ENTITLEMENTS = "VST.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
 				DEPLOYMENT_LOCATION = YES;
-				DEVELOPMENT_TEAM = EFXDM6K3KJ;
 				DSTROOT = /;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
@@ -2243,7 +2226,8 @@
 					"_DEBUG=1",
 					"DEBUG=1",
 					"JUCE_OPENGL3=1",
-					"REQUIRE_AUTH=1",
+					"REQUIRE_AUTH=0",
+					"NO_AUTH=1",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
 					"JUCE_APP_VERSION=1.0.6",
 					"JUCE_APP_VERSION_HEX=0x10006",
@@ -2260,7 +2244,6 @@
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"$(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(SRCROOT)/../../../third_party/JUCE/modules",
 					"$(SRCROOT)/../../../src/common",
@@ -2290,11 +2273,10 @@
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-bundle -lVial -lgssapi_krb5";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
 				PRODUCT_NAME = "Vial";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				USE_HEADERMAP = NO;
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
 				VALID_ARCHS = "arm64 arm64e x86_64";
@@ -2310,12 +2292,11 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_ENTITLEMENTS = "VST3.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				DEAD_CODE_STRIPPING = YES;
 				DEPLOYMENT_LOCATION = YES;
-				DEVELOPMENT_TEAM = EFXDM6K3KJ;
 				DSTROOT = /;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
@@ -2326,7 +2307,8 @@
 					"_NDEBUG=1",
 					"NDEBUG=1",
 					"JUCE_OPENGL3=1",
-					"REQUIRE_AUTH=1",
+					"REQUIRE_AUTH=0",
+					"NO_AUTH=1",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
 					"JUCE_APP_VERSION=1.0.6",
 					"JUCE_APP_VERSION_HEX=0x10006",
@@ -2343,7 +2325,6 @@
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"$(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(SRCROOT)/../../../third_party/JUCE/modules",
 					"$(SRCROOT)/../../../src/common",
@@ -2374,11 +2355,10 @@
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-bundle -lVial -lgssapi_krb5";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
 				PRODUCT_NAME = "Vial";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				USE_HEADERMAP = NO;
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
 				VALID_ARCHS = "arm64 arm64e x86_64";
@@ -2408,7 +2388,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = NO;
@@ -2450,12 +2430,11 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_ENTITLEMENTS = "AU.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				DEAD_CODE_STRIPPING = YES;
 				DEPLOYMENT_LOCATION = YES;
-				DEVELOPMENT_TEAM = EFXDM6K3KJ;
 				DSTROOT = /;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
@@ -2466,7 +2445,8 @@
 					"_NDEBUG=1",
 					"NDEBUG=1",
 					"JUCE_OPENGL3=1",
-					"REQUIRE_AUTH=1",
+					"REQUIRE_AUTH=0",
+					"NO_AUTH=1",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
 					"JUCE_APP_VERSION=1.0.6",
 					"JUCE_APP_VERSION_HEX=0x10006",
@@ -2483,7 +2463,6 @@
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"$(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(SRCROOT)/../../../third_party/JUCE/modules",
 					"$(SRCROOT)/../../../src/common",
@@ -2514,12 +2493,11 @@
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-bundle -lVial -lgssapi_krb5";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -d arm64_$arm64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
 				PRODUCT_NAME = "Vial";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				USE_HEADERMAP = NO;
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
 				VALID_ARCHS = "arm64 arm64e x86_64";
@@ -2535,11 +2513,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_ENTITLEMENTS = "Shared_Code.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = EFXDM6K3KJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2549,7 +2526,8 @@
 					"_DEBUG=1",
 					"DEBUG=1",
 					"JUCE_OPENGL3=1",
-					"REQUIRE_AUTH=1",
+					"REQUIRE_AUTH=0",
+					"NO_AUTH=1",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
 					"JUCE_APP_VERSION=1.0.6",
 					"JUCE_APP_VERSION_HEX=0x10006",
@@ -2566,7 +2544,6 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"$(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(SRCROOT)/../../../third_party/JUCE/modules",
 					"$(SRCROOT)/../../../src/common",
@@ -2593,10 +2570,9 @@
 				);
 				INSTALL_PATH = "@executable_path/../Frameworks";
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
 				PRODUCT_NAME = "Vial";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SKIP_INSTALL = YES;
 				USE_HEADERMAP = NO;
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
@@ -2612,11 +2588,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_ENTITLEMENTS = "AUv3_AppExtension.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = EFXDM6K3KJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
 				GCC_FAST_MATH = YES;
@@ -2626,7 +2601,8 @@
 					"_NDEBUG=1",
 					"NDEBUG=1",
 					"JUCE_OPENGL3=1",
-					"REQUIRE_AUTH=1",
+					"REQUIRE_AUTH=0",
+					"NO_AUTH=1",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
 					"JUCE_APP_VERSION=1.0.6",
 					"JUCE_APP_VERSION_HEX=0x10006",
@@ -2642,7 +2618,6 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"$(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(SRCROOT)/../../../third_party/JUCE/modules",
 					"$(SRCROOT)/../../../src/common",
@@ -2671,11 +2646,10 @@
 				INFOPLIST_PREPROCESS = NO;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-lVial -lgssapi_krb5";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth.synthAUv3;
 				PRODUCT_NAME = "Vial";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				USE_HEADERMAP = NO;
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
 				VALID_ARCHS = "arm64 arm64e x86_64";
@@ -2690,11 +2664,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_ENTITLEMENTS = "Standalone_Plugin.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = EFXDM6K3KJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2704,7 +2677,8 @@
 					"_DEBUG=1",
 					"DEBUG=1",
 					"JUCE_OPENGL3=1",
-					"REQUIRE_AUTH=1",
+					"REQUIRE_AUTH=0",
+					"NO_AUTH=1",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
 					"JUCE_APP_VERSION=1.0.6",
 					"JUCE_APP_VERSION_HEX=0x10006",
@@ -2720,7 +2694,6 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"$(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(SRCROOT)/../../../third_party/JUCE/modules",
 					"$(SRCROOT)/../../../src/common",
@@ -2748,11 +2721,10 @@
 				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
 				INFOPLIST_PREPROCESS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-lVial -lgssapi_krb5";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
 				PRODUCT_NAME = "Vial";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				USE_HEADERMAP = NO;
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
 				VALID_ARCHS = "arm64 arm64e x86_64";
@@ -2767,11 +2739,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_ENTITLEMENTS = "Standalone_Plugin.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				DEAD_CODE_STRIPPING = YES;
-				DEVELOPMENT_TEAM = EFXDM6K3KJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
 				GCC_FAST_MATH = YES;
@@ -2781,7 +2752,8 @@
 					"_NDEBUG=1",
 					"NDEBUG=1",
 					"JUCE_OPENGL3=1",
-					"REQUIRE_AUTH=1",
+					"REQUIRE_AUTH=0",
+					"NO_AUTH=1",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
 					"JUCE_APP_VERSION=1.0.6",
 					"JUCE_APP_VERSION_HEX=0x10006",
@@ -2797,7 +2769,6 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"$(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(SRCROOT)/../../../third_party/JUCE/modules",
 					"$(SRCROOT)/../../../src/common",
@@ -2826,11 +2797,10 @@
 				INFOPLIST_PREPROCESS = NO;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-lVial -lgssapi_krb5";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
 				PRODUCT_NAME = "Vial";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				USE_HEADERMAP = NO;
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
 				VALID_ARCHS = "arm64 arm64e x86_64";
@@ -2845,11 +2815,10 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_ENTITLEMENTS = "AUv3_AppExtension.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
-				DEVELOPMENT_TEAM = EFXDM6K3KJ;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -2859,7 +2828,8 @@
 					"_DEBUG=1",
 					"DEBUG=1",
 					"JUCE_OPENGL3=1",
-					"REQUIRE_AUTH=1",
+					"REQUIRE_AUTH=0",
+					"NO_AUTH=1",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
 					"JUCE_APP_VERSION=1.0.6",
 					"JUCE_APP_VERSION_HEX=0x10006",
@@ -2875,7 +2845,6 @@
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"$(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(SRCROOT)/../../../third_party/JUCE/modules",
 					"$(SRCROOT)/../../../src/common",
@@ -2903,11 +2872,10 @@
 				INFOPLIST_FILE = Info-AUv3_AppExtension.plist;
 				INFOPLIST_PREPROCESS = NO;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-lVial -lgssapi_krb5";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth.synthAUv3;
 				PRODUCT_NAME = "Vial";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				USE_HEADERMAP = NO;
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
 				VALID_ARCHS = "arm64 arm64e x86_64";
@@ -2922,12 +2890,11 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_ENTITLEMENTS = "VST.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				DEAD_CODE_STRIPPING = YES;
 				DEPLOYMENT_LOCATION = YES;
-				DEVELOPMENT_TEAM = EFXDM6K3KJ;
 				DSTROOT = /;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
@@ -2938,7 +2905,8 @@
 					"_NDEBUG=1",
 					"NDEBUG=1",
 					"JUCE_OPENGL3=1",
-					"REQUIRE_AUTH=1",
+					"REQUIRE_AUTH=0",
+					"NO_AUTH=1",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
 					"JUCE_APP_VERSION=1.0.6",
 					"JUCE_APP_VERSION_HEX=0x10006",
@@ -2955,7 +2923,6 @@
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"$(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(SRCROOT)/../../../third_party/JUCE/modules",
 					"$(SRCROOT)/../../../src/common",
@@ -2986,11 +2953,10 @@
 				LIBRARY_STYLE = Bundle;
 				LLVM_LTO = YES;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-bundle -lVial -lgssapi_krb5";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
 				PRODUCT_NAME = "Vial";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				USE_HEADERMAP = NO;
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
 				VALID_ARCHS = "arm64 arm64e x86_64";
@@ -3020,7 +2986,7 @@
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = NO;
@@ -3054,12 +3020,11 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_ENTITLEMENTS = "AU.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
 				DEPLOYMENT_LOCATION = YES;
-				DEVELOPMENT_TEAM = EFXDM6K3KJ;
 				DSTROOT = /;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
@@ -3070,7 +3035,8 @@
 					"_DEBUG=1",
 					"DEBUG=1",
 					"JUCE_OPENGL3=1",
-					"REQUIRE_AUTH=1",
+					"REQUIRE_AUTH=0",
+					"NO_AUTH=1",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
 					"JUCE_APP_VERSION=1.0.6",
 					"JUCE_APP_VERSION_HEX=0x10006",
@@ -3087,7 +3053,6 @@
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"$(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(SRCROOT)/../../../third_party/JUCE/modules",
 					"$(SRCROOT)/../../../src/common",
@@ -3117,12 +3082,11 @@
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/Components/";
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-bundle -lVial -lgssapi_krb5";
 				OTHER_REZFLAGS = "-d ppc_$ppc -d i386_$i386 -d ppc64_$ppc64 -d x86_64_$x86_64 -d arm64_$arm64 -I /System/Library/Frameworks/CoreServices.framework/Frameworks/CarbonCore.framework/Versions/A/Headers -I \"$(DEVELOPER_DIR)/Extras/CoreAudio/AudioUnits/AUPublic/AUBase\" -I \"$(DEVELOPER_DIR)/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/AudioUnit.framework/Headers\"";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
 				PRODUCT_NAME = "Vial";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				USE_HEADERMAP = NO;
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
 				VALID_ARCHS = "arm64 arm64e x86_64";
@@ -3138,12 +3102,11 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_LINK_OBJC_RUNTIME = NO;
 				CODE_SIGN_ENTITLEMENTS = "VST3.entitlements";
-				CODE_SIGN_IDENTITY = "Mac Developer";
+				CODE_SIGN_IDENTITY = "";
 				COMBINE_HIDPI_IMAGES = YES;
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
 				DEPLOYMENT_LOCATION = YES;
-				DEVELOPMENT_TEAM = EFXDM6K3KJ;
 				DSTROOT = /;
 				ENABLE_HARDENED_RUNTIME = YES;
 				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
@@ -3154,7 +3117,8 @@
 					"_DEBUG=1",
 					"DEBUG=1",
 					"JUCE_OPENGL3=1",
-					"REQUIRE_AUTH=1",
+					"REQUIRE_AUTH=0",
+					"NO_AUTH=1",
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
 					"JUCE_APP_VERSION=1.0.6",
 					"JUCE_APP_VERSION_HEX=0x10006",
@@ -3171,7 +3135,6 @@
 				GENERATE_PKGINFO_FILE = YES;
 				HEADER_SEARCH_PATHS = (
 					"$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"$(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK",
 					"$(SRCROOT)/../../JuceLibraryCode",
 					"$(SRCROOT)/../../../third_party/JUCE/modules",
 					"$(SRCROOT)/../../../src/common",
@@ -3201,11 +3164,10 @@
 				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST3/";
 				LIBRARY_STYLE = Bundle;
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../../third_party/VST_SDK/VST2_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
 				OTHER_LDFLAGS = "-bundle -lVial -lgssapi_krb5";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
 				PRODUCT_NAME = "Vial";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				USE_HEADERMAP = NO;
 				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
 				VALID_ARCHS = "arm64 arm64e x86_64";

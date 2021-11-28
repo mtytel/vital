@@ -14,7 +14,6 @@
 				3523AFB40D142924D64EC74F,
 			);
 			dependencies = (
-				242121708321CB53383D3567,
 				64BEBAC1B3CE61B7A2E6FE8F,
 				37C0097C2CBA17454AD8B5E5,
 				E915D0912A9E952661CE8C02,
@@ -50,8 +49,6 @@
 		637B08126580A139018E7D85 /* OpenGL.framework */ = {isa = PBXBuildFile; fileRef = 4A1C11E8A1A62EE183100A48; };
 		68EAF4B439A4690BC608FDC6 /* include_juce_gui_extra.mm */ = {isa = PBXBuildFile; fileRef = 75E523510F15669580CAE031; };
 		6FDF150FA6EA0EBA341DC177 /* interface_editor_sections.cpp */ = {isa = PBXBuildFile; fileRef = 240A33A20B91DD1CD82A000B; };
-		729BE41D625321F3ECF40D36 /* include_juce_audio_plugin_client_VST2.cpp */ = {isa = PBXBuildFile; fileRef = B9802B7F5A07E9FCBE82C659; };
-		7310601A47DA16ED414B6274 /* VST */ = {isa = PBXBuildFile; fileRef = 5684D867B375509C886F7B06; };
 		786795AC84EFBB7C6B5DFE20 /* include_juce_audio_processors.mm */ = {isa = PBXBuildFile; fileRef = 9A132C40EBAC4A24E35955D8; };
 		7BC665CB4A04ED6E086B1A0D /* CoreAudioKit.framework */ = {isa = PBXBuildFile; fileRef = 2A62E87DE663DD53A43D9047; };
 		7E8910CD3B2DA8E315113AF7 /* common.cpp */ = {isa = PBXBuildFile; fileRef = ABB666B948097061CB0ADDAA; };
@@ -285,7 +282,6 @@
 		544B066445B0D74A7914523E /* synth_gui_interface.h */ /* synth_gui_interface.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = synth_gui_interface.h; path = ../../../src/common/synth_gui_interface.h; sourceTree = SOURCE_ROOT; };
 		54CE558B81E5427607152215 /* phaser_module.cpp */ /* phaser_module.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = phaser_module.cpp; path = ../../../src/synthesis/modules/phaser_module.cpp; sourceTree = SOURCE_ROOT; };
 		551482594B32DE36AF523579 /* comb_filter.h */ /* comb_filter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = comb_filter.h; path = ../../../src/synthesis/filters/comb_filter.h; sourceTree = SOURCE_ROOT; };
-		5684D867B375509C886F7B06 /* VST */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Vial.vst; sourceTree = BUILT_PRODUCTS_DIR; };
 		56DCDE1DA7A765144AE3EBC1 /* startup.h */ /* startup.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = startup.h; path = ../../../src/common/startup.h; sourceTree = SOURCE_ROOT; };
 		579E46E473D16C8E156E1CBB /* line_editor.cpp */ /* line_editor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = line_editor.cpp; path = ../../../src/interface/editor_components/line_editor.cpp; sourceTree = SOURCE_ROOT; };
 		582A7E48BD6832825D3BBF1A /* synth_types.h */ /* synth_types.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = synth_types.h; path = ../../../src/common/synth_types.h; sourceTree = SOURCE_ROOT; };
@@ -373,7 +369,6 @@
 		83875DA6860F334BA71EFEAF /* default_look_and_feel.cpp */ /* default_look_and_feel.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = default_look_and_feel.cpp; path = ../../../src/interface/look_and_feel/default_look_and_feel.cpp; sourceTree = SOURCE_ROOT; };
 		846105AFEAE5BCDC50DB973F /* wavetable.h */ /* wavetable.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = wavetable.h; path = ../../../src/synthesis/lookups/wavetable.h; sourceTree = SOURCE_ROOT; };
 		84A20D550B48B5B19A9F9B04 /* distortion.svg */ /* distortion.svg */ = {isa = PBXFileReference; lastKnownFileType = file.svg; name = distortion.svg; path = ../../../icons/distortion.svg; sourceTree = SOURCE_ROOT; };
-		85012146C32D77A88BBCB299 /* Info-VST.plist */ /* Info-VST.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Info-VST.plist"; path = "Info-VST.plist"; sourceTree = SOURCE_ROOT; };
 		856BD079219C592898C9200D /* skin.h */ /* skin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = skin.h; path = ../../../src/interface/look_and_feel/skin.h; sourceTree = SOURCE_ROOT; };
 		86A848AA3537F1FFABEDB67F /* include_juce_audio_plugin_client_AU_1.mm */ /* include_juce_audio_plugin_client_AU_1.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_plugin_client_AU_1.mm; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_AU_1.mm; sourceTree = SOURCE_ROOT; };
 		86ACDAFAFEFEF206D598AC54 /* phaser.svg */ /* phaser.svg */ = {isa = PBXFileReference; lastKnownFileType = file.svg; name = phaser.svg; path = ../../../icons/phaser.svg; sourceTree = SOURCE_ROOT; };
@@ -400,7 +395,6 @@
 		8EB21AAE6BF413465511AF0C /* poly_utils.h */ /* poly_utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = poly_utils.h; path = ../../../src/synthesis/framework/poly_utils.h; sourceTree = SOURCE_ROOT; };
 		8EB53330150B6F234AAA8637 /* filter_response.h */ /* filter_response.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = filter_response.h; path = ../../../src/interface/editor_components/filter_response.h; sourceTree = SOURCE_ROOT; };
 		8EBC919917D854B1E37279E3 /* modulation_meter.h */ /* modulation_meter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = modulation_meter.h; path = ../../../src/interface/editor_components/modulation_meter.h; sourceTree = SOURCE_ROOT; };
-		8EDA1ED7D30043F2951D3895 /* VST.entitlements */ /* VST.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = VST.entitlements; path = VST.entitlements; sourceTree = SOURCE_ROOT; };
 		8F2BA69A6D25AF7474305B32 /* sallen_key_filter.cpp */ /* sallen_key_filter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = sallen_key_filter.cpp; path = ../../../src/synthesis/filters/sallen_key_filter.cpp; sourceTree = SOURCE_ROOT; };
 		8F75D2BE90647F81768B2B07 /* trigger_random.h */ /* trigger_random.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = trigger_random.h; path = ../../../src/synthesis/modulators/trigger_random.h; sourceTree = SOURCE_ROOT; };
 		902FE2E3851C8E31AC00B6D2 /* line_map_editor.h */ /* line_map_editor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = line_map_editor.h; path = ../../../src/interface/editor_components/line_map_editor.h; sourceTree = SOURCE_ROOT; };
@@ -489,7 +483,6 @@
 		B79F1E013F9D467BBCF739A2 /* smooth_value.h */ /* smooth_value.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = smooth_value.h; path = ../../../src/synthesis/utilities/smooth_value.h; sourceTree = SOURCE_ROOT; };
 		B7D8DCB0DC046C7285D9B44D /* tab_selector.h */ /* tab_selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tab_selector.h; path = ../../../src/interface/editor_components/tab_selector.h; sourceTree = SOURCE_ROOT; };
 		B8BB242B8115425558F007F5 /* equalizer_section.h */ /* equalizer_section.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = equalizer_section.h; path = ../../../src/interface/editor_sections/equalizer_section.h; sourceTree = SOURCE_ROOT; };
-		B9802B7F5A07E9FCBE82C659 /* include_juce_audio_plugin_client_VST2.cpp */ /* include_juce_audio_plugin_client_VST2.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = include_juce_audio_plugin_client_VST2.cpp; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_VST2.cpp; sourceTree = SOURCE_ROOT; };
 		BAB31E97D562DBFF67B32628 /* transpose_quantize.cpp */ /* transpose_quantize.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = transpose_quantize.cpp; path = ../../../src/interface/editor_components/transpose_quantize.cpp; sourceTree = SOURCE_ROOT; };
 		BBD89A3F1F43AD2A2B74073C /* synth_gui_interface.cpp */ /* synth_gui_interface.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = synth_gui_interface.cpp; path = ../../../src/common/synth_gui_interface.cpp; sourceTree = SOURCE_ROOT; };
 		BBFBCDA4260DF8AB3EF71D12 /* modulation_button.cpp */ /* modulation_button.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = modulation_button.cpp; path = ../../../src/interface/editor_components/modulation_button.cpp; sourceTree = SOURCE_ROOT; };
@@ -652,30 +645,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		3D1F5E31B642CFC9096ED44B = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BEBD87FCA0A5AD6CFE9C23F8,
-				F9552F8CC17404FF5E17AEED,
-				7F4B6B6A2EF2F362CA228264,
-				24617250B69EDF897C16ECA4,
-				5CF99A3C47DBFC86CB020E3F,
-				7BC665CB4A04ED6E086B1A0D,
-				D4316492AF4600C51C33BD85,
-				5FF08C6B8332C4DF5A635212,
-				A34578C4B036993CF20CCA93,
-				4500AFCF8EA6E724965FB07B,
-				9CCF93C9AB1150F93657ABFA,
-				637B08126580A139018E7D85,
-				5F627A2B5995867F80A90648,
-				959F77C3EB027A8A7595DF8B,
-				A9DA2A286FC8B95313E267C8,
-				8DC6219EA578316B2CBA0073,
-				A333608940CD3FA99BBE013C,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		418147864AFF3E316B6DDB83 = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -786,7 +755,6 @@
 				A7967364E9F932BD4B6580D3,
 				1D3EC12582D50AAF2B43E23A,
 				A8F9A68313884135807916CC,
-				B9802B7F5A07E9FCBE82C659,
 				C9B0A41E9EA3F67EBDACAAAA,
 				9A132C40EBAC4A24E35955D8,
 				3D158FB3D6B0EC8FD6DD7CBD,
@@ -869,7 +837,6 @@
 		21BFA7A40E6245181B348125 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5684D867B375509C886F7B06,
 				E23701A8A5F0ABAFA2C3CC9A,
 				2801D896A423C24FB939EBE6,
 				14AFDF6020778057AA6BF015,
@@ -1097,7 +1064,6 @@
 		64400EE9C43B3D30829DD786 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				85012146C32D77A88BBCB299,
 				01D6CE9774428D25EE10EE9E,
 				007C0E502A64AEB21536DDC1,
 				2102A790EEDBAF173F12EE47,
@@ -1557,25 +1523,6 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		04C62C3EDEE68AB6BB542024 /* Vial - VST */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 75A6E8C066609FD80E69D3F8;
-			buildPhases = (
-				74F80D3DCA2848C07D469B3F,
-				CADA2D7D61C6E14B18335B5F,
-				3D1F5E31B642CFC9096ED44B,
-				E26447E590FDA3407ABEB891,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				34851CD7063D24C39EAB95A9,
-			);
-			name = "Vial - VST";
-			productName = Vial;
-			productReference = 5684D867B375509C886F7B06;
-			productType = "com.apple.product-type.bundle";
-		};
 		5DD7392369A544599AE7F84E /* Vial - AUv3 AppExtension */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = D13A809F91ADB5519238BF49;
@@ -1680,28 +1627,6 @@
 				LastUpgradeCheck = 1300;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
-					04C62C3EDEE68AB6BB542024 = {
-						SystemCapabilities = {
-							com.apple.ApplicationGroups.iOS = {
-								enabled = 0;
-							};
-							com.apple.HardenedRuntime = {
-								enabled = 1;
-							};
-							com.apple.InAppPurchase = {
-								enabled = 0;
-							};
-							com.apple.InterAppAudio = {
-								enabled = 0;
-							};
-							com.apple.Push = {
-								enabled = 0;
-							};
-							com.apple.Sandbox = {
-								enabled = 0;
-							};
-						};
-					};
 					5DD7392369A544599AE7F84E = {
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
@@ -1848,7 +1773,6 @@
 			projectRoot = "";
 			targets = (
 				DDA3E4C82DD636A6B1B37767,
-				04C62C3EDEE68AB6BB542024,
 				650B07A70E4EC6685842D802,
 				C2D01B9344ECB5A5F8D03D03,
 				5DD7392369A544599AE7F84E,
@@ -1876,14 +1800,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4930C313B141EA6A33C139F0 = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F1F06DFDCA979F051B4D02F3,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		74F80D3DCA2848C07D469B3F = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -1979,17 +1895,6 @@
 			shellPath = /bin/sh;
 			shellScript = "if [ -f ~/Library/Audio/Plug-Ins/Components/Vital.component ]; then\n  auval -v aumu Vita Tyte\nfi";
 		};
-		E26447E590FDA3407ABEB891 /* Post-build script */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			name = "Post-build script";
-			alwaysOutOfDate = 1;
-			shellPath = /bin/sh;
-			shellScript = "if [ -f ~/Library/Audio/Plug-Ins/Components/Vital.component ]; then\n  auval -v aumu Vita Tyte\nfi";
-		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -2048,14 +1953,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CADA2D7D61C6E14B18335B5F = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				729BE41D625321F3ECF40D36,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		FC98AB2AB81BE8175E834D66 = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2068,14 +1965,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		242121708321CB53383D3567 = {
-			isa = PBXTargetDependency;
-			target = 04C62C3EDEE68AB6BB542024;
-		};
-		34851CD7063D24C39EAB95A9 = {
-			isa = PBXTargetDependency;
-			target = 995510783F0DBDE21AB02443;
-		};
 		37C0097C2CBA17454AD8B5E5 = {
 			isa = PBXTargetDependency;
 			target = C2D01B9344ECB5A5F8D03D03;
@@ -2145,7 +2034,7 @@
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
 					"JUCE_APP_VERSION=1.0.6",
 					"JUCE_APP_VERSION_HEX=0x10006",
-					"JucePlugin_Build_VST=1",
+					"JucePlugin_Build_VST=0",
 					"JucePlugin_Build_VST3=1",
 					"JucePlugin_Build_AU=1",
 					"JucePlugin_Build_AUv3=1",
@@ -2200,87 +2089,6 @@
 			buildSettings = {
 				MACOSX_DEPLOYMENT_TARGET = 10.12;
 				SDKROOT = macosx;
-			};
-			name = Debug;
-		};
-		477BAFC49C6DA855D64D1E22 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_ENTITLEMENTS = "VST.entitlements";
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
-				COPY_PHASE_STRIP = NO;
-				DEPLOYMENT_LOCATION = YES;
-				DSTROOT = /;
-				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_FAST_MATH = YES;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"_DEBUG=1",
-					"DEBUG=1",
-					"JUCE_OPENGL3=1",
-					"REQUIRE_AUTH=0",
-					"NO_AUTH=1",
-					"JUCER_XCODE_MAC_E4F0A9CA=1",
-					"JUCE_APP_VERSION=1.0.6",
-					"JUCE_APP_VERSION_HEX=0x10006",
-					"JucePlugin_Build_VST=1",
-					"JucePlugin_Build_VST3=0",
-					"JucePlugin_Build_AU=0",
-					"JucePlugin_Build_AUv3=0",
-					"JucePlugin_Build_RTAS=0",
-					"JucePlugin_Build_AAX=0",
-					"JucePlugin_Build_Standalone=0",
-					"JucePlugin_Build_Unity=0",
-				);
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"$(SRCROOT)/../../JuceLibraryCode",
-					"$(SRCROOT)/../../../third_party/JUCE/modules",
-					"$(SRCROOT)/../../../src/common",
-					"$(SRCROOT)/../../../src/common/wavetable",
-					"$(SRCROOT)/../../../src/interface/editor_components",
-					"$(SRCROOT)/../../../src/interface/editor_sections",
-					"$(SRCROOT)/../../../src/interface/look_and_feel",
-					"$(SRCROOT)/../../../src/interface/wavetable",
-					"$(SRCROOT)/../../../src/interface/wavetable/editors",
-					"$(SRCROOT)/../../../src/interface/wavetable/overlays",
-					"$(SRCROOT)/../../../src/plugin",
-					"$(SRCROOT)/../../../src/synthesis/synth_engine",
-					"$(SRCROOT)/../../../src/synthesis/effects",
-					"$(SRCROOT)/../../../src/synthesis/filters",
-					"$(SRCROOT)/../../../src/synthesis/framework",
-					"$(SRCROOT)/../../../src/synthesis/lookups",
-					"$(SRCROOT)/../../../src/synthesis/modulators",
-					"$(SRCROOT)/../../../src/synthesis/modules",
-					"$(SRCROOT)/../../../src/synthesis/producers",
-					"$(SRCROOT)/../../../src/synthesis/utilities",
-					"$(SRCROOT)/../../../third_party",
-					"$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Info-VST.plist;
-				INFOPLIST_PREPROCESS = NO;
-				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
-				LIBRARY_STYLE = Bundle;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
-				OTHER_LDFLAGS = "-bundle -lVial -lgssapi_krb5";
-				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
-				PRODUCT_NAME = "Vial";
-				USE_HEADERMAP = NO;
-				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
-				VALID_ARCHS = "arm64 arm64e x86_64";
-				WRAPPER_EXTENSION = vst;
 			};
 			name = Debug;
 		};
@@ -2531,7 +2339,7 @@
 					"JUCER_XCODE_MAC_E4F0A9CA=1",
 					"JUCE_APP_VERSION=1.0.6",
 					"JUCE_APP_VERSION_HEX=0x10006",
-					"JucePlugin_Build_VST=1",
+					"JucePlugin_Build_VST=0",
 					"JucePlugin_Build_VST3=1",
 					"JucePlugin_Build_AU=1",
 					"JucePlugin_Build_AUv3=1",
@@ -2882,88 +2690,6 @@
 			};
 			name = Debug;
 		};
-		DEE91FC701A84F2BF2584C38 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
-				CLANG_CXX_LANGUAGE_STANDARD = "c++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_LINK_OBJC_RUNTIME = NO;
-				CODE_SIGN_ENTITLEMENTS = "VST.entitlements";
-				CODE_SIGN_IDENTITY = "";
-				COMBINE_HIDPI_IMAGES = YES;
-				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
-				DEAD_CODE_STRIPPING = YES;
-				DEPLOYMENT_LOCATION = YES;
-				DSTROOT = /;
-				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
-				GCC_FAST_MATH = YES;
-				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
-				GCC_OPTIMIZATION_LEVEL = fast;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"_NDEBUG=1",
-					"NDEBUG=1",
-					"JUCE_OPENGL3=1",
-					"REQUIRE_AUTH=0",
-					"NO_AUTH=1",
-					"JUCER_XCODE_MAC_E4F0A9CA=1",
-					"JUCE_APP_VERSION=1.0.6",
-					"JUCE_APP_VERSION_HEX=0x10006",
-					"JucePlugin_Build_VST=1",
-					"JucePlugin_Build_VST3=0",
-					"JucePlugin_Build_AU=0",
-					"JucePlugin_Build_AUv3=0",
-					"JucePlugin_Build_RTAS=0",
-					"JucePlugin_Build_AAX=0",
-					"JucePlugin_Build_Standalone=0",
-					"JucePlugin_Build_Unity=0",
-				);
-				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				GENERATE_PKGINFO_FILE = YES;
-				HEADER_SEARCH_PATHS = (
-					"$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK",
-					"$(SRCROOT)/../../JuceLibraryCode",
-					"$(SRCROOT)/../../../third_party/JUCE/modules",
-					"$(SRCROOT)/../../../src/common",
-					"$(SRCROOT)/../../../src/common/wavetable",
-					"$(SRCROOT)/../../../src/interface/editor_components",
-					"$(SRCROOT)/../../../src/interface/editor_sections",
-					"$(SRCROOT)/../../../src/interface/look_and_feel",
-					"$(SRCROOT)/../../../src/interface/wavetable",
-					"$(SRCROOT)/../../../src/interface/wavetable/editors",
-					"$(SRCROOT)/../../../src/interface/wavetable/overlays",
-					"$(SRCROOT)/../../../src/plugin",
-					"$(SRCROOT)/../../../src/synthesis/synth_engine",
-					"$(SRCROOT)/../../../src/synthesis/effects",
-					"$(SRCROOT)/../../../src/synthesis/filters",
-					"$(SRCROOT)/../../../src/synthesis/framework",
-					"$(SRCROOT)/../../../src/synthesis/lookups",
-					"$(SRCROOT)/../../../src/synthesis/modulators",
-					"$(SRCROOT)/../../../src/synthesis/modules",
-					"$(SRCROOT)/../../../src/synthesis/producers",
-					"$(SRCROOT)/../../../src/synthesis/utilities",
-					"$(SRCROOT)/../../../third_party",
-					"$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = Info-VST.plist;
-				INFOPLIST_PREPROCESS = NO;
-				INSTALL_PATH = "$(HOME)/Library/Audio/Plug-Ins/VST/";
-				LIBRARY_STYLE = Bundle;
-				LLVM_LTO = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
-				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_processors/format_types/VST3_SDK $(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
-				OTHER_LDFLAGS = "-bundle -lVial -lgssapi_krb5";
-				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
-				PRODUCT_NAME = "Vial";
-				USE_HEADERMAP = NO;
-				VALIDATE_WORKSPACE_SKIPPED_SDK_FRAMEWORKS = OpenGL;
-				VALID_ARCHS = "arm64 arm64e x86_64";
-				WRAPPER_EXTENSION = vst;
-			};
-			name = Release;
-		};
 		E1A9F57CB71E747B04294E62 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -3210,15 +2936,6 @@
 			buildConfigurations = (
 				A68B5D480BCF5AB3FD009D05,
 				0304791FD0932D5626A7BDC9,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Debug;
-		};
-		75A6E8C066609FD80E69D3F8 = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				477BAFC49C6DA855D64D1E22,
-				DEE91FC701A84F2BF2584C38,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Debug;

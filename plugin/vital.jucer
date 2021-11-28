@@ -2,7 +2,7 @@
 
 <JUCERPROJECT id="C9WuMW" name="Vial" projectType="audioplug" version="1.0.6"
               bundleIdentifier="audio.vial.synth" includeBinaryInAppConfig="1"
-              buildVST="1" buildVST3="1" buildAU="1" buildRTAS="0" buildAAX="0"
+              buildVST="0" buildVST3="1" buildAU="1" buildRTAS="0" buildAAX="0"
               pluginName="Vial" pluginDesc="" pluginManufacturer="Vial Audio"
               pluginManufacturerCode="Open" pluginCode="Vial" pluginChannelConfigs="{0, 2}"
               pluginIsSynth="1" pluginWantsMidiIn="1" pluginProducesMidiOut="0"
@@ -10,7 +10,7 @@
               pluginAUExportPrefix="vial" pluginRTASCategory="" aaxIdentifier="audio.vial.synth"
               pluginAAXCategory="2048" pluginIsMidiEffectPlugin="0" buildAUv3="1"
               displaySplashScreen="0" reportAppUsage="0" splashScreenColour="Dark"
-              buildStandalone="1" enableIAA="1" cppLanguageStandard="14" pluginFormats="buildVST,buildVST3,buildAU,buildAUv3,buildStandalone,enableIAA"
+              buildStandalone="1" enableIAA="1" cppLanguageStandard="14" pluginFormats="buildAU,buildAUv3,buildStandalone,buildVST3,enableIAA"
               pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn,pluginEditorRequiresKeys"
               jucerFormatVersion="1" projectLineFeed="&#10;">
   <MAINGROUP id="OwcEM5" name="Vial">
@@ -841,7 +841,6 @@
     </LINUX_MAKE>
     <XCODE_MAC targetFolder="builds/osx" vst3Folder="../third_party/VST3_SDK"
                rtasFolder="~/SDKs/PT_80_SDK" aaxFolder="~/srcs/AAX" extraDefs="JUCE_OPENGL3=1&#10;REQUIRE_AUTH=0&#10;NO_AUTH=1"
-               customPList="&lt;plist&gt;&#10;  &lt;dict&gt;&#10;    &lt;key&gt;NSAppTransportSecurity&lt;/key&gt;&#10;    &lt;dict&gt;&#10;      &lt;key&gt;NSExceptionDomains&lt;/key&gt;&#10;      &lt;dict&gt;&#10;        &lt;key&gt;tytel.org&lt;/key&gt;&#10;        &lt;dict&gt;&#10;          &lt;key&gt;NSIncludeSubDomains&lt;/key&gt;&#10;          &lt;false/&gt;&#10;          &lt;key&gt;NSTemporaryExceptionAllowsInsecureHTTPLoads&lt;/key&gt;&#10;          &lt;true/&gt;&#10;          &lt;key&gt;NSTemporaryExceptionMinimumTLSVersion&lt;/key&gt;&#10;          &lt;string&gt;TLSv1.1&lt;/string&gt;&#10;        &lt;/dict&gt;&#10;      &lt;/dict&gt;&#10;    &lt;/dict&gt;&#10;  &lt;/dict&gt;&#10;&lt;/plist&gt;"
                extraLinkerFlags="" bigIcon="XC7smo" postbuildCommand="if [ -f ~/Library/Audio/Plug-Ins/Components/Vital.component ]; then&#10;  auval -v aumu Vita Tyte&#10;fi"
                hardenedRuntime="1" externalLibraries="gssapi_krb5" extraFrameworks="Security,GSS"
                frameworkSearchPaths="../../../third_party/firebase_cpp_sdk/frameworks/darwin/"

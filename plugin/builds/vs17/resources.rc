@@ -15,8 +15,6 @@ BEGIN
   BEGIN
     BLOCK "040904E4"
     BEGIN
-      VALUE "CompanyName",  "Vial Audio\0"
-      VALUE "LegalCopyright",  "Matt Tytel\0"
       VALUE "FileDescription",  "Vial\0"
       VALUE "FileVersion",  "1.0.6\0"
       VALUE "ProductName",  "Vial\0"

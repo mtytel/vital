@@ -5,6 +5,8 @@
   <dict>
     <key>LSRequiresIPhoneOS</key>
     <true/>
+    <key>UIViewControllerBasedStatusBarAppearance</key>
+    <true/>
     <key>UILaunchStoryboardName</key>
     <string>LaunchScreen</string>
     <key>CFBundleExecutable</key>
@@ -24,7 +26,7 @@
     <key>CFBundleVersion</key>
     <string>1.0.6</string>
     <key>NSHumanReadableCopyright</key>
-    <string>Matt Tytel</string>
+    <string></string>
     <key>NSHighResolutionCapable</key>
     <true/>
     <key>NSExtension</key>

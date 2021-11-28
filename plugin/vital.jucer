@@ -8,11 +8,9 @@
               pluginIsSynth="1" pluginWantsMidiIn="1" pluginProducesMidiOut="0"
               pluginSilenceInIsSilenceOut="0" pluginEditorRequiresKeys="1"
               pluginAUExportPrefix="vial" pluginRTASCategory="" aaxIdentifier="audio.vial.synth"
-              pluginAAXCategory="2048" companyName="Vial Audio" companyEmail="matthewtytel@gmail.com"
-              companyWebsite="vial.audio" pluginIsMidiEffectPlugin="0" buildAUv3="1"
+              pluginAAXCategory="2048" pluginIsMidiEffectPlugin="0" buildAUv3="1"
               displaySplashScreen="0" reportAppUsage="0" splashScreenColour="Dark"
-              buildStandalone="1" enableIAA="1" cppLanguageStandard="14" companyCopyright="Matt Tytel"
-              pluginFormats="buildVST,buildVST3,buildAU,buildAUv3,buildStandalone,enableIAA"
+              buildStandalone="1" enableIAA="1" cppLanguageStandard="14" pluginFormats="buildVST,buildVST3,buildAU,buildAUv3,buildStandalone,enableIAA"
               pluginCharacteristicsValue="pluginIsSynth,pluginWantsMidiIn,pluginEditorRequiresKeys"
               jucerFormatVersion="1" projectLineFeed="&#10;">
   <MAINGROUP id="OwcEM5" name="Vial">
@@ -853,10 +851,12 @@
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" osxCompatibility="10.12 SDK" osxArchitecture="64BitIntel"
                        isDebug="1" optimisation="1" targetName="Vial" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/plugin&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
-                       linkTimeOptimisation="0" fastMath="1" cppLibType="libc++" enablePluginBinaryCopyStep="1"/>
+                       linkTimeOptimisation="0" fastMath="1" cppLibType="libc++" enablePluginBinaryCopyStep="1"
+                       macOSDeploymentTarget="10.12"/>
         <CONFIGURATION name="Release" osxCompatibility="10.12 SDK" osxArchitecture="64BitIntel"
                        isDebug="0" optimisation="6" targetName="Vial" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/plugin&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
-                       fastMath="1" linkTimeOptimisation="1" cppLibType="libc++" enablePluginBinaryCopyStep="1"/>
+                       fastMath="1" linkTimeOptimisation="1" cppLibType="libc++" enablePluginBinaryCopyStep="1"
+                       macOSDeploymentTarget="10.12"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_core" path="../third_party/JUCE/modules"/>

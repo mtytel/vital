@@ -2,10 +2,8 @@
 
 <JUCERPROJECT id="GfsdNK" name="Vial" projectType="guiapp" version="1.0.6"
               bundleIdentifier="audio.vital.standalone" includeBinaryInAppConfig="1"
-              companyName="Matt Tytel" companyWebsite="vial.audio" companyEmail="matthewtytel@gmail.com"
               defines="" displaySplashScreen="0" reportAppUsage="0" splashScreenColour="Dark"
-              cppLanguageStandard="14" companyCopyright="Matt Tytel" jucerFormatVersion="1"
-              projectLineFeed="&#10;">
+              cppLanguageStandard="14" jucerFormatVersion="1" projectLineFeed="&#10;">
   <MAINGROUP id="CeypXq" name="Vial">
     <GROUP id="{C539C807-A3BC-1AAC-36A3-83E9F431E5C3}" name="tunings">
       <FILE id="ZuM1I1" name="5 Limit.scl" compile="0" resource="1" file="../tunings/5 Limit.scl"/>
@@ -49,29 +47,6 @@
       <FILE id="rJ2SPM" name="vital_word.svg" compile="0" resource="1" file="../icons/vital_word.svg"/>
       <FILE id="lGBaAE" name="vital_word_ring.svg" compile="0" resource="1"
             file="../icons/vital_word_ring.svg"/>
-    </GROUP>
-    <GROUP id="{6EB9491D-275F-935A-E819-B8E979A73E01}" name="images">
-      <FILE id="FH25oH" name="vital.xpm" compile="0" resource="0" file="../images/vital.xpm"/>
-      <FILE id="x7SXkV" name="vital_icon_16.png" compile="0" resource="0"
-            file="../images/vital_icon_16.png"/>
-      <FILE id="BEbQE4" name="vital_icon_22.png" compile="0" resource="0"
-            file="../images/vital_icon_22.png"/>
-      <FILE id="sdGg93" name="vital_icon_24.png" compile="0" resource="0"
-            file="../images/vital_icon_24.png"/>
-      <FILE id="IGyJTS" name="vital_icon_32.png" compile="0" resource="0"
-            file="../images/vital_icon_32.png"/>
-      <FILE id="K3bVvF" name="vital_icon_48.png" compile="0" resource="0"
-            file="../images/vital_icon_48.png"/>
-      <FILE id="SpQm80" name="vital_icon_64.png" compile="0" resource="0"
-            file="../images/vital_icon_64.png"/>
-      <FILE id="g2GF6b" name="vital_icon_128.png" compile="0" resource="0"
-            file="../images/vital_icon_128.png"/>
-      <FILE id="n9ZzDL" name="vital_icon_256.png" compile="0" resource="0"
-            file="../images/vital_icon_256.png"/>
-      <FILE id="peC6sV" name="vital_icon_512.png" compile="0" resource="0"
-            file="../images/vital_icon_512.png"/>
-      <FILE id="SNk4Et" name="vital_icon_1024.png" compile="0" resource="0"
-            file="../images/vital_icon_1024.png"/>
     </GROUP>
     <GROUP id="{5E20F1A0-5E75-7060-2F6C-FA57FB1890B9}" name="src">
       <GROUP id="{24238426-E22D-9B0B-53E8-F1FE2E36A406}" name="common">
@@ -825,21 +800,21 @@
   </MAINGROUP>
   <EXPORTFORMATS>
     <XCODE_MAC targetFolder="builds/osx" customPList="&lt;plist&gt;&#10;  &lt;dict&gt;&#10;    &lt;key&gt;NSAppTransportSecurity&lt;/key&gt;&#10;    &lt;dict&gt;&#10;      &lt;key&gt;NSExceptionDomains&lt;/key&gt;&#10;      &lt;dict&gt;&#10;        &lt;key&gt;tytel.org&lt;/key&gt;&#10;        &lt;dict&gt;&#10;          &lt;key&gt;NSIncludeSubDomains&lt;/key&gt;&#10;          &lt;false/&gt;&#10;          &lt;key&gt;NSTemporaryExceptionAllowsInsecureHTTPLoads&lt;/key&gt;&#10;          &lt;true/&gt;&#10;          &lt;key&gt;NSTemporaryExceptionMinimumTLSVersion&lt;/key&gt;&#10;          &lt;string&gt;TLSv1.1&lt;/string&gt;&#10;        &lt;/dict&gt;&#10;      &lt;/dict&gt;&#10;    &lt;/dict&gt;&#10;  &lt;/dict&gt;&#10;&lt;/plist&gt;"
-               extraLinkerFlags="" iosDevelopmentTeamID="EFXDM6K3KJ" smallIcon="g2GF6b"
-               bigIcon="peC6sV" documentExtensions="vital,vitalbank,vitaltable"
-               extraDefs="JUCE_OPENGL3=1&#10;REQUIRE_AUTH=1" hardenedRuntime="1"
-               externalLibraries="gssapi_krb5" extraFrameworks="Security,GSS"
+               extraLinkerFlags="" iosDevelopmentTeamID="EFXDM6K3KJ" smallIcon=""
+               bigIcon="" documentExtensions="vital,vitalbank,vitaltable" extraDefs="JUCE_OPENGL3=1&#10;REQUIRE_AUTH=0&#10;NO_AUTH=1"
+               hardenedRuntime="1" externalLibraries="gssapi_krb5" extraFrameworks="Security,GSS"
                frameworkSearchPaths="../../../third_party/firebase_cpp_sdk/frameworks/darwin/"
                extraCustomFrameworks="firebase.framework&#10;firebase_auth.framework"
                xcodeValidArchs="arm64,arm64e,x86_64">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" osxCompatibility="10.12 SDK" osxArchitecture="64BitIntel"
                        isDebug="1" optimisation="1" targetName="Vial" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
-                       codeSigningIdentity="" fastMath="1" cppLibType="libc++" enablePluginBinaryCopyStep="1"/>
+                       codeSigningIdentity="" fastMath="1" cppLibType="libc++" enablePluginBinaryCopyStep="1"
+                       macOSDeploymentTarget="10.12"/>
         <CONFIGURATION name="Release" osxCompatibility="10.12 SDK" osxArchitecture="64BitIntel"
                        isDebug="0" optimisation="6" targetName="Vial" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
                        codeSigningIdentity="" cppLibType="libc++" fastMath="1" linkTimeOptimisation="1"
-                       enablePluginBinaryCopyStep="1"/>
+                       enablePluginBinaryCopyStep="1" macOSDeploymentTarget="10.12"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
         <MODULEPATH id="juce_core" path="../third_party/JUCE/modules"/>
@@ -860,7 +835,7 @@
     <LINUX_MAKE targetFolder="builds/linux" bigIcon="JqKIEw" smallIcon="oFf3hH"
                 extraCompilerFlags="-ffast-math ${SIMDFLAGS} ${GLFLAGS} -ftree-vectorize -ftree-slp-vectorize -funroll-loops"
                 extraLinkerFlags="-ffast-math ${SIMDFLAGS} ${GLFLAGS} -ftree-vectorize -ftree-slp-vectorize -lcurl"
-                extraDefs="BUILD_DATE=$(BUILD_DATE)&#10;REQUIRE_AUTH=1&#10;_GLIBCXX_USE_CXX11_ABI=0&#10;JUCE_JACK_CLIENT_NAME=&quot;Vital&quot;&#10;JUCE_ALSA_MIDI_INPUT_NAME=&quot;Vital&quot;&#10;JUCE_ALSA_MIDI_OUTPUT_NAME=&quot;Vital&quot;&#10;JUCE_USE_XRANDR=0&#10;JUCE_OPENGL3=1&#10;JUCE_DSP_USE_SHARED_FFTW=1"
+                extraDefs="BUILD_DATE=$(BUILD_DATE)&#10;REQUIRE_AUTH=0&#10;NO_AUTH=1&#10;_GLIBCXX_USE_CXX11_ABI=0&#10;JUCE_JACK_CLIENT_NAME=&quot;Vital&quot;&#10;JUCE_ALSA_MIDI_INPUT_NAME=&quot;Vital&quot;&#10;JUCE_ALSA_MIDI_OUTPUT_NAME=&quot;Vital&quot;&#10;JUCE_USE_XRANDR=0&#10;JUCE_OPENGL3=1&#10;JUCE_DSP_USE_SHARED_FFTW=1"
                 externalLibraries="firebase_auth&#10;firebase_app&#10;secret-1&#10;glib-2.0">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/&#10;../../../third_party/firebase_cpp_sdk/libs/linux/x86_64/"
@@ -886,7 +861,7 @@
         <MODULEPATH id="juce_dsp" path="../third_party/JUCE/modules"/>
       </MODULEPATHS>
     </LINUX_MAKE>
-    <VS2017 targetFolder="builds/vs17" extraDefs="JUCE_OPENGL3=1&#10;REQUIRE_AUTH=1&#10;INTEL_IPP=1&#10;WINVER=0x0601&#10;_WIN32_WINNT=0x0601&#10;_ENABLE_EXTENDED_ALIGNED_STORAGE&#10;__SSE2__=1"
+    <VS2017 targetFolder="builds/vs17" extraDefs="JUCE_OPENGL3=1&#10;REQUIRE_AUTH=0&#10;NO_AUTH=1&#10;INTEL_IPP=1&#10;WINVER=0x0601&#10;_WIN32_WINNT=0x0601&#10;_ENABLE_EXTENDED_ALIGNED_STORAGE&#10;__SSE2__=1"
             IPPLibrary="Sequential" externalLibraries="firebase_auth.lib&#10;firebase_app.lib&#10;firebase_rest_lib.lib&#10;flatbuffers.lib&#10;libcurl.lib&#10;Wldap32.lib&#10;crypt32.lib">
       <CONFIGURATIONS>
         <CONFIGURATION isDebug="1" name="Debug" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party&#10;../../../third_party/firebase_cpp_sdk/include"
@@ -918,7 +893,7 @@
         <MODULEPATH id="juce_audio_basics" path="../third_party/JUCE/modules"/>
       </MODULEPATHS>
     </VS2017>
-    <VS2019 targetFolder="builds/vs19" extraDefs="JUCE_OPENGL3=1&#10;REQUIRE_AUTH=1&#10;INTEL_IPP=1&#10;WINVER=0x0601&#10;_WIN32_WINNT=0x0601&#10;_ENABLE_EXTENDED_ALIGNED_STORAGE&#10;__SSE2__=1"
+    <VS2019 targetFolder="builds/vs19" extraDefs="JUCE_OPENGL3=1&#10;REQUIRE_AUTH=0&#10;NO_AUTH=1&#10;INTEL_IPP=1&#10;WINVER=0x0601&#10;_WIN32_WINNT=0x0601&#10;_ENABLE_EXTENDED_ALIGNED_STORAGE&#10;__SSE2__=1"
             IPPLibrary="Sequential" externalLibraries="firebase_auth.lib&#10;firebase_app.lib">
       <CONFIGURATIONS>
         <CONFIGURATION isDebug="1" name="Debug" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party&#10;../../../third_party/firebase_cpp_sdk/include"

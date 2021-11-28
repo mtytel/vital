@@ -14,9 +14,6 @@
     <Filter Include="Vial\icons">
       <UniqueIdentifier>{530D6584-01A8-91AA-C42F-FF47BF6C6223}</UniqueIdentifier>
     </Filter>
-    <Filter Include="Vial\images">
-      <UniqueIdentifier>{ECE273C4-7F16-69DF-358E-CD79F6B0C2A4}</UniqueIdentifier>
-    </Filter>
     <Filter Include="Vial\src\common\wavetable">
       <UniqueIdentifier>{483A35FD-40E9-022C-3078-1D9F783CB7DA}</UniqueIdentifier>
     </Filter>
@@ -6430,39 +6427,6 @@
     </None>
     <None Include="..\..\..\icons\vital_word_ring.svg">
       <Filter>Vial\icons</Filter>
-    </None>
-    <None Include="..\..\..\images\vital.xpm">
-      <Filter>Vial\images</Filter>
-    </None>
-    <None Include="..\..\..\images\vital_icon_16.png">
-      <Filter>Vial\images</Filter>
-    </None>
-    <None Include="..\..\..\images\vital_icon_22.png">
-      <Filter>Vial\images</Filter>
-    </None>
-    <None Include="..\..\..\images\vital_icon_24.png">
-      <Filter>Vial\images</Filter>
-    </None>
-    <None Include="..\..\..\images\vital_icon_32.png">
-      <Filter>Vial\images</Filter>
-    </None>
-    <None Include="..\..\..\images\vital_icon_48.png">
-      <Filter>Vial\images</Filter>
-    </None>
-    <None Include="..\..\..\images\vital_icon_64.png">
-      <Filter>Vial\images</Filter>
-    </None>
-    <None Include="..\..\..\images\vital_icon_128.png">
-      <Filter>Vial\images</Filter>
-    </None>
-    <None Include="..\..\..\images\vital_icon_256.png">
-      <Filter>Vial\images</Filter>
-    </None>
-    <None Include="..\..\..\images\vital_icon_512.png">
-      <Filter>Vial\images</Filter>
-    </None>
-    <None Include="..\..\..\images\vital_icon_1024.png">
-      <Filter>Vial\images</Filter>
     </None>
     <None Include="..\..\..\third_party\JUCE\modules\juce_audio_devices\native\oboe\CMakeLists.txt">
       <Filter>JUCE Modules\juce_audio_devices\native\oboe</Filter>

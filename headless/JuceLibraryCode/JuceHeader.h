@@ -26,7 +26,7 @@
  /** If you've hit this error then the version of the Projucer that was used to generate this project is
      older than the version of the JUCE modules being included. To fix this error, re-save your project
      using the latest version of the Projucer or, if you aren't using the Projucer to manage your project,
-     remove the JUCE_PROJUCER_VERSION define from the AppConfig.h file.
+     remove the JUCE_PROJUCER_VERSION define.
  */
  #error "This project was last saved using an outdated version of the Projucer! Re-save this project with the latest version to fix this error."
 #endif
@@ -40,9 +40,9 @@
 #if ! JUCE_DONT_DECLARE_PROJECTINFO
 namespace ProjectInfo
 {
-    const char* const  projectName    = "Vital";
-    const char* const  companyName    = "Matt Tytel";
-    const char* const  versionString  = "99999.9.9";
-    const int          versionNumber  = 0x869f0909;
+    const char* const  projectName    = "Vial";
+    const char* const  companyName    = "";
+    const char* const  versionString  = "0.0.9";
+    const int          versionNumber  = 0x9;
 }
 #endif

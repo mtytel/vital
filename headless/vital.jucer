@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="GfsdNK" name="Vital" projectType="guiapp" version="99999.9.9"
-              bundleIdentifier="org.tytel.vital" includeBinaryInAppConfig="1"
-              companyName="Matt Tytel" companyWebsite="vital.audio" companyEmail="matthewtytel@gmail.com"
+<JUCERPROJECT id="GfsdNK" name="Vial" projectType="guiapp" version="0.0.9"
+              bundleIdentifier="org.buchenberg.vial" includeBinaryInAppConfig="1"
               defines="" displaySplashScreen="0" reportAppUsage="0" splashScreenColour="Dark"
-              cppLanguageStandard="14" companyCopyright="Matt Tytel" jucerFormatVersion="1">
-  <MAINGROUP id="CeypXq" name="Vital">
+              cppLanguageStandard="14" jucerFormatVersion="1">
+  <MAINGROUP id="CeypXq" name="Vial">
     <GROUP id="{5E20F1A0-5E75-7060-2F6C-FA57FB1890B9}" name="src">
       <GROUP id="{24238426-E22D-9B0B-53E8-F1FE2E36A406}" name="common">
         <GROUP id="{4ABC3884-D1B2-B9F8-BBBE-13809C729B01}" name="wavetable">
@@ -343,7 +342,7 @@
     <LINUX_MAKE targetFolder="builds/linux" bigIcon="JqKIEw" smallIcon="oFf3hH"
                 extraCompilerFlags="-ffast-math ${SIMDFLAGS} ${GLFLAGS} -ftree-vectorize -ftree-slp-vectorize -funroll-loops"
                 extraLinkerFlags="-ffast-math ${SIMDFLAGS} ${GLFLAGS} -ftree-vectorize -ftree-slp-vectorize -lcurl"
-                extraDefs="BUILD_DATE=$(BUILD_DATE)&#10;JUCE_JACK_CLIENT_NAME=&quot;Vital&quot;&#10;JUCE_ALSA_MIDI_INPUT_NAME=&quot;Vital&quot;&#10;JUCE_ALSA_MIDI_OUTPUT_NAME=&quot;Vital&quot;&#10;JUCE_USE_XRANDR=0&#10;JUCE_DSP_USE_SHARED_FFTW=1&#10;HEADLESS=1&#10;NO_AUTH=1">
+                extraDefs="BUILD_DATE=$(BUILD_DATE)&#10;JUCE_JACK_CLIENT_NAME=&quot;Vital&quot;&#10;JUCE_ALSA_MIDI_INPUT_NAME=&quot;Vital&quot;&#10;JUCE_ALSA_MIDI_OUTPUT_NAME=&quot;Vital&quot;&#10;JUCE_USE_XRANDR=0&#10;JUCE_DSP_USE_SHARED_FFTW=1&#10;HEADLESS=1&#10;NO_AUTH=1&#10;REQUIRE_AUTH=0">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"
                        targetName="vital" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
@@ -361,10 +360,10 @@
         <MODULEPATH id="juce_dsp" path="../third_party/JUCE/modules"/>
       </MODULEPATHS>
     </LINUX_MAKE>
-    <XCODE_MAC targetFolder="builds/osx" extraDefs="HEADLESS=1&#10;NO_AUTH=1">
+    <XCODE_MAC targetFolder="builds/osx" extraDefs="HEADLESS=1&#10;NO_AUTH=1&#10;REQUIRE_AUTH=0">
       <CONFIGURATIONS>
         <CONFIGURATION isDebug="1" name="Debug" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
-                       osxCompatibility="10.7 SDK"/>
+                       osxCompatibility="10.7 SDK" macOSDeploymentTarget="10.7"/>
         <CONFIGURATION isDebug="0" name="Release" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
                        optimisation="6"/>
       </CONFIGURATIONS>

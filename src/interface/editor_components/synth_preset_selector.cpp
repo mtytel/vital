@@ -213,10 +213,10 @@ void SynthPresetSelector::showPopupMenu(Component* anchor) {
   // else
   //   options.addItem(kLogOut, "Log out - " + redactEmail(logged_in_as).toStdString());
 
-  // if (LoadSave::getDefaultSkin().exists()) {
-  //   options.addItem(-1, "");
-  //   options.addItem(kClearSkin, "Load Default Skin");
-  // }
+  if (LoadSave::getDefaultSkin().exists()) {
+     options.addItem(-1, "");
+     options.addItem(kClearSkin, "Load Default Skin");
+  }
 
   showPopupSelector(this, Point<int>(anchor->getX(), anchor->getBottom()), options,
                     [=](int selection) { menuCallback(selection, this); });

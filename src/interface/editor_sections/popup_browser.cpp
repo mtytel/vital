@@ -1107,12 +1107,6 @@ PopupBrowser::PopupBrowser() : SynthSection("Popup Browser"),
   addButton(store_button_.get());
   store_button_->setVisible(false);
 
-  download_button_ = std::make_unique<OpenGlToggleButton>("Login");
-  download_button_->setUiButton(true);
-  download_button_->setText("Download content");
-  addButton(download_button_.get());
-  download_button_->setVisible(false);
-
 #if !defined(NO_TEXT_ENTRY)
   search_box_ = std::make_unique<OpenGlTextEditor>("Search");
   search_box_->addListener(this);
@@ -1181,9 +1175,8 @@ void PopupBrowser::resized() {
 
   int padding = getPadding();
   int text_height = top_height - 2 * padding;
-  download_button_->setBounds(x + padding, y + padding, selection_list_width - 2 * padding, text_height);
   if (search_box_) {
-    search_box_->setBounds(download_button_->getBounds());
+    search_box_->setBounds(x + padding, y + padding, selection_list_width - 2 * padding, text_height);
     search_box_->resized();
   }
 
@@ -1293,7 +1286,6 @@ void PopupBrowser::checkNoContent() {
   bool has_content = LoadSave::hasDataDirectory();
   if (search_box_)
     search_box_->setVisible(has_content);
-  download_button_->setVisible(!has_content);
 }
 
 void PopupBrowser::checkStoreButton() {
@@ -1384,13 +1376,6 @@ void PopupBrowser::textEditorEscapeKeyPressed(TextEditor& editor) {
 void PopupBrowser::buttonClicked(Button* clicked_button) {
   if (clicked_button == exit_button_.get())
     setVisible(false);
-  else if (clicked_button == download_button_.get()) {
-    FullInterface* parent = findParentComponentOfClass<FullInterface>();
-    if (parent) {
-      setVisible(false);
-      parent->startDownload();
-    }
-  }
   else if (clicked_button == store_button_.get() && owner_) {
     String encoded_author = URL::addEscapeChars(owner_->getFileAuthor(), true);
     encoded_author = encoded_author.replace("+", "%2B");

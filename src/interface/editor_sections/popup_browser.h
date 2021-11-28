@@ -417,7 +417,6 @@ class PopupBrowser : public SynthSection,
     std::unique_ptr<OpenGlTextEditor> search_box_;
     std::unique_ptr<OpenGlShapeButton> exit_button_;
     std::unique_ptr<OpenGlToggleButton> store_button_;
-    std::unique_ptr<OpenGlToggleButton> download_button_;
     Rectangle<int> passthrough_bounds_;
     Rectangle<int> browser_bounds_;
     PopupClosingArea closing_areas_[4];

@@ -91,7 +91,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(IntDir)\Vial.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <LargeAddressAware>true</LargeAddressAware>
       <AdditionalDependencies>flatbuffers.lib;libcurl.lib;Wldap32.lib;crypt32.lib;Vial.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
@@ -101,7 +100,6 @@
     </Bscmake>
     <Lib>
       <AdditionalDependencies>flatbuffers.lib;libcurl.lib;Wldap32.lib;crypt32.lib;Vial.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
     <PostBuildEvent>
       <Command>copy /Y &quot;$(OutDir)$(TargetFileName)&quot; &quot;%CommonProgramW6432%\VST3\$(TargetFileName)&quot;</Command>
@@ -143,7 +141,6 @@
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <LargeAddressAware>true</LargeAddressAware>
       <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
       <AdditionalDependencies>flatbuffers.lib;libcurl.lib;Wldap32.lib;crypt32.lib;Vial.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -154,7 +151,6 @@
     </Bscmake>
     <Lib>
       <AdditionalDependencies>flatbuffers.lib;libcurl.lib;Wldap32.lib;crypt32.lib;Vial.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
     <PostBuildEvent>
       <Command>copy /Y &quot;$(OutDir)$(TargetFileName)&quot; &quot;%CommonProgramW6432%\VST3\$(TargetFileName)&quot;</Command>

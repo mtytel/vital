@@ -91,7 +91,6 @@
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <ProgramDatabaseFile>$(IntDir)\Vial.pdb</ProgramDatabaseFile>
       <SubSystem>Windows</SubSystem>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <LargeAddressAware>true</LargeAddressAware>
       <AdditionalDependencies>flatbuffers.lib;libcurl.lib;Wldap32.lib;crypt32.lib;Vial.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
@@ -101,7 +100,6 @@
     </Bscmake>
     <Lib>
       <AdditionalDependencies>flatbuffers.lib;libcurl.lib;Wldap32.lib;crypt32.lib;Vial.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -140,7 +138,6 @@
       <SubSystem>Windows</SubSystem>
       <OptimizeReferences>true</OptimizeReferences>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
       <LargeAddressAware>true</LargeAddressAware>
       <LinkTimeCodeGeneration>UseLinkTimeCodeGeneration</LinkTimeCodeGeneration>
       <AdditionalDependencies>flatbuffers.lib;libcurl.lib;Wldap32.lib;crypt32.lib;Vial.lib;%(AdditionalDependencies)</AdditionalDependencies>
@@ -151,7 +148,6 @@
     </Bscmake>
     <Lib>
       <AdditionalDependencies>flatbuffers.lib;libcurl.lib;Wldap32.lib;crypt32.lib;Vial.lib;%(AdditionalDependencies)</AdditionalDependencies>
-      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>

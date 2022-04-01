@@ -1102,8 +1102,6 @@
 			children = (
 				CBAC7737B6C559DE53C58B4D,
 				04A37A8E94DE1903DFFE8C6F,
-				EB73F57D97534B6C534E4660,
-				511E6D9BE85567E5B8738AC6,
 				2B73A3F2D23A0558ED30541C,
 				7740CF8E76D239091744FAB4,
 				F8732B114181DB93FF1AE986,
@@ -1486,7 +1484,7 @@
 		1274150799E95CB43F035F74 = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 1300;
+				LastUpgradeCheck = 1320;
 				ORGANIZATIONNAME = "";
 				TargetAttributes = {
 					5DD7392369A544599AE7F84E = {
@@ -1758,6 +1756,7 @@
 				INSTALL_PATH = "@executable_path/Frameworks";
 				LLVM_LTO = YES;
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				OTHER_CFLAGS = "-mtune=cortex-a53";
 				OTHER_CPLUSPLUSFLAGS = "-mtune=cortex-a53";
 				OTHER_LDFLAGS = "-mtune=cortex-a53";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
@@ -1826,6 +1825,7 @@
 					"$(inherited)",
 				);
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				OTHER_CFLAGS = "-mtune=cortex-a53";
 				OTHER_CPLUSPLUSFLAGS = "-mtune=cortex-a53";
 				OTHER_LDFLAGS = "-lVial -mtune=cortex-a53";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
@@ -1945,6 +1945,7 @@
 				);
 				LLVM_LTO = YES;
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				OTHER_CFLAGS = "-mtune=cortex-a53";
 				OTHER_CPLUSPLUSFLAGS = "-mtune=cortex-a53";
 				OTHER_LDFLAGS = "-lVial -mtune=cortex-a53";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
@@ -2014,6 +2015,7 @@
 				);
 				INSTALL_PATH = "@executable_path/Frameworks";
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				OTHER_CFLAGS = "-mtune=cortex-a53";
 				OTHER_CPLUSPLUSFLAGS = "-mtune=cortex-a53";
 				OTHER_LDFLAGS = "-mtune=cortex-a53";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
@@ -2085,6 +2087,7 @@
 				INFOPLIST_PREPROCESS = NO;
 				LLVM_LTO = YES;
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				OTHER_CFLAGS = "-mtune=cortex-a53";
 				OTHER_CPLUSPLUSFLAGS = "-mtune=cortex-a53";
 				OTHER_LDFLAGS = "-lVial -mtune=cortex-a53";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth.synthAUv3;
@@ -2155,6 +2158,7 @@
 				INFOPLIST_FILE = Info-Standalone_Plugin.plist;
 				INFOPLIST_PREPROCESS = NO;
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				OTHER_CFLAGS = "-mtune=cortex-a53";
 				OTHER_CPLUSPLUSFLAGS = "-mtune=cortex-a53";
 				OTHER_LDFLAGS = "-lVial -mtune=cortex-a53";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
@@ -2226,6 +2230,7 @@
 				INFOPLIST_PREPROCESS = NO;
 				LLVM_LTO = YES;
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				OTHER_CFLAGS = "-mtune=cortex-a53";
 				OTHER_CPLUSPLUSFLAGS = "-mtune=cortex-a53";
 				OTHER_LDFLAGS = "-lVial -mtune=cortex-a53";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth;
@@ -2295,6 +2300,7 @@
 				INFOPLIST_FILE = Info-AUv3_AppExtension.plist;
 				INFOPLIST_PREPROCESS = NO;
 				MTL_HEADER_SEARCH_PATHS = "$(SRCROOT)/../../JuceLibraryCode $(SRCROOT)/../../../third_party/JUCE/modules $(SRCROOT)/../../../src/common $(SRCROOT)/../../../src/common/wavetable $(SRCROOT)/../../../src/interface/editor_components $(SRCROOT)/../../../src/interface/editor_sections $(SRCROOT)/../../../src/interface/look_and_feel $(SRCROOT)/../../../src/interface/wavetable $(SRCROOT)/../../../src/interface/wavetable/editors $(SRCROOT)/../../../src/interface/wavetable/overlays $(SRCROOT)/../../../src/plugin $(SRCROOT)/../../../src/synthesis/synth_engine $(SRCROOT)/../../../src/synthesis/effects $(SRCROOT)/../../../src/synthesis/filters $(SRCROOT)/../../../src/synthesis/framework $(SRCROOT)/../../../src/synthesis/lookups $(SRCROOT)/../../../src/synthesis/modulators $(SRCROOT)/../../../src/synthesis/modules $(SRCROOT)/../../../src/synthesis/producers $(SRCROOT)/../../../src/synthesis/utilities $(SRCROOT)/../../../third_party $(SRCROOT)/../../../third_party/JUCE/modules/juce_audio_plugin_client";
+				OTHER_CFLAGS = "-mtune=cortex-a53";
 				OTHER_CPLUSPLUSFLAGS = "-mtune=cortex-a53";
 				OTHER_LDFLAGS = "-lVial -mtune=cortex-a53";
 				PRODUCT_BUNDLE_IDENTIFIER = audio.vial.synth.synthAUv3;

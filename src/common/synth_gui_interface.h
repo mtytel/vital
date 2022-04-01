@@ -27,7 +27,6 @@ class AudioDeviceManager { };
 #endif
 
 class FullInterface;
-class Authentication;
 
 struct SynthGuiData {
   SynthGuiData(SynthBase* synth_base);

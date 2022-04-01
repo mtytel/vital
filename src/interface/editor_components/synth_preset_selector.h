@@ -102,9 +102,6 @@ class SynthPresetSelector : public SynthSection,
     void clearTuning();
     std::string getTuningName();
     bool hasDefaultTuning();
-    std::string loggedInName();
-    void signOut();
-    void signIn();
     void openSkinDesigner();
     void loadSkin();
     void clearSkin();

@@ -274,10 +274,6 @@
           <FILE id="qcp7bb" name="about_section.cpp" compile="0" resource="0"
                 file="../src/interface/editor_sections/about_section.cpp"/>
           <FILE id="MIVVLu" name="about_section.h" compile="0" resource="0" file="../src/interface/editor_sections/about_section.h"/>
-          <FILE id="aetY8x" name="authentication_section.cpp" compile="0" resource="0"
-                file="../src/interface/editor_sections/authentication_section.cpp"/>
-          <FILE id="SDm9Fa" name="authentication_section.h" compile="0" resource="0"
-                file="../src/interface/editor_sections/authentication_section.h"/>
           <FILE id="x9x9SM" name="bank_exporter.cpp" compile="0" resource="0"
                 file="../src/interface/editor_sections/bank_exporter.cpp"/>
           <FILE id="QvuAZB" name="bank_exporter.h" compile="0" resource="0" file="../src/interface/editor_sections/bank_exporter.h"/>

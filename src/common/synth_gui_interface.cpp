@@ -15,7 +15,6 @@
  */
 
 #include "synth_gui_interface.h"
-#include "authentication.h"
 #include "modulation_connection_processor.h"
 #include "sound_engine.h"
 #include "load_save.h"

@@ -27,9 +27,9 @@ else
 endif
 endif
 
-PROGRAM = vital
-LIB_PROGRAM = Vital
-LIB_PROGRAM_FX = VitalFX
+PROGRAM = vial
+LIB_PROGRAM = Vial
+LIB_PROGRAM_FX = VialFX
 BIN = $(DESTDIR)/usr/bin
 BINFILE = $(BIN)/$(PROGRAM)
 LV2 = $(DESTDIR)/$(LIBDIR)/lv2/$(LIB_PROGRAM).lv2
@@ -48,16 +48,16 @@ DESKTOP = $(DESTDIR)/usr/share/applications/
 ZIP_FOLDER = $(LIB_PROGRAM)Binaries
 
 ICONS      = $(DESTDIR)/usr/share/icons/hicolor/
-ICON16     = images/vital_icon_16.png
-ICON22     = images/vital_icon_22.png
-ICON24     = images/vital_icon_24.png
-ICON32     = images/vital_icon_32.png
-ICON48     = images/vital_icon_48.png
-ICON64     = images/vital_icon_64.png
-ICON128    = images/vital_icon_128.png
-ICON256    = images/vital_icon_256.png
+ICON16     = images/vial_icon_16.png
+ICON22     = images/vial_icon_22.png
+ICON24     = images/vial_icon_24.png
+ICON32     = images/vial_icon_32.png
+ICON48     = images/vial_icon_48.png
+ICON64     = images/vial_icon_64.png
+ICON128    = images/vial_icon_128.png
+ICON256    = images/vial_icon_256.png
 XPMDEST    = $(DESTDIR)/usr/share/pixmaps
-ICONXPM    = images/vital.xpm
+ICONXPM    = images/vial.xpm
 
 ICONDEST16 = $(ICONS)/16x16/apps
 ICONDEST22 = $(ICONS)/22x22/apps

@@ -54,10 +54,6 @@ namespace {
       preset_selector->loadSkin();
     else if (result == SynthPresetSelector::kClearSkin)
       preset_selector->clearSkin();
-    else if (result == SynthPresetSelector::kLogOut)
-      preset_selector->signOut();
-    else if (result == SynthPresetSelector::kLogIn)
-      preset_selector->signIn();
   }
 
   String redactEmail(const String& email) {
@@ -207,11 +203,6 @@ void SynthPresetSelector::showPopupMenu(Component* anchor) {
     options.addItem(kClearTuning, "Clear Tuning: " + getTuningName());
   
   options.addItem(-1, "");
-  std::string logged_in_as = loggedInName();
-  // if (logged_in_as.empty())
-  //   options.addItem(kLogIn, "Log in");
-  // else
-  //   options.addItem(kLogOut, "Log out - " + redactEmail(logged_in_as).toStdString());
 
   if (LoadSave::getDefaultSkin().exists()) {
      options.addItem(-1, "");
@@ -367,22 +358,7 @@ bool SynthPresetSelector::hasDefaultTuning() {
   return parent->getSynth()->getTuning()->isDefault();
 }
 
-std::string SynthPresetSelector::loggedInName() {
-  FullInterface* full_interface = findParentComponentOfClass<FullInterface>();
-  if (full_interface)
-    return full_interface->getSignedInName();
-  return "";
-}
 
-void SynthPresetSelector::signOut() {
-  FullInterface* full_interface = findParentComponentOfClass<FullInterface>();
-  return full_interface->signOut();
-}
-
-void SynthPresetSelector::signIn() {
-  FullInterface* full_interface = findParentComponentOfClass<FullInterface>();
-  return full_interface->signIn();
-}
 
 void SynthPresetSelector::openSkinDesigner() {
   skin_designer_.deleteAndZero();

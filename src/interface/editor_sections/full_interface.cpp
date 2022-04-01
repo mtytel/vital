@@ -20,7 +20,6 @@
 #include "bank_exporter.h"
 #include "bend_section.h"
 #include "delete_section.h"
-#include "download_section.h"
 #include "expired_section.h"
 #include "extra_mod_section.h"
 #include "skin.h"
@@ -41,7 +40,6 @@
 #include "synthesis_interface.h"
 #include "synth_gui_interface.h"
 #include "text_look_and_feel.h"
-#include "update_check_section.h"
 #include "voice_section.h"
 
 FullInterface::FullInterface(SynthGuiData* synth_data) : SynthSection("full_interface"), width_(0), resized_width_(0),
@@ -57,8 +55,7 @@ FullInterface::FullInterface(SynthGuiData* synth_data) : SynthSection("full_inte
 
   bool synth = synth_data->wavetable_creators[0];
   if (synth) {
-    synthesis_interface_ = std::make_unique<SynthesisInterface>(&auth_,
-                                                                synth_data->mono_modulations,
+    synthesis_interface_ = std::make_unique<SynthesisInterface>(synth_data->mono_modulations,
                                                                 synth_data->poly_modulations);
 
     for (int i = 0; i < vital::kNumOscillators; ++i) {
@@ -164,12 +161,6 @@ FullInterface::FullInterface(SynthGuiData* synth_data) : SynthSection("full_inte
   addChildComponent(delete_section_.get());
   preset_browser_->setDeleteSection(delete_section_.get());
 
-  download_section_ = std::make_unique<DownloadSection>("download_section", &auth_);
-  addSubSection(download_section_.get(), false);
-  addChildComponent(download_section_.get());
-  download_section_->setAlwaysOnTop(true);
-  download_section_->addListener(this);
-
   about_section_ = std::make_unique<AboutSection>("about");
   addSubSection(about_section_.get(), false);
   addChildComponent(about_section_.get());
@@ -196,13 +187,7 @@ FullInterface::FullInterface(SynthGuiData* synth_data) : SynthSection("full_inte
   dual_popup_selector_->toFront(true);
   popup_display_1_->toFront(true);
   popup_display_2_->toFront(true);
-  download_section_->toFront(true);
 
-  update_check_section_ = std::make_unique<UpdateCheckSection>("update_check");
-  addSubSection(update_check_section_.get(), false);
-  addChildComponent(update_check_section_.get());
-  update_check_section_->setAlwaysOnTop(true);
-  update_check_section_->addListener(this);
 
   if (LoadSave::isExpired()) { 
     expired_section_ = std::make_unique<ExpiredSection>("expired");
@@ -210,24 +195,10 @@ FullInterface::FullInterface(SynthGuiData* synth_data) : SynthSection("full_inte
     expired_section_->setAlwaysOnTop(true);
   }
 
-#if NDEBUG && !NO_AUTH
-  bool authenticated = LoadSave::authenticated();
-  bool work_offline = LoadSave::shouldWorkOffline();
-  authentication_ = std::make_unique<AuthenticationSection>(&auth_);
-  authentication_->addListener(this);
-  addSubSection(authentication_.get(), false);
-  addChildComponent(authentication_.get());
-  authentication_->setVisible(!authenticated && !work_offline);
-  authentication_->init();
-  if (!work_offline)
-    authentication_->create();
-#endif
-
   setAllValues(synth_data->controls);
   setOpaque(true);
   setSkinValues(default_skin, true);
 
-  needs_download_ = UpdateMemory::getInstance()->incrementChecker();
 
   open_gl_context_.setContinuousRepainting(true);
   open_gl_context_.setOpenGLVersionRequired(OpenGLContext::openGL3_2);
@@ -253,7 +224,6 @@ FullInterface::FullInterface() : SynthSection("EMPTY"), open_gl_(open_gl_context
 }
 
 FullInterface::~FullInterface() {
-  UpdateMemory::getInstance()->decrementChecker();
 
   open_gl_context_.detach();
   open_gl_context_.setRenderer(nullptr);
@@ -296,25 +266,7 @@ void FullInterface::reloadSkin(const Skin& skin) {
   setBounds(bounds);
 }
 
-void FullInterface::dataDirectoryChanged() {
-  preset_browser_->loadPresets();
-}
 
-void FullInterface::noDownloadNeeded() {
-  update_check_section_->startCheck();
-}
-
-void FullInterface::needsUpdate() {
-  if (!download_section_->isVisible() && !update_check_section_->isVisible())
-    update_check_section_->setVisible(true);  
-}
-
-void FullInterface::loggedIn() {
-#if !defined(NO_TEXT_ENTRY)
-  if (needs_download_)
-    download_section_->triggerDownload();
-#endif
-}
 
 void FullInterface::repaintChildBackground(SynthSection* child) {
   if (!background_image_.isValid() || setting_all_values_)
@@ -428,8 +380,6 @@ void FullInterface::resized() {
   if (expired_section_)
     expired_section_->setBounds(bounds);
 
-  if (authentication_)
-    authentication_->setBounds(bounds);
 
   popup_browser_->setBounds(bounds);
 
@@ -481,10 +431,8 @@ void FullInterface::resized() {
   keyboard_interface_->setBounds(keyboard_x, top + height - keyboard_height - padding, keyboard_width, keyboard_height);
 
   about_section_->setBounds(bounds);
-  update_check_section_->setBounds(bounds);
   save_section_->setBounds(bounds);
   delete_section_->setBounds(bounds);
-  download_section_->setBounds(bounds);
 
   Rectangle<int> browse_bounds(main_bounds.getX(), main_bounds.getY(),
                                width - main_bounds.getX(), main_bounds.getHeight());
@@ -584,12 +532,6 @@ void FullInterface::setWavetableNames() {
   }
 }
 
-void FullInterface::startDownload() {
-  if (auth_.loggedIn() || authentication_ == nullptr)
-    download_section_->triggerDownload();
-  else
-    authentication_->setVisible(true);
-}
 
 void FullInterface::newOpenGLContextCreated() {
   double version_supported = OpenGLShaderProgram::getLanguageVersion();
@@ -728,9 +670,7 @@ void FullInterface::modulationsScrolled() {
 }
 
 void FullInterface::setFocus() {
-  if (authentication_ && authentication_->isShowing())
-    authentication_->setFocus();
-  else if (synthesis_interface_ && synthesis_interface_->isShowing())
+  if (synthesis_interface_ && synthesis_interface_->isShowing())
     synthesis_interface_->setFocus();
 }
 
@@ -803,24 +743,6 @@ std::string FullInterface::getWavetableName(int index) {
   return wavetable_edits_[index]->getName();
 }
 
-std::string FullInterface::getSignedInName() {
-  if (authentication_ == nullptr || !auth_.loggedIn())
-    return "";
-  
-  return authentication_->getSignedInName();
-}
-
-void FullInterface::signOut() {
-  if (authentication_)
-    authentication_->signOut();
-}
-
-void FullInterface::signIn() {
-  if (authentication_) {
-    authentication_->create();
-    authentication_->setVisible(true);
-  }
-}
 
 void FullInterface::hideWavetableEditSection() {
   showWavetableEditSection(-1);

@@ -320,9 +320,6 @@
     <ClCompile Include="..\..\..\src\interface\editor_sections\about_section.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="..\..\..\src\interface\editor_sections\authentication_section.cpp">
-      <ExcludedFromBuild>true</ExcludedFromBuild>
-    </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\bank_exporter.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
@@ -2991,7 +2988,6 @@
     <ClInclude Include="..\..\..\src\interface\editor_components\transpose_quantize.h"/>
     <ClInclude Include="..\..\..\src\interface\editor_components\wavetable_3d.h"/>
     <ClInclude Include="..\..\..\src\interface\editor_sections\about_section.h"/>
-    <ClInclude Include="..\..\..\src\interface\editor_sections\authentication_section.h"/>
     <ClInclude Include="..\..\..\src\interface\editor_sections\bank_exporter.h"/>
     <ClInclude Include="..\..\..\src\interface\editor_sections\bend_section.h"/>
     <ClInclude Include="..\..\..\src\interface\editor_sections\chorus_section.h"/>

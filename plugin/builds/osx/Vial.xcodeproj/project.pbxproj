@@ -55,7 +55,6 @@
 		7F4B6B6A2EF2F362CA228264 /* Carbon.framework */ = {isa = PBXBuildFile; fileRef = 2656ADD134AC3CAB2C7492F6; };
 		8164556C780EB8368402B2A7 /* include_juce_graphics.mm */ = {isa = PBXBuildFile; fileRef = 6C8770F08D41AF824BD43379; };
 		87E461B340C7EF4385A8B1F5 /* include_juce_opengl.mm */ = {isa = PBXBuildFile; fileRef = 2D9E33361F9CCDC91BA3CDB6; };
-		8DC6219EA578316B2CBA0073 /* firebase.framework */ = {isa = PBXBuildFile; fileRef = 8A11B4CA69336C14305849C4; };
 		8FF4063454517BE767A6177A /* include_juce_audio_plugin_client_AU.r */ = {isa = PBXBuildFile; fileRef = 35D142D5C94A95C630438693; };
 		900E3E93471A986B3022DFFB /* synthesis.cpp */ = {isa = PBXBuildFile; fileRef = 183FB3D739EA0EEF939839EE; };
 		9505FFBE833C0D285E32CD11 /* plugin.cpp */ = {isa = PBXBuildFile; fileRef = AAF691B0BF42E33D0BC3F814; };
@@ -64,7 +63,6 @@
 		9CCF93C9AB1150F93657ABFA /* IOKit.framework */ = {isa = PBXBuildFile; fileRef = 6736746E99122F8A715A3409; };
 		9FB5AC8552FB4E4F0564E048 /* AUv3 AppExtension */ = {isa = PBXBuildFile; fileRef = 14AFDF6020778057AA6BF015; };
 		A23D2C843AA1B609BA6671D0 /* AudioUnit.framework */ = {isa = PBXBuildFile; fileRef = E266558287A0919EAF79CC17; };
-		A333608940CD3FA99BBE013C /* firebase_auth.framework */ = {isa = PBXBuildFile; fileRef = 709AE41EBB7E9C3A885F145E; };
 		A34578C4B036993CF20CCA93 /* Foundation.framework */ = {isa = PBXBuildFile; fileRef = F241AEBB59D7D93026906584; };
 		A9DA2A286FC8B95313E267C8 /* WebKit.framework */ = {isa = PBXBuildFile; fileRef = 3C1A95D89CB618E9A37A9294; };
 		AB24D242103244ED78CD0C75 /* AU */ = {isa = PBXBuildFile; fileRef = 2801D896A423C24FB939EBE6; };
@@ -273,7 +271,6 @@
 		50CF5F802B34C1ACF24E226C /* phase_modifier.cpp */ /* phase_modifier.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = phase_modifier.cpp; path = ../../../src/common/wavetable/phase_modifier.cpp; sourceTree = SOURCE_ROOT; };
 		50D1F6C62C17593799612B01 /* phaser_filter.cpp */ /* phaser_filter.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = phaser_filter.cpp; path = ../../../src/synthesis/filters/phaser_filter.cpp; sourceTree = SOURCE_ROOT; };
 		511A262DDB229B4DD0E17728 /* compressor.cpp */ /* compressor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = compressor.cpp; path = ../../../src/synthesis/effects/compressor.cpp; sourceTree = SOURCE_ROOT; };
-		511E6D9BE85567E5B8738AC6 /* authentication_section.h */ /* authentication_section.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = authentication_section.h; path = ../../../src/interface/editor_sections/authentication_section.h; sourceTree = SOURCE_ROOT; };
 		5168FFA744D2095057767B9B /* lfo_editor.cpp */ /* lfo_editor.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = lfo_editor.cpp; path = ../../../src/interface/editor_components/lfo_editor.cpp; sourceTree = SOURCE_ROOT; };
 		520E126EF8F727B256459420 /* delay_module.h */ /* delay_module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = delay_module.h; path = ../../../src/synthesis/modules/delay_module.h; sourceTree = SOURCE_ROOT; };
 		526F76A157B1658E8C50E90D /* formant_module.h */ /* formant_module.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = formant_module.h; path = ../../../src/synthesis/modules/formant_module.h; sourceTree = SOURCE_ROOT; };
@@ -331,7 +328,6 @@
 		6E5E4E081737EAFB90C3E9F6 /* wave_window_editor.h */ /* wave_window_editor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = wave_window_editor.h; path = ../../../src/interface/wavetable/editors/wave_window_editor.h; sourceTree = SOURCE_ROOT; };
 		6E92094CD9EA030CD1E9805E /* Shared_Code.entitlements */ /* Shared_Code.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Shared_Code.entitlements; path = Shared_Code.entitlements; sourceTree = SOURCE_ROOT; };
 		6F461839D6B7B946395FE03D /* wavetable_edit_section.h */ /* wavetable_edit_section.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = wavetable_edit_section.h; path = ../../../src/interface/editor_sections/wavetable_edit_section.h; sourceTree = SOURCE_ROOT; };
-		709AE41EBB7E9C3A885F145E /* firebase_auth.framework */ /* firebase_auth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = firebase_auth.framework; path = firebase_auth.framework; sourceTree = "<group>"; };
 		72CC97CF88F56266F8345136 /* include_juce_dsp.mm */ /* include_juce_dsp.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_dsp.mm; path = ../../JuceLibraryCode/include_juce_dsp.mm; sourceTree = SOURCE_ROOT; };
 		74251BE0845D36F6E2FDE92F /* chorus.svg */ /* chorus.svg */ = {isa = PBXFileReference; lastKnownFileType = file.svg; name = chorus.svg; path = ../../../icons/chorus.svg; sourceTree = SOURCE_ROOT; };
 		7484162A3A8D12391BE3FFB4 /* popup_browser.cpp */ /* popup_browser.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = popup_browser.cpp; path = ../../../src/interface/editor_sections/popup_browser.cpp; sourceTree = SOURCE_ROOT; };
@@ -378,7 +374,6 @@
 		88291386F30AE444D70E8AB7 /* line_generator.cpp */ /* line_generator.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = line_generator.cpp; path = ../../../src/common/line_generator.cpp; sourceTree = SOURCE_ROOT; };
 		898CB1F3857E120C5B67A773 /* concurrentqueue.h */ /* concurrentqueue.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = concurrentqueue.h; path = ../../../third_party/concurrentqueue/concurrentqueue.h; sourceTree = SOURCE_ROOT; };
 		89A707DAAD9EBB58514A8C8A /* synth_plugin.cpp */ /* synth_plugin.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = synth_plugin.cpp; path = ../../../src/plugin/synth_plugin.cpp; sourceTree = SOURCE_ROOT; };
-		8A11B4CA69336C14305849C4 /* firebase.framework */ /* firebase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = firebase.framework; path = firebase.framework; sourceTree = "<group>"; };
 		8A64548A7630C61B722E69B8 /* wave_warp_overlay.cpp */ /* wave_warp_overlay.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = wave_warp_overlay.cpp; path = ../../../src/interface/wavetable/overlays/wave_warp_overlay.cpp; sourceTree = SOURCE_ROOT; };
 		8A76638FE8D01CA84CC67875 /* wavetable_keyframe.h */ /* wavetable_keyframe.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = wavetable_keyframe.h; path = ../../../src/common/wavetable/wavetable_keyframe.h; sourceTree = SOURCE_ROOT; };
 		8AB7F06786B6E954A7D3E869 /* reorderable_effect_chain.cpp */ /* reorderable_effect_chain.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = reorderable_effect_chain.cpp; path = ../../../src/synthesis/modules/reorderable_effect_chain.cpp; sourceTree = SOURCE_ROOT; };
@@ -577,7 +572,6 @@
 		EA52B6A22C73AA080404A1F4 /* wavetable_3d.h */ /* wavetable_3d.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = wavetable_3d.h; path = ../../../src/interface/editor_components/wavetable_3d.h; sourceTree = SOURCE_ROOT; };
 		EA5DDD318EC6C4B0D62976AA /* wavetable_overlay_factory.h */ /* wavetable_overlay_factory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = wavetable_overlay_factory.h; path = ../../../src/interface/wavetable/wavetable_overlay_factory.h; sourceTree = SOURCE_ROOT; };
 		EAF7AC2F675E6FBA04C60B69 /* tempo_selector.h */ /* tempo_selector.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = tempo_selector.h; path = ../../../src/interface/editor_components/tempo_selector.h; sourceTree = SOURCE_ROOT; };
-		EB73F57D97534B6C534E4660 /* authentication_section.cpp */ /* authentication_section.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; name = authentication_section.cpp; path = ../../../src/interface/editor_sections/authentication_section.cpp; sourceTree = SOURCE_ROOT; };
 		EB854B9F3E4F88743684B2F9 /* include_juce_audio_plugin_client_AUv3.mm */ /* include_juce_audio_plugin_client_AUv3.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = include_juce_audio_plugin_client_AUv3.mm; path = ../../JuceLibraryCode/include_juce_audio_plugin_client_AUv3.mm; sourceTree = SOURCE_ROOT; };
 		EBE311F1F47E5AA07FF65A8E /* line_editor.h */ /* line_editor.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = line_editor.h; path = ../../../src/interface/editor_components/line_editor.h; sourceTree = SOURCE_ROOT; };
 		EC410E7570A819EBE769BEC5 /* equalizer.svg */ /* equalizer.svg */ = {isa = PBXFileReference; lastKnownFileType = file.svg; name = equalizer.svg; path = ../../../icons/equalizer.svg; sourceTree = SOURCE_ROOT; };
@@ -2021,7 +2015,7 @@
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
+				FRAMEWORK_SEARCH_PATHS = ( "$(inherited)");
 				GCC_FAST_MATH = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = fast;
@@ -2107,7 +2101,7 @@
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = /;
 				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
+				FRAMEWORK_SEARCH_PATHS = ( "$(inherited)");
 				GCC_FAST_MATH = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = fast;
@@ -2245,7 +2239,7 @@
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = /;
 				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
+				FRAMEWORK_SEARCH_PATHS = ( "$(inherited)");
 				GCC_FAST_MATH = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = fast;
@@ -2326,7 +2320,7 @@
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
+				FRAMEWORK_SEARCH_PATHS = ( "$(inherited)");
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_FAST_MATH = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2401,7 +2395,7 @@
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
+				FRAMEWORK_SEARCH_PATHS = ( "$(inherited)");
 				GCC_FAST_MATH = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = fast;
@@ -2477,7 +2471,7 @@
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
+				FRAMEWORK_SEARCH_PATHS = ( "$(inherited)");
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_FAST_MATH = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2552,7 +2546,7 @@
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				DEAD_CODE_STRIPPING = YES;
 				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
+				FRAMEWORK_SEARCH_PATHS = ( "$(inherited)");
 				GCC_FAST_MATH = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_OPTIMIZATION_LEVEL = fast;
@@ -2628,7 +2622,7 @@
 				CONFIGURATION_BUILD_DIR = "$(PROJECT_DIR)/build/$(CONFIGURATION)";
 				COPY_PHASE_STRIP = NO;
 				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
+				FRAMEWORK_SEARCH_PATHS = ( "$(inherited)");
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_FAST_MATH = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2753,7 +2747,7 @@
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = /;
 				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
+				FRAMEWORK_SEARCH_PATHS = ( "$(inherited)");
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_FAST_MATH = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -2835,7 +2829,7 @@
 				DEPLOYMENT_LOCATION = YES;
 				DSTROOT = /;
 				ENABLE_HARDENED_RUNTIME = YES;
-				FRAMEWORK_SEARCH_PATHS = ("$(SRCROOT)/../../../third_party/firebase_cpp_sdk/frameworks/darwin/", "$(inherited)");
+				FRAMEWORK_SEARCH_PATHS = ( "$(inherited)");
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_FAST_MATH = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;

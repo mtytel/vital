@@ -43,7 +43,7 @@ class OscillatorSection : public SynthSection, public PresetSelector::Listener,
         virtual void oscillatorDestinationChanged(OscillatorSection* section, int destination) = 0;
     };
 
-    OscillatorSection(Authentication* auth,
+    OscillatorSection(
                       int index, const vital::output_map& mono_modulations, const vital::output_map& poly_modulations);
     virtual ~OscillatorSection();
 
@@ -116,7 +116,6 @@ class OscillatorSection : public SynthSection, public PresetSelector::Listener,
     void notifyDistortionTypeChange();
     void notifyDestinationChange();
 
-    Authentication* auth_;
     std::vector<Listener*> listeners_;
     int index_;
     File current_file_;

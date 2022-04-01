@@ -15,8 +15,6 @@
  */
 
 #include "synth_editor.h"
-
-#include "authentication.h"
 #include "default_look_and_feel.h"
 #include "synth_plugin.h"
 #include "load_save.h"

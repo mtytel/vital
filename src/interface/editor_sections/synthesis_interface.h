@@ -26,8 +26,7 @@
 class SynthesisInterface : public SynthSection, public OscillatorSection::Listener,
                            public SampleSection::Listener, public FilterSection::Listener {
   public:
-    SynthesisInterface(Authentication* auth,
-                       const vital::output_map& mono_modulations,
+    SynthesisInterface(const vital::output_map& mono_modulations,
                        const vital::output_map& poly_modulations);
     virtual ~SynthesisInterface();
 

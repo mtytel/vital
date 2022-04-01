@@ -22,7 +22,7 @@
 #include "synth_oscillator.h"
 #include "sample_section.h"
 
-SynthesisInterface::SynthesisInterface(Authentication* auth,
+SynthesisInterface::SynthesisInterface(
                                        const vital::output_map& mono_modulations,
                                        const vital::output_map& poly_modulations) : SynthSection("synthesis") {
   filter_section_2_ = std::make_unique<FilterSection>(2, mono_modulations, poly_modulations);
@@ -34,7 +34,7 @@ SynthesisInterface::SynthesisInterface(Authentication* auth,
   filter_section_1_->addListener(this);
 
   for (int i = 0; i < vital::kNumOscillators; ++i) {
-    oscillators_[i] = std::make_unique<OscillatorSection>(auth, i, mono_modulations, poly_modulations);
+    oscillators_[i] = std::make_unique<OscillatorSection>(i, mono_modulations, poly_modulations);
     addSubSection(oscillators_[i].get());
     oscillators_[i]->addListener(this);
   }

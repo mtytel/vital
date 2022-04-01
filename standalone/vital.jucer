@@ -274,10 +274,6 @@
           <FILE id="qcp7bb" name="about_section.cpp" compile="0" resource="0"
                 file="../src/interface/editor_sections/about_section.cpp"/>
           <FILE id="MIVVLu" name="about_section.h" compile="0" resource="0" file="../src/interface/editor_sections/about_section.h"/>
-          <FILE id="gEkBi2" name="authentication_section.cpp" compile="0" resource="0"
-                file="../src/interface/editor_sections/authentication_section.cpp"/>
-          <FILE id="LYJKQP" name="authentication_section.h" compile="0" resource="0"
-                file="../src/interface/editor_sections/authentication_section.h"/>
           <FILE id="urrcww" name="bank_exporter.cpp" compile="0" resource="0"
                 file="../src/interface/editor_sections/bank_exporter.cpp"/>
           <FILE id="OAytfc" name="bank_exporter.h" compile="0" resource="0" file="../src/interface/editor_sections/bank_exporter.h"/>
@@ -802,8 +798,8 @@
     <XCODE_MAC targetFolder="builds/osx" extraLinkerFlags="" smallIcon="" bigIcon=""
                documentExtensions="vital,vitalbank,vitaltable" extraDefs="JUCE_OPENGL3=1&#10;REQUIRE_AUTH=0&#10;NO_AUTH=1"
                hardenedRuntime="1" externalLibraries="gssapi_krb5" extraFrameworks="Security,GSS"
-               frameworkSearchPaths="../../../third_party/firebase_cpp_sdk/frameworks/darwin/"
-               extraCustomFrameworks="firebase.framework&#10;firebase_auth.framework"
+               
+               
                xcodeValidArchs="arm64,arm64e,x86_64">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" osxCompatibility="10.12 SDK" osxArchitecture="64BitIntel"
@@ -835,13 +831,13 @@
                 extraCompilerFlags="-ffast-math ${SIMDFLAGS} ${GLFLAGS} -ftree-vectorize -ftree-slp-vectorize -funroll-loops"
                 extraLinkerFlags="-ffast-math ${SIMDFLAGS} ${GLFLAGS} -ftree-vectorize -ftree-slp-vectorize -lcurl"
                 extraDefs="BUILD_DATE=$(BUILD_DATE)&#10;REQUIRE_AUTH=0&#10;NO_AUTH=1&#10;_GLIBCXX_USE_CXX11_ABI=0&#10;JUCE_JACK_CLIENT_NAME=&quot;Vital&quot;&#10;JUCE_ALSA_MIDI_INPUT_NAME=&quot;Vital&quot;&#10;JUCE_ALSA_MIDI_OUTPUT_NAME=&quot;Vital&quot;&#10;JUCE_USE_XRANDR=0&#10;JUCE_OPENGL3=1&#10;JUCE_DSP_USE_SHARED_FFTW=1"
-                externalLibraries="firebase_auth&#10;firebase_app&#10;secret-1&#10;glib-2.0">
+                externalLibraries="glib-2.0">
       <CONFIGURATIONS>
-        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/&#10;../../../third_party/firebase_cpp_sdk/libs/linux/x86_64/"
-                       isDebug="1" optimisation="1" targetName="vial" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party&#10;../../../third_party/firebase_cpp_sdk/include"
+        <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/"
+                       isDebug="1" optimisation="1" targetName="vial" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
                        linuxArchitecture="" defines=""/>
-        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/&#10;../../../third_party/firebase_cpp_sdk/libs/linux/x86_64/"
-                       isDebug="0" optimisation="6" targetName="vial" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party&#10;../../../third_party/firebase_cpp_sdk/include"
+        <CONFIGURATION name="Release" libraryPath="/usr/X11R6/lib/"
+                       isDebug="0" optimisation="6" targetName="vial" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
                        linuxArchitecture="" defines="" linkTimeOptimisation="1"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
@@ -861,19 +857,19 @@
       </MODULEPATHS>
     </LINUX_MAKE>
     <VS2017 targetFolder="builds/vs17" extraDefs="JUCE_OPENGL3=1&#10;REQUIRE_AUTH=0&#10;NO_AUTH=1&#10;INTEL_IPP=1&#10;WINVER=0x0601&#10;_WIN32_WINNT=0x0601&#10;_ENABLE_EXTENDED_ALIGNED_STORAGE&#10;__SSE2__=1"
-            IPPLibrary="Sequential" externalLibraries="firebase_auth.lib&#10;firebase_app.lib&#10;firebase_rest_lib.lib&#10;flatbuffers.lib&#10;libcurl.lib&#10;Wldap32.lib&#10;crypt32.lib">
+            IPPLibrary="Sequential" externalLibraries="flatbuffers.lib&#10;libcurl.lib&#10;Wldap32.lib&#10;crypt32.lib">
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party&#10;../../../third_party/firebase_cpp_sdk/include"
+        <CONFIGURATION isDebug="1" name="Debug" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
                        enablePluginBinaryCopyStep="0" winWarningLevel="2" winArchitecture="x64"
-                       fastMath="1" libraryPath="../../../third_party/firebase_cpp_sdk/libs/windows/x64/"
+                       fastMath="1" 
                        targetName="Vial"/>
-        <CONFIGURATION isDebug="1" name="Profile" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party&#10;../../../third_party/firebase_cpp_sdk/include"
+        <CONFIGURATION isDebug="1" name="Profile" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
                        fastMath="1" winWarningLevel="2" winArchitecture="x64" alwaysGenerateDebugSymbols="0"
-                       optimisation="4" libraryPath="../../../third_party/firebase_cpp_sdk/libs/windows/x64/"
+                       optimisation="4" 
                        targetName="Vial"/>
-        <CONFIGURATION isDebug="0" name="Release" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party&#10;../../../third_party/firebase_cpp_sdk/include"
+        <CONFIGURATION isDebug="0" name="Release" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
                        fastMath="1" winWarningLevel="2" winArchitecture="x64" alwaysGenerateDebugSymbols="0"
-                       optimisation="4" libraryPath="../../../third_party/firebase_cpp_sdk/libs/windows/x64/"
+                       optimisation="4" 
                        targetName="Vial"/>
       </CONFIGURATIONS>
       <MODULEPATHS>
@@ -893,14 +889,14 @@
       </MODULEPATHS>
     </VS2017>
     <VS2019 targetFolder="builds/vs19" extraDefs="JUCE_OPENGL3=1&#10;REQUIRE_AUTH=0&#10;NO_AUTH=1&#10;INTEL_IPP=1&#10;WINVER=0x0601&#10;_WIN32_WINNT=0x0601&#10;_ENABLE_EXTENDED_ALIGNED_STORAGE&#10;__SSE2__=1"
-            IPPLibrary="Sequential" externalLibraries="firebase_auth.lib&#10;firebase_app.lib">
+            IPPLibrary="Sequential" >
       <CONFIGURATIONS>
-        <CONFIGURATION isDebug="1" name="Debug" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party&#10;../../../third_party/firebase_cpp_sdk/include"
-                       winArchitecture="x64" fastMath="1" winWarningLevel="2" libraryPath="../../../third_party/firebase_cpp_sdk/libs/windows/x64/"
+        <CONFIGURATION isDebug="1" name="Debug" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
+                       winArchitecture="x64" fastMath="1" winWarningLevel="2" 
                        targetName="Vial"/>
-        <CONFIGURATION isDebug="0" name="Release" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party&#10;../../../third_party/firebase_cpp_sdk/include"
+        <CONFIGURATION isDebug="0" name="Release" headerPath="../../../src/common&#10;../../../src/common/wavetable&#10;../../../src/interface/editor_components&#10;../../../src/interface/editor_sections&#10;../../../src/interface/look_and_feel&#10;../../../src/interface/wavetable&#10;../../../src/interface/wavetable/editors&#10;../../../src/interface/wavetable/overlays&#10;../../../src/standalone&#10;../../../src/synthesis/synth_engine&#10;../../../src/synthesis/effects&#10;../../../src/synthesis/filters&#10;../../../src/synthesis/framework&#10;../../../src/synthesis/lookups&#10;../../../src/synthesis/modulators&#10;../../../src/synthesis/modules&#10;../../../src/synthesis/producers&#10;../../../src/synthesis/utilities&#10;../../../third_party"
                        winArchitecture="x64" winWarningLevel="2" fastMath="1" optimisation="4"
-                       libraryPath="../../../third_party/firebase_cpp_sdk/libs/windows/x64/"
+                       
                        targetName="Vial"/>
       </CONFIGURATIONS>
       <MODULEPATHS>

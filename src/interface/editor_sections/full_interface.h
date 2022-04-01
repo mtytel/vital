@@ -17,10 +17,6 @@
 #pragma once
 
 #include "JuceHeader.h"
-
-#include "authentication.h"
-#include "authentication_section.h"
-#include "download_section.h"
 #include "header_section.h"
 #include "effects_interface.h"
 #include "memory.h"
@@ -28,7 +24,6 @@
 #include "open_gl_background.h"
 #include "shaders.h"
 #include "synth_section.h"
-#include "update_check_section.h"
 #include "wavetable_creator.h"
 
 class AboutSection;
@@ -50,9 +45,7 @@ struct SynthGuiData;
 class SynthSlider;
 class WavetableEditSection;
 class VoiceSection;
-
-class FullInterface : public SynthSection, public AuthenticationSection::Listener, public HeaderSection::Listener,
-                      public DownloadSection::Listener, public UpdateCheckSection::Listener,
+class FullInterface : public SynthSection, public HeaderSection::Listener,
                       public EffectsInterface::Listener, public ModulationMatrix::Listener,
                       public OpenGLRenderer, DragAndDropContainer {
   public:
@@ -87,12 +80,7 @@ class FullInterface : public SynthSection, public AuthenticationSection::Listene
     void reset() override;
     void setAllValues(vital::control_map& controls) override;
 
-    void dataDirectoryChanged() override;
-    void noDownloadNeeded() override;
 
-    void needsUpdate() override;
-
-    void loggedIn() override;
 
     void setWavetableNames();
     void startDownload();
@@ -120,9 +108,6 @@ class FullInterface : public SynthSection, public AuthenticationSection::Listene
     void showWavetableEditSection(int index);
     std::string getLastBrowsedWavetable(int index);
     std::string getWavetableName(int index);
-    std::string getSignedInName();
-    void signOut();
-    void signIn();
     void hideWavetableEditSection();
     void loadWavetableFile(int index, const File& wavetable);
     void loadWavetable(int index, json& wavetable_data);
@@ -168,15 +153,12 @@ class FullInterface : public SynthSection, public AuthenticationSection::Listene
       return true;
     }
 
-    Authentication auth_;
     std::map<std::string, SynthSlider*> slider_lookup_;
     std::map<std::string, Button*> button_lookup_;
     std::unique_ptr<ModulationManager> modulation_manager_;
     std::unique_ptr<ModulationMatrix> modulation_matrix_;
 
     std::unique_ptr<AboutSection> about_section_;
-    std::unique_ptr<AuthenticationSection> authentication_;
-    std::unique_ptr<UpdateCheckSection> update_check_section_;
     std::unique_ptr<Component> standalone_settings_section_;
 
     std::unique_ptr<HeaderSection> header_;
@@ -199,7 +181,6 @@ class FullInterface : public SynthSection, public AuthenticationSection::Listene
     std::unique_ptr<BankExporter> bank_exporter_;
     std::unique_ptr<SaveSection> save_section_;
     std::unique_ptr<DeleteSection> delete_section_;
-    std::unique_ptr<DownloadSection> download_section_;
     std::unique_ptr<ExpiredSection> expired_section_;
     SynthSection* full_screen_section_;
 

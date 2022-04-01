@@ -15,8 +15,6 @@
  */
 
 #include "synth_editor.h"
-
-#include "authentication.h"
 #include "default_look_and_feel.h"
 #include "full_interface.h"
 #include "synth_computer_keyboard.h"

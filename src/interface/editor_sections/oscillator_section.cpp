@@ -276,11 +276,10 @@ class InvisibleSlider : public SynthSlider {
     void drawShadow(Graphics& g) override { }
 };
 
-OscillatorSection::OscillatorSection(Authentication* auth,
-                                     int index,
+OscillatorSection::OscillatorSection(int index,
                                      const vital::output_map& mono_modulations,
                                      const vital::output_map& poly_modulations) :
-    SynthSection(String("OSC ") + String(index + 1)), auth_(auth), index_(index),
+    SynthSection(String("OSC ") + String(index + 1)), index_(index),
     show_ttwt_error_(false), ttwt_overlay_(Shaders::kRoundedRectangleFragment) {
   std::string number = std::to_string(index + 1);
   wavetable_ = std::make_unique<Wavetable3d>(index, mono_modulations, poly_modulations);
@@ -900,9 +899,7 @@ void OscillatorSection::showTtwtSettings() {
 std::string OscillatorSection::loadWavetableFromText(const String& text) {
   String clamped_text = text.substring(0, kMaxTTWTLength);
   String language_query = String(kLanguageUrlQuery) + URL::addEscapeChars(kLanguageCodes[ttwt_language_], true);
-  std::string token = auth_->token();
-  String token_query = String(kTokenUrlQuery) + URL::addEscapeChars(token, true);
-  URL ttwt_url(String(kUrlPrefix) + URL::addEscapeChars(clamped_text, true) + language_query + token_query);
+  URL ttwt_url(String(kUrlPrefix) + URL::addEscapeChars(clamped_text, true) + language_query);
 
   try {
     String result = ttwt_url.readEntireTextStream(false);
@@ -1078,8 +1075,6 @@ void OscillatorSection::resynthesizeToWavetable() {
 }
 
 void OscillatorSection::textToWavetable() {
-  if (auth_)
-    auth_->refreshToken();
 
   ttwt_settings_->setColour(Skin::kIconButtonOff, findColour(Skin::kWidgetPrimary1, true));
   ttwt_overlay_.setVisible(true);

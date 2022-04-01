@@ -751,9 +751,6 @@
     <ClCompile Include="..\..\..\src\interface\editor_sections\about_section.cpp">
       <Filter>VitalTests\src\interface\editor_sections</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\..\src\interface\editor_sections\authentication_section.cpp">
-      <Filter>VitalTests\src\interface\editor_sections</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\..\src\interface\editor_sections\bank_exporter.cpp">
       <Filter>VitalTests\src\interface\editor_sections</Filter>
     </ClCompile>
@@ -3715,9 +3712,6 @@
       <Filter>VitalTests\src\interface\editor_components</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\about_section.h">
-      <Filter>VitalTests\src\interface\editor_sections</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\..\src\interface\editor_sections\authentication_section.h">
       <Filter>VitalTests\src\interface\editor_sections</Filter>
     </ClInclude>
     <ClInclude Include="..\..\..\src\interface\editor_sections\bank_exporter.h">

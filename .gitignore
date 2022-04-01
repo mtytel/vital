@@ -33,3 +33,5 @@ build
 Debug
 Profile
 Release
+**/builds
+

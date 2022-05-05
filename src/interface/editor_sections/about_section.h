@@ -88,8 +88,6 @@ class AboutSection : public Overlay {
     void fullScreen();
 
     std::unique_ptr<OpenGlDeviceSelector> device_selector_;
-    //std::unique_ptr<OpenGlToggleButton> check_for_updates_;
-    //std::unique_ptr<PlainTextComponent> check_for_updates_text_;
 
     std::unique_ptr<OpenGlToggleButton> size_button_extra_small_;
     std::unique_ptr<OpenGlToggleButton> size_button_small_;

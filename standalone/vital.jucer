@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <JUCERPROJECT id="GfsdNK" name="Vial" projectType="guiapp" version="1.0.6"
-              bundleIdentifier="audio.vital.standalone" includeBinaryInAppConfig="1"
+              bundleIdentifier="audio.vial.standalone" includeBinaryInAppConfig="1"
               defines="" displaySplashScreen="0" reportAppUsage="0" splashScreenColour="Dark"
               cppLanguageStandard="14" jucerFormatVersion="1" projectLineFeed="&#10;">
   <MAINGROUP id="CeypXq" name="Vial">
@@ -828,7 +828,7 @@
     <LINUX_MAKE targetFolder="builds/linux" bigIcon="JqKIEw" smallIcon="oFf3hH"
                 extraCompilerFlags="-ffast-math ${SIMDFLAGS} ${GLFLAGS} -ftree-vectorize -ftree-slp-vectorize -funroll-loops"
                 extraLinkerFlags="-ffast-math ${SIMDFLAGS} ${GLFLAGS} -ftree-vectorize -ftree-slp-vectorize -lcurl"
-                extraDefs="BUILD_DATE=$(BUILD_DATE)&#10;REQUIRE_AUTH=0&#10;NO_AUTH=1&#10;_GLIBCXX_USE_CXX11_ABI=0&#10;JUCE_JACK_CLIENT_NAME=&quot;Vital&quot;&#10;JUCE_ALSA_MIDI_INPUT_NAME=&quot;Vital&quot;&#10;JUCE_ALSA_MIDI_OUTPUT_NAME=&quot;Vital&quot;&#10;JUCE_USE_XRANDR=0&#10;JUCE_OPENGL3=1&#10;JUCE_DSP_USE_SHARED_FFTW=1"
+                extraDefs="BUILD_DATE=$(BUILD_DATE)&#10;REQUIRE_AUTH=0&#10;NO_AUTH=1&#10;_GLIBCXX_USE_CXX11_ABI=0&#10;JUCE_JACK_CLIENT_NAME=&quot;Vial&quot;&#10;JUCE_ALSA_MIDI_INPUT_NAME=&quot;Vial&quot;&#10;JUCE_ALSA_MIDI_OUTPUT_NAME=&quot;Vial&quot;&#10;JUCE_USE_XRANDR=0&#10;JUCE_OPENGL3=1&#10;JUCE_DSP_USE_SHARED_FFTW=1"
                 externalLibraries="glib-2.0">
       <CONFIGURATIONS>
         <CONFIGURATION name="Debug" libraryPath="/usr/X11R6/lib/" isDebug="1" optimisation="1"

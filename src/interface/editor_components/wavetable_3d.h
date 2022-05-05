@@ -66,7 +66,6 @@ class Wavetable3d : public OpenGlComponent, public AudioFileDropSource {
       kPaste,
       kInit,
       kSave,
-      kTextToWavetable,
       kResynthesizePreset,
       kLogIn,
       kNumMenuOptions
@@ -87,7 +86,6 @@ class Wavetable3d : public OpenGlComponent, public AudioFileDropSource {
         virtual void loadWavetable(json& wavetable_data) = 0;
         virtual void loadDefaultWavetable() = 0;
         virtual void resynthesizeToWavetable() = 0;
-        virtual void textToWavetable() = 0;
         virtual void saveWavetable() = 0;
     };
 

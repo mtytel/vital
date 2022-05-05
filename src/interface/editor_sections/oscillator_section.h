@@ -91,7 +91,6 @@ class OscillatorSection : public SynthSection, public PresetSelector::Listener,
     void loadWavetable(json& wavetable_data) override;
     void loadDefaultWavetable() override;
     void resynthesizeToWavetable() override;
-    void textToWavetable() override;
     void saveWavetable() override;
     void loadFile(const File& wavetable_file) override;
     File getCurrentFile() override { return current_file_; }

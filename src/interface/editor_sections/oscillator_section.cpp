@@ -1074,16 +1074,6 @@ void OscillatorSection::resynthesizeToWavetable() {
   wavetable_->setLoadingWavetable(false);
 }
 
-void OscillatorSection::textToWavetable() {
-
-  ttwt_settings_->setColour(Skin::kIconButtonOff, findColour(Skin::kWidgetPrimary1, true));
-  ttwt_overlay_.setVisible(true);
-  ttwt_->setVisible(true);
-  ttwt_settings_->setVisible(true);
-  ttwt_->resized();
-  ttwt_->grabKeyboardFocus();
-}
-
 void OscillatorSection::saveWavetable() {
   FullInterface* parent = findParentComponentOfClass<FullInterface>();
   if (parent)

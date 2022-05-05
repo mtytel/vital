@@ -270,7 +270,6 @@ void Wavetable3d::mouseDown(const MouseEvent& e) {
     options.addItem(kInit, "Initialize");
 
     FullInterface* full_interface = findParentComponentOfClass<FullInterface>();
-    options.addItem(kTextToWavetable, "Text to Wavetable");
     options.addItem(kResynthesizePreset, "Resynthesize Preset to Wavetable");
 
     SynthSection* parent = findParentComponentOfClass<SynthSection>();
@@ -641,10 +640,7 @@ void Wavetable3d::respondToMenuCallback(int option) {
     for (Listener* listener : listeners_)
       listener->saveWavetable();
   }
-  else if (option == kTextToWavetable) {
-    for (Listener* listener : listeners_)
-      listener->textToWavetable();
-  }
+
   else if (option == kResynthesizePreset) {
     for (Listener* listener : listeners_)
       listener->resynthesizeToWavetable();

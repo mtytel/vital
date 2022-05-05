@@ -46,18 +46,6 @@ AboutSection::AboutSection(const String& name) : Overlay(name), body_(Shaders::k
   version_text_->setFontType(PlainTextComponent::kLight);
   version_text_->setTextSize(12.0f);
 
-  check_for_updates_text_ = std::make_unique<PlainTextComponent>("Check for updates", String("Check for updates"));
-  addOpenGlComponent(check_for_updates_text_.get());
-  check_for_updates_text_->setFontType(PlainTextComponent::kLight);
-  check_for_updates_text_->setTextSize(14.0f);
-  check_for_updates_text_->setJustification(Justification::centredLeft);
-
-  check_for_updates_ = std::make_unique<OpenGlToggleButton>("");
-  check_for_updates_->setToggleState(LoadSave::shouldCheckForUpdates(), NotificationType::dontSendNotification);
-  check_for_updates_->addListener(this);
-  addAndMakeVisible(check_for_updates_.get());
-  addOpenGlComponent(check_for_updates_->getGlComponent());
-
   size_button_extra_small_ = std::make_unique<OpenGlToggleButton>(String(100 * kMultExtraSmall) + "%");
   size_button_extra_small_->setUiButton(false);
   addAndMakeVisible(size_button_extra_small_.get());
@@ -128,7 +116,6 @@ void AboutSection::resized() {
   body_.setColor(findColour(Skin::kBody, true));
   Colour body_text = findColour(Skin::kBodyText, true);
   name_text_->setColor(body_text);
-  check_for_updates_text_->setColor(body_text);
   version_text_->setColor(body_text);
   int padding_x = size_ratio_ * kPaddingX;
   int padding_y = size_ratio_ * kPaddingY;
@@ -159,15 +146,7 @@ void AboutSection::resized() {
 
   float size_width = (size_end_x - size_start_x) * 1.0f / size_buttons.size() - size_padding;
 
-  int check_updates_height = button_height * 0.6f;
-  check_for_updates_->setBounds(info_rect.getX() + padding_x,
-                                info_rect.getY() + padding_y + 145.0f * size_ratio_,
-                                check_updates_height, check_updates_height);
-  int check_for_updates_width = 3 * size_width + 2 * size_padding;
-  check_for_updates_text_->setBounds(check_for_updates_->getRight() + size_padding, check_for_updates_->getY(),
-                                     check_for_updates_width, check_updates_height);
-
-  int size_y = check_for_updates_->getBottom() + padding_y;
+  int size_y = version_text_->getBottom() + padding_y;
 
   int index = 0;
   for (OpenGlToggleButton* size_button : size_buttons) {
@@ -200,7 +179,6 @@ void AboutSection::resized() {
 
   name_text_->setTextSize(40.0f * size_ratio_);
   version_text_->setTextSize(12.0f * size_ratio_);
-  check_for_updates_text_->setTextSize(14.0f * size_ratio_);
 
   Overlay::resized();
 }
@@ -222,9 +200,9 @@ void AboutSection::setVisible(bool should_be_visible) {
 }
 
 void AboutSection::buttonClicked(Button* clicked_button) {
-  if (clicked_button == check_for_updates_.get())
-    LoadSave::saveUpdateCheckConfig(check_for_updates_->getToggleState());
-  else if (clicked_button == size_button_extra_small_.get())
+//  if (clicked_button == check_for_updates_.get())
+//    LoadSave::saveUpdateCheckConfig(check_for_updates_->getToggleState());
+  if (clicked_button == size_button_extra_small_.get())
     setGuiSize(kMultExtraSmall); 
   else if (clicked_button == size_button_small_.get())
     setGuiSize(kMultSmall);

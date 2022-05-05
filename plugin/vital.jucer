@@ -121,8 +121,6 @@
           <FILE id="B4Vipt" name="wavetable_keyframe.h" compile="0" resource="0"
                 file="../src/common/wavetable/wavetable_keyframe.h"/>
         </GROUP>
-        <FILE id="qu881K" name="authentication.h" compile="0" resource="0"
-              file="../src/common/authentication.h"/>
         <FILE id="BzSZEG" name="border_bounds_constrainer.cpp" compile="0"
               resource="0" file="../src/common/border_bounds_constrainer.cpp"/>
         <FILE id="kwDbyn" name="border_bounds_constrainer.h" compile="0" resource="0"
@@ -308,10 +306,6 @@
                 file="../src/interface/editor_sections/distortion_section.cpp"/>
           <FILE id="WHEMDg" name="distortion_section.h" compile="0" resource="0"
                 file="../src/interface/editor_sections/distortion_section.h"/>
-          <FILE id="hnt93m" name="download_section.cpp" compile="0" resource="0"
-                file="../src/interface/editor_sections/download_section.cpp"/>
-          <FILE id="bkdLLY" name="download_section.h" compile="0" resource="0"
-                file="../src/interface/editor_sections/download_section.h"/>
           <FILE id="K81i7i" name="effects_interface.cpp" compile="0" resource="0"
                 file="../src/interface/editor_sections/effects_interface.cpp"/>
           <FILE id="QBUUjY" name="effects_interface.h" compile="0" resource="0"
@@ -419,10 +413,6 @@
                 file="../src/interface/editor_sections/synthesis_interface.cpp"/>
           <FILE id="n9Vk8s" name="synthesis_interface.h" compile="0" resource="0"
                 file="../src/interface/editor_sections/synthesis_interface.h"/>
-          <FILE id="azUQmF" name="update_check_section.cpp" compile="0" resource="0"
-                file="../src/interface/editor_sections/update_check_section.cpp"/>
-          <FILE id="isr5OG" name="update_check_section.h" compile="0" resource="0"
-                file="../src/interface/editor_sections/update_check_section.h"/>
           <FILE id="KolGhl" name="voice_section.cpp" compile="0" resource="0"
                 file="../src/interface/editor_sections/voice_section.cpp"/>
           <FILE id="Xd23b1" name="voice_section.h" compile="0" resource="0" file="../src/interface/editor_sections/voice_section.h"/>

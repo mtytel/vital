@@ -7,10 +7,10 @@ This repository is updated on a delay after binary releases.
 If you are making a proprietary or closed source app and would like to use Vital's source code, contact licensing@vital.audio for non GPLv3 licensing options.
 
 ## Installing
-Create an account and download Vital at [vital.audio](https://vital.audio)
+Create an account and download Vital at [vital.audio](https://vital.audio).
 
 ## Issues
-Report bugs (e.g.non-code and non-compiling issues) to https://forum.vital.audio
+Report bugs (e.g.non-code and non-compiling issues) to https://forum.vital.audio.
 
 Feel free to report issues on building/compiling here but note that I'm not prioritizing them.
 

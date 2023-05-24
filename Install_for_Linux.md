@@ -4,6 +4,6 @@ How to Install Vital on Ubuntu
 3.	Click on “Get Vital” on the top of the web page.
 4.	Under “Get Vital” click “Basic”.
 5.	Create or log into an account as necessary.
-6.	Under “Download “select “Linux (deb)”.
+6.	Under “Download” select “Linux (deb)”.
 7.	Open with Software Install.
 8.	Open Vital.
